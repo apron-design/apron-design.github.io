@@ -1,9 +1,63 @@
 1:"$Sreact.fragment"
-2:I[19997,["/_next/static/chunks/003d274595b2d68b.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/9397b85b3b2d2536.js","/_next/static/chunks/e69a9cdfd3c3c9cc.js"],"DocumentTemplate"]
-3:I[90186,["/_next/static/chunks/003d274595b2d68b.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/9397b85b3b2d2536.js","/_next/static/chunks/e69a9cdfd3c3c9cc.js"],"MarkdownRenderer"]
-4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"OutletBoundary"]
-5:"$Sreact.suspense"
+2:I[80758,["/_next/static/chunks/003d274595b2d68b.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/46c9643e828746d2.js","/_next/static/chunks/e69a9cdfd3c3c9cc.js"],"Documents"]
+3:I[90186,["/_next/static/chunks/003d274595b2d68b.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/46c9643e828746d2.js","/_next/static/chunks/e69a9cdfd3c3c9cc.js"],"MarkdownRenderer"]
+5:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"OutletBoundary"]
+6:"$Sreact.suspense"
 :HL["/_next/static/chunks/94573752b45a769d.css","style"]
-:HL["/_next/static/chunks/3ac20a689dabac9f.css","style"]
-0:{"buildId":"awV60lXwB7LWHvLj9dsyc","rsc":["$","$1","c",{"children":[["$","$L2",null,{"navigation":[{"title":"使用指南","items":[{"label":"快速上手","href":"/guide/quick-start"},{"label":"安装指南","href":"/guide/installation"},{"label":"深色模式","href":"/guide/dark-mode"},{"label":"更新日志","href":"/guide/changelog"},{"label":"版本说明","href":"/guide/versions"}]},{"title":"解答疑惑","items":[{"label":"常见问题","href":"/guide/faq"},{"label":"反馈与建议","href":"/guide/feedback"}]}],"children":["$","$L3",null,{"content":"# 版本说明\n\nApron Design 版本号遵循 Semver 规范，但略有区别：\n\n* 大版本号跟年份执行；\n* 中版本号作为功能发布；\n* 小版本号作为漏洞修复等使用。\n\n其中：大版本号、中版本号会在各端保持一致，小版本号在各端可能略有区别。\n\n## 举例\n<style>\n.version-container {\n  border: 1px solid #999999;\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  border-radius: 8px;\n  width: 300px;\n  margin-bottom: 20px;\n}\n.version-container > .version-item {\n  width: calc(100% / 3);\n  text-align: center;\n  font-size: 24px;\n  position: relative;\n}\n.version-container > .version-item:before {\n  content: '';\n  display: block;\n  width: 4px;\n  height: 4px;\n  background: #999999;\n  border-radius: 50%;\n  position: absolute;\n  left: 0;\n  bottom: 15px;\n}\n.version-container > .version-item:first-child::before {\n  display: none;\n}\n</style>\n\n<div class=\"version-container\">\n  <div class=\"version-item version-0\">26</div>\n  <div class=\"version-item version-1\">0</div>\n  <div class=\"version-item version-2\">x</div>\n</div>\n\n* 26：大版本号，跟随年份走，26 为 2026年发布；\n* 0：中版本号，有组件更新、功能发布时更新；\n* x：小版本号：各端可能略有差异，主要是用来修复现有功能。"}]}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/94573752b45a769d.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/3ac20a689dabac9f.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/ff1a16fafef87110.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/9397b85b3b2d2536.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/e69a9cdfd3c3c9cc.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
-6:null
+:HL["/_next/static/chunks/aba86fca6f72abc0.css","style"]
+4:T5a9,# 版本说明
+
+Apron Design 版本号遵循 Semver 规范，但略有区别：
+
+* 大版本号跟年份执行；
+* 中版本号作为功能发布；
+* 小版本号作为漏洞修复等使用。
+
+其中：大版本号、中版本号会在各端保持一致，小版本号在各端可能略有区别。
+
+## 举例
+<style>
+.version-container {
+  border: 1px solid #999999;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  width: 300px;
+  margin: 40px auto;
+}
+.version-container > .version-item {
+  width: calc(100% / 3);
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  font-size: 24px;
+  position: relative;
+}
+.version-container > .version-item:before {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 4px;
+  background: #999999;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  bottom: 24px;
+}
+.version-container > .version-item:first-child::before {
+  display: none;
+}
+</style>
+
+<div class="version-container">
+  <div class="version-item version-0">26</div>
+  <div class="version-item version-1">4</div>
+  <div class="version-item version-2">13</div>
+</div>
+
+* 26：大版本号，跟随年份走，例子 26 表示 2026 年发布；
+* 4：中版本号，有组件更新、功能发布时更新，例子是第 26 年第 5 个中版本；
+* 13：小版本号：各端可能略有差异，主要是用来修复现有功能，例子是第 13 个小版本。0:{"buildId":"4mxW_yI2P9fDr3RSFfx-w","rsc":["$","$1","c",{"children":[["$","$L2",null,{"navigation":[{"title":"使用指南","items":[{"label":"快速上手","href":"/guide/quick-start"},{"label":"安装指南","href":"/guide/installation"},{"label":"深色模式","href":"/guide/dark-mode"},{"label":"更新日志","href":"/guide/changelog"},{"label":"版本说明","href":"/guide/versions"}]},{"title":"解答疑惑","items":[{"label":"常见问题","href":"/guide/faq"},{"label":"反馈与建议","href":"/guide/feedback"}]}],"children":["$","$L3",null,{"content":"$4"}]}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/94573752b45a769d.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/aba86fca6f72abc0.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/ff1a16fafef87110.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/46c9643e828746d2.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/e69a9cdfd3c3c9cc.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+7:null

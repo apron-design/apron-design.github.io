@@ -1,0 +1,9 @@
+1:"$Sreact.fragment"
+2:I[19997,["/_next/static/chunks/003d274595b2d68b.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/9397b85b3b2d2536.js","/_next/static/chunks/e69a9cdfd3c3c9cc.js"],"DocumentTemplate"]
+3:I[90186,["/_next/static/chunks/003d274595b2d68b.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/9397b85b3b2d2536.js","/_next/static/chunks/e69a9cdfd3c3c9cc.js"],"MarkdownRenderer"]
+4:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+:HL["/_next/static/chunks/94573752b45a769d.css","style"]
+:HL["/_next/static/chunks/3ac20a689dabac9f.css","style"]
+0:{"buildId":"2Ojsd27MiIgdwOyN7dLkc","rsc":["$","$1","c",{"children":[["$","$L2",null,{"navigation":[{"title":"设计系统","items":[{"label":"设计原则","href":"/design/principles"},{"label":"设计规范","href":"/design/specifications"},{"label":"标准色","href":"/design/color"}]}],"children":["$","$L3",null,{"content":"# 标准色\n\nTBD"}]}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/94573752b45a769d.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/3ac20a689dabac9f.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/ff1a16fafef87110.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/9397b85b3b2d2536.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/e69a9cdfd3c3c9cc.js","async":true}]],["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"loading":null,"isPartial":false}
+6:null

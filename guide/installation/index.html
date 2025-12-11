@@ -1,0 +1,158 @@
+<!DOCTYPE html><!--2Ojsd27MiIgdwOyN7dLkc--><html lang="zh-CN"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" href="/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2" as="font" crossorigin="" type="font/woff2"/><link rel="preload" href="/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2" as="font" crossorigin="" type="font/woff2"/><link rel="preload" as="image" href="/assets/images/logo-light.svg"/><link rel="stylesheet" href="/_next/static/chunks/2473c16c0c2f6b5f.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/chunks/c41c0ed4a8f4b053.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/chunks/ce49e1603b7c808a.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/chunks/94573752b45a769d.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/chunks/3ac20a689dabac9f.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/95f4914e264f3083.js"/><script src="/_next/static/chunks/248cba0fcb3874ed.js" async=""></script><script src="/_next/static/chunks/5e10a78e27ef59fa.js" async=""></script><script src="/_next/static/chunks/bc12866e6eb70a3a.js" async=""></script><script src="/_next/static/chunks/ea0ff3e29e0f35a5.js" async=""></script><script src="/_next/static/chunks/turbopack-cbcecfbdcdcc162c.js" async=""></script><script src="/_next/static/chunks/003d274595b2d68b.js" async=""></script><script src="/_next/static/chunks/ff1a16fafef87110.js" async=""></script><script src="/_next/static/chunks/c81db6e24f0cfdeb.js" async=""></script><script src="/_next/static/chunks/9397b85b3b2d2536.js" async=""></script><script src="/_next/static/chunks/e69a9cdfd3c3c9cc.js" async=""></script><link rel="icon" type="image/x-icon" href="/facicon.ico"/><meta name="next-size-adjust" content=""/><title>Apron Design · 秩序之下 · 想象之上</title><meta name="description" content="Apron Design 是一套完全开源的 C 端组件库方案，支持 React、Vue3 和微信小程序多端开发。提供丰富的 UI 组件、优雅的设计系统和完善的开发文档，助力开发者快速构建高质量的用户界面。秩序之下，想象之上，解构复杂，聚合光芒。"/><meta name="keywords" content="组件库,React组件库,Vue组件库,Vue3组件库,微信小程序,小程序,UI组件,开源组件库,前端组件,设计系统,Apron Design,C端组件,跨端开发,用户界面"/><link rel="shortcut icon" href="/logo.png"/><link rel="icon" href="/favicon.ico?favicon.0b3bf435.ico" sizes="256x256" type="image/x-icon"/><link rel="icon" href="/facicon.ico" sizes="32x32" type="image/x-icon"/><link rel="icon" href="/facicon.ico" sizes="16x16" type="image/x-icon"/><link rel="apple-touch-icon" href="/logo.png"/><script>
+              (function() {
+                try {
+                  const stored = localStorage.getItem("theme");
+                  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+                  const shouldBeDark = stored === "dark" || (!stored && prefersDark);
+                  const themeValue = shouldBeDark ? "dark" : "light";
+                  const bgColor = shouldBeDark ? "#000000" : "#FFFFFF";
+                  document.documentElement.setAttribute("data-prefers-color", themeValue);
+                  document.documentElement.style.backgroundColor = bgColor;
+                  if (document.body) {
+                    document.body.style.backgroundColor = bgColor;
+                  }
+                } catch (e) {
+                  document.documentElement.setAttribute("data-prefers-color", "light");
+                  document.documentElement.style.backgroundColor = "#FFFFFF";
+                }
+              })();
+            </script><script src="/_next/static/chunks/a6dad97d9634a72d.js" noModule=""></script></head><body class="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased"><div hidden=""><!--$--><!--/$--></div><div class="documents-page"><header class="page-header page-header--backgrounded"><div class="page-header-container"><a class="apron-link apron-link--secondary apron-link--underline-never page-header-logo" href="/"><img alt="Logo" decoding="async" data-nimg="fill" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent" src="/assets/images/logo-light.svg"/></a><div class="page-header-actions"><a class="apron-link apron-link--primary apron-link--underline-never" href="/design/principles">设计</a><a class="apron-link apron-link--primary apron-link--underline-never" href="/guide/quick-start">指南</a><a class="apron-link apron-link--primary apron-link--underline-never" href="/usage/best-practices">最佳实践</a><a class="apron-link apron-link--primary apron-link--underline-never" href="/react">React</a><a class="apron-link apron-link--primary apron-link--underline-never" href="/vue-next">Vue3</a><a class="apron-link apron-link--primary apron-link--underline-never" href="/miniprogram">微信小程序</a><a class="apron-link apron-link--secondary apron-link--underline-never page-header-icon-button" href="https://github.com/apron-design" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><img alt="GitHub" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" class="page-header-icon" style="color:transparent" src="/assets/icons/github.svg"/></a><button class="page-header-icon-button page-header-theme-toggle" aria-label="切换主题"><img alt="切换到深色模式" loading="lazy" width="24" height="24" decoding="async" data-nimg="1" class="page-header-icon" style="color:transparent" src="/assets/icons/moon.svg"/></button></div></div></header><div class="documents-content"><aside class="documents-sidebar"><nav class="documents-nav"><div class="nav-section"><h3 class="nav-section-title">使用指南</h3><ul class="nav-list"><li class="nav-item "><a href="/guide/quick-start">快速上手</a></li><li class="nav-item active"><a href="/guide/installation">安装指南</a></li><li class="nav-item "><a href="/guide/dark-mode">深色模式</a></li><li class="nav-item "><a href="/guide/changelog">更新日志</a></li><li class="nav-item "><a href="/guide/versions">版本说明</a></li></ul></div><div class="nav-section"><h3 class="nav-section-title">解答疑惑</h3><ul class="nav-list"><li class="nav-item "><a href="/guide/faq">常见问题</a></li><li class="nav-item "><a href="/guide/feedback">反馈与建议</a></li></ul></div></nav></aside><main class="documents-main"><div class="documents-container"><div class="markdown-content"><h1>安装指南</h1>
+<p>在本页面将会展示如果安装在项目中。</p>
+<h2>在 React 上使用</h2>
+<p>在开始之前，你可能需要安装 npx。</p>
+<p>首先，确保你的 React 项目已经创建。如果还没有，可以使用以下命令创建：</p>
+<pre><code class="language-bash">npx create-react-app my-app
+cd my-app
+</code></pre>
+<p>然后安装 Apron Design</p>
+<pre><code class="language-bash">npm install @apron-design/react --save
+</code></pre>
+<p>然后在 <code>main.ts(js)</code> 中导入样式</p>
+<pre><code class="language-typescript">import &#x27;@apron-desing/react/styles&#x27;
+</code></pre>
+<h3>按需加载</h3>
+<p><code>@apron-design/react</code> 的组件默认支持按需加载。</p>
+<pre><code class="language-jsx">import { Button } from &#x27;@apron-design/react&#x27;
+
+export const App = () =&gt; {
+  return (&lt;&gt;
+    &lt;Button&gt;按钮&lt;/Button&gt;
+  &lt;/&gt;)
+}
+</code></pre>
+<h3>使用 Vite 创建 React 应用</h3>
+<p>你也可以使用 Vite 快速创建 React 应用</p>
+<pre><code class="language-bash"># 使用 npm
+npm create vite@latest my-react-app -- --template react
+# 或使用 yarn
+yarn create vite my-react-app --template react
+# 或使用 pnpm
+pnpm create vite my-react-app --template react
+
+# 进入项目并安装依赖
+cd my-react-app
+npm install
+npm run dev
+</code></pre>
+<h3>在 Next.js 上使用</h3>
+<p>首先，确保你的 Next.js 项目已经创建。如果还没有，可以使用以下命令创建：</p>
+<pre><code class="language-bash">npx create-next-app@latest my-app
+cd my-app
+</code></pre>
+<p>然后安装 Apron Design：</p>
+<pre><code class="language-bash">npm install @apron-design/react
+</code></pre>
+<p>对于 <strong>App Router</strong> (Next.js 13+)，在 <code>app/layout.tsx</code> 中添加：</p>
+<pre><code class="language-tsx">import &#x27;@apron-design/react/styles&#x27;;
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    &lt;html lang=&quot;zh-CN&quot;&gt;
+      &lt;body&gt;{children}&lt;/body&gt;
+    &lt;/html&gt;
+  );
+}
+</code></pre>
+<p>对于 <strong>Pages Router</strong>，在 <code>pages/_app.tsx</code> 中添加：</p>
+<pre><code class="language-tsx">import &#x27;@apron-design/react/styles&#x27;;
+import type { AppProps } from &#x27;next/app&#x27;;
+
+export default function App({ Component, pageProps }: AppProps) {
+  return &lt;Component {...pageProps} /&gt;;
+}
+</code></pre>
+<h2>在 Vue3 上使用</h2>
+<p>由于 Vue3 官方推荐使用 Vite 创建项目，这里也推荐使用 Vite：</p>
+<pre><code class="language-bash"># 直接创建基本项目
+npm create vite@latest my-vue-app -- --template vue
+# 或创建 Vue + TypeScript 项目
+npm create vite@latest my-vue-app -- --template vue-ts
+
+cd my-vue-app
+npm install
+npm run dev
+</code></pre>
+<p>然后安装 Apron Design：</p>
+<pre><code class="language-bash">npm install @apron-design/react --save
+</code></pre>
+<p>在 <code>main.ts</code> 或 <code>main.js</code> 中导入样式：</p>
+<pre><code class="language-typescript">// main.ts
+import { createApp } from &#x27;vue&#x27;
+import App from &#x27;./App.vue&#x27;
+import &#x27;@apron-design/react/styles&#x27;
+
+createApp(App).mount(&#x27;#app&#x27;)
+</code></pre>
+<h3>全局引用</h3>
+<pre><code class="language-typescript">import { createApp } from &#x27;vue&#x27;
+import App from &#x27;./App.vue&#x27;
+import ApronDesignVue from &#x27;@apron-design/vue&#x27;
+import &#x27;@apron-design/react/styles&#x27;
+
+createApp(App)
+  .use(ApronDesignVue)
+  .mount(&#x27;#app&#x27;)
+</code></pre>
+<h3>按需加载</h3>
+<p><code>@apron-design/vue</code> 的组件默认支持按需加载。</p>
+<pre><code class="language-vue">&lt;template&gt;
+  &lt;ad-button&gt;按钮&lt;/ad-button&gt;
+&lt;/template&gt;
+
+&lt;script setup&gt;
+import { AdButton } from &#x27;@apron-design/react&#x27;
+&lt;/script&gt;
+</code></pre>
+<h3>在 Nuxt3 上使用</h3>
+<p>首先，确保你的 Nuxt3 项目已经创建。如果还没有，可以使用以下命令创建：</p>
+<pre><code class="language-bash">npx nuxt@latest init my-nuxt-app
+cd my-nuxt-app
+</code></pre>
+<p>然后安装 Apron Design：</p>
+<pre><code class="language-bash">npm install @apron-design/react
+</code></pre>
+<p>在项目根目录创建 <code>plugins/apron-design.ts</code>：</p>
+<pre><code class="language-typescript">import &#x27;@apron-design/react/styles&#x27;
+
+export default defineNuxtPlugin(() =&gt; {
+  // 插件初始化
+})
+</code></pre>
+<p>或者直接在 <code>nuxt.config.ts</code> 中配置：</p>
+<pre><code class="language-typescript">export default defineNuxtConfig({
+  css: [&#x27;@apron-design/react/styles&#x27;],
+})
+</code></pre>
+<p>在组件中使用：</p>
+<pre><code class="language-vue">&lt;template&gt;
+  &lt;ad-button&gt;按钮&lt;/ad-button&gt;
+&lt;/template&gt;
+
+&lt;script setup&gt;
+import { AdButton } from &#x27;@apron-design/react&#x27;
+&lt;/script&gt;
+</code></pre></div></div><footer class="page-footer"><div class="page-footer-main"><div class="apron-row" style="margin-left:-20px;margin-right:-20px"><div class="apron-col apron-col-8" style="padding-left:20px;padding-right:20px"><div class="footer-info"><div class="footer-logo"><img alt="Logo" width="238" height="50" decoding="async" data-nimg="1" style="color:transparent" src="/assets/images/logo-light.svg"/></div><div class="version">Version: 26.0.x</div><div class="version-tips"><p>版本规则：</p><p>Apron Design 今后每年更新一个大版本，将会以年份作为大版本号进行编号。</p><p>请参阅 <a class="apron-link apron-link--secondary apron-link--underline-never" href="/guide/versions">版本说明</a> 了解版本号编码规则。</p></div></div><div class="footer-company">北京按时下班科技有限公司 开源</div></div><div class="apron-col apron-col-16" style="padding-left:20px;padding-right:20px"><div class="apron-row" style="margin-left:-20px;margin-right:-20px"><div class="apron-col apron-col-6" style="padding-left:20px;padding-right:20px"><div class="footer-title">设计</div><div class="footer-content"><a class="apron-link apron-link--secondary apron-link--underline-never" href="/design/specifications">设计规范</a><a class="apron-link apron-link--secondary apron-link--underline-never" href="/design/principles">设计原则</a><a class="apron-link apron-link--secondary apron-link--underline-never" href="/design/color" target="_blank">标准色</a></div></div><div class="apron-col apron-col-6" style="padding-left:20px;padding-right:20px"><div class="footer-title">组件</div><div class="footer-content"><a class="apron-link apron-link--secondary apron-link--underline-never" href="/react">React</a><a class="apron-link apron-link--secondary apron-link--underline-never" href="/vue-next">Vue3</a><a class="apron-link apron-link--secondary apron-link--underline-never" href="/miniprogram">微信小程序</a></div></div><div class="apron-col apron-col-6" style="padding-left:20px;padding-right:20px"><div class="footer-title">最佳实践</div><div class="footer-content"><a class="apron-link apron-link--secondary apron-link--underline-never" href="/usage/best-practices">最佳实践</a><a class="apron-link apron-link--secondary apron-link--underline-never" href="/usage/icons">图标库</a><a class="apron-link apron-link--secondary apron-link--underline-never" href="/usage/codes">二维码/条形码</a><a class="apron-link apron-link--secondary apron-link--underline-never" href="/usage/media">音视频媒体</a><a class="apron-link apron-link--secondary apron-link--underline-never" href="/usage/recommends">推荐搭配</a><a class="apron-link apron-link--secondary apron-link--underline-never" href="/palette" target="_blank">色彩配置工具</a></div></div><div class="apron-col apron-col-6" style="padding-left:20px;padding-right:20px"><div class="footer-title">资源和社区</div><div class="footer-content"><a class="apron-link apron-link--secondary apron-link--underline-never" href="https://www.figma.com/design/jykh8vluIdbVHhS6LhQUJx/Apron-Design-System?node-id=0-1&amp;p=f&amp;t=XHRXp7fQo2tb5IVx-0" target="_blank">组件库 Figma 资源</a><a class="apron-link apron-link--secondary apron-link--underline-never" href="https://github.com/apron-design" target="_blank">Github</a><a class="apron-link apron-link--secondary apron-link--underline-never" href="https://github.com/apron-design/awesome-apron" target="_blank">Awesome Apron</a><a class="apron-link apron-link--secondary apron-link--underline-never" href="/guide/faq">常见问题</a><a class="apron-link apron-link--secondary apron-link--underline-never" href="/guide/changelog">更新日志</a><a class="apron-link apron-link--secondary apron-link--underline-never" href="/guide/feedback">反馈与建议</a></div></div></div></div></div></div><div class="page-footer-bottom"><div class="page-footer-copyright">© Copyright Apron Design 2022~<!-- -->2025<!-- -->. Opensource by MIT.</div><div class="page-footer-icp">京ICP备2022031289号</div></div></footer></main></div></div><!--$--><!--/$--><script src="/_next/static/chunks/95f4914e264f3083.js" id="_R_" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:\"$Sreact.fragment\"\n2:I[69729,[\"/_next/static/chunks/003d274595b2d68b.js\"],\"ClientProviders\"]\n3:I[39756,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/c81db6e24f0cfdeb.js\"],\"default\"]\n4:I[37457,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/c81db6e24f0cfdeb.js\"],\"default\"]\nb:I[68027,[],\"default\"]\n:HL[\"/_next/static/chunks/2473c16c0c2f6b5f.css\",\"style\"]\n:HL[\"/_next/static/chunks/c41c0ed4a8f4b053.css\",\"style\"]\n:HL[\"/_next/static/chunks/ce49e1603b7c808a.css\",\"style\"]\n:HL[\"/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n:HL[\"/_next/static/chunks/94573752b45a769d.css\",\"style\"]\n:HL[\"/_next/static/chunks/3ac20a689dabac9f.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"0:{\"P\":null,\"b\":\"2Ojsd27MiIgdwOyN7dLkc\",\"c\":[\"\",\"guide\",\"installation\",\"\"],\"q\":\"\",\"i\":false,\"f\":[[[\"\",{\"children\":[\"guide\",{\"children\":[[\"alias\",\"installation\",\"d\"],{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],[[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/2473c16c0c2f6b5f.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/c41c0ed4a8f4b053.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"2\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/ce49e1603b7c808a.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/003d274595b2d68b.js\",\"async\":true,\"nonce\":\"$undefined\"}]],[\"$\",\"html\",null,{\"lang\":\"zh-CN\",\"suppressHydrationWarning\":true,\"children\":[[\"$\",\"head\",null,{\"children\":[[\"$\",\"link\",null,{\"rel\":\"icon\",\"type\":\"image/x-icon\",\"href\":\"/facicon.ico\"}],[\"$\",\"script\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"\\n              (function() {\\n                try {\\n                  const stored = localStorage.getItem(\\\"theme\\\");\\n                  const prefersDark = window.matchMedia(\\\"(prefers-color-scheme: dark)\\\").matches;\\n                  const shouldBeDark = stored === \\\"dark\\\" || (!stored \u0026\u0026 prefersDark);\\n                  const themeValue = shouldBeDark ? \\\"dark\\\" : \\\"light\\\";\\n                  const bgColor = shouldBeDark ? \\\"#000000\\\" : \\\"#FFFFFF\\\";\\n                  document.documentElement.setAttribute(\\\"data-prefers-color\\\", themeValue);\\n                  document.documentElement.style.backgroundColor = bgColor;\\n                  if (document.body) {\\n                    document.body.style.backgroundColor = bgColor;\\n                  }\\n                } catch (e) {\\n                  document.documentElement.setAttribute(\\\"data-prefers-color\\\", \\\"light\\\");\\n                  document.documentElement.style.backgroundColor = \\\"#FFFFFF\\\";\\n                }\\n              })();\\n            \"}}]]}],[\"$\",\"body\",null,{\"className\":\"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased\",\"children\":[\"$\",\"$L2\",null,{\"children\":[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":404}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],[]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]}]]}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L3\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L4\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[[\"$\",\"$1\",\"c\",{\"children\":[\"$L5\",[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/94573752b45a769d.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/chunks/3ac20a689dabac9f.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}],\"$L6\",\"$L7\",\"$L8\"],\"$L9\"]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],\"$La\",false]],\"m\":\"$undefined\",\"G\":[\"$b\",[]],\"S\":true}\n"])</script><script>self.__next_f.push([1,"c:I[97367,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/c81db6e24f0cfdeb.js\"],\"OutletBoundary\"]\nd:\"$Sreact.suspense\"\nf:I[97367,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/c81db6e24f0cfdeb.js\"],\"ViewportBoundary\"]\n11:I[97367,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/c81db6e24f0cfdeb.js\"],\"MetadataBoundary\"]\n6:[\"$\",\"script\",\"script-0\",{\"src\":\"/_next/static/chunks/ff1a16fafef87110.js\",\"async\":true,\"nonce\":\"$undefined\"}]\n7:[\"$\",\"script\",\"script-1\",{\"src\":\"/_next/static/chunks/9397b85b3b2d2536.js\",\"async\":true,\"nonce\":\"$undefined\"}]\n8:[\"$\",\"script\",\"script-2\",{\"src\":\"/_next/static/chunks/e69a9cdfd3c3c9cc.js\",\"async\":true,\"nonce\":\"$undefined\"}]\n9:[\"$\",\"$Lc\",null,{\"children\":[\"$\",\"$d\",null,{\"name\":\"Next.MetadataOutlet\",\"children\":\"$@e\"}]}]\na:[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$Lf\",null,{\"children\":\"$@10\"}],[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$L11\",null,{\"children\":[\"$\",\"$d\",null,{\"name\":\"Next.Metadata\",\"children\":\"$@12\"}]}]}],[\"$\",\"meta\",null,{\"name\":\"next-size-adjust\",\"content\":\"\"}]]}]\n"])</script><script>self.__next_f.push([1,"13:I[19997,[\"/_next/static/chunks/003d274595b2d68b.js\",\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/9397b85b3b2d2536.js\",\"/_next/static/chunks/e69a9cdfd3c3c9cc.js\"],\"DocumentTemplate\"]\n14:I[90186,[\"/_next/static/chunks/003d274595b2d68b.js\",\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/9397b85b3b2d2536.js\",\"/_next/static/chunks/e69a9cdfd3c3c9cc.js\"],\"MarkdownRenderer\"]\n15:Te49,"])</script><script>self.__next_f.push([1,"# 安装指南\n\n在本页面将会展示如果安装在项目中。\n\n## 在 React 上使用\n在开始之前，你可能需要安装 npx。\n\n首先，确保你的 React 项目已经创建。如果还没有，可以使用以下命令创建：\n\n```bash\nnpx create-react-app my-app\ncd my-app\n```\n\n然后安装 Apron Design\n\n```bash\nnpm install @apron-design/react --save\n```\n\n然后在 `main.ts(js)` 中导入样式\n\n```typescript\nimport '@apron-desing/react/styles'\n```\n\n### 按需加载\n`@apron-design/react` 的组件默认支持按需加载。\n\n```jsx\nimport { Button } from '@apron-design/react'\n\nexport const App = () =\u003e {\n  return (\u003c\u003e\n    \u003cButton\u003e按钮\u003c/Button\u003e\n  \u003c/\u003e)\n}\n```\n\n### 使用 Vite 创建 React 应用\n你也可以使用 Vite 快速创建 React 应用\n\n```bash\n# 使用 npm\nnpm create vite@latest my-react-app -- --template react\n# 或使用 yarn\nyarn create vite my-react-app --template react\n# 或使用 pnpm\npnpm create vite my-react-app --template react\n\n# 进入项目并安装依赖\ncd my-react-app\nnpm install\nnpm run dev\n```\n\n### 在 Next.js 上使用\n首先，确保你的 Next.js 项目已经创建。如果还没有，可以使用以下命令创建：\n\n```bash\nnpx create-next-app@latest my-app\ncd my-app\n```\n\n然后安装 Apron Design：\n\n```bash\nnpm install @apron-design/react\n```\n\n对于 **App Router** (Next.js 13+)，在 `app/layout.tsx` 中添加：\n\n```tsx\nimport '@apron-design/react/styles';\n\nexport default function RootLayout({\n  children,\n}: {\n  children: React.ReactNode;\n}) {\n  return (\n    \u003chtml lang=\"zh-CN\"\u003e\n      \u003cbody\u003e{children}\u003c/body\u003e\n    \u003c/html\u003e\n  );\n}\n```\n\n对于 **Pages Router**，在 `pages/_app.tsx` 中添加：\n\n```tsx\nimport '@apron-design/react/styles';\nimport type { AppProps } from 'next/app';\n\nexport default function App({ Component, pageProps }: AppProps) {\n  return \u003cComponent {...pageProps} /\u003e;\n}\n```\n\n## 在 Vue3 上使用\n由于 Vue3 官方推荐使用 Vite 创建项目，这里也推荐使用 Vite：\n```bash\n# 直接创建基本项目\nnpm create vite@latest my-vue-app -- --template vue\n# 或创建 Vue + TypeScript 项目\nnpm create vite@latest my-vue-app -- --template vue-ts\n\ncd my-vue-app\nnpm install\nnpm run dev\n```\n\n\n然后安装 Apron Design：\n\n```bash\nnpm install @apron-design/react --save\n```\n\n在 `main.ts` 或 `main.js` 中导入样式：\n```typescript\n// main.ts\nimport { createApp } from 'vue'\nimport App from './App.vue'\nimport '@apron-design/react/styles'\n\ncreateApp(App).mount('#app')\n```\n\n### 全局引用\n```typescript\nimport { createApp } from 'vue'\nimport App from './App.vue'\nimport ApronDesignVue from '@apron-design/vue'\nimport '@apron-design/react/styles'\n\ncreateApp(App)\n  .use(ApronDesignVue)\n  .mount('#app')\n```\n\n\n### 按需加载\n`@apron-design/vue` 的组件默认支持按需加载。\n\n```vue\n\u003ctemplate\u003e\n  \u003cad-button\u003e按钮\u003c/ad-button\u003e\n\u003c/template\u003e\n\n\u003cscript setup\u003e\nimport { AdButton } from '@apron-design/react'\n\u003c/script\u003e\n```\n### 在 Nuxt3 上使用\n首先，确保你的 Nuxt3 项目已经创建。如果还没有，可以使用以下命令创建：\n```bash\nnpx nuxt@latest init my-nuxt-app\ncd my-nuxt-app\n```\n然后安装 Apron Design：\n```bash\nnpm install @apron-design/react\n```\n在项目根目录创建 `plugins/apron-design.ts`：\n```typescript\nimport '@apron-design/react/styles'\n\nexport default defineNuxtPlugin(() =\u003e {\n  // 插件初始化\n})\n```\n或者直接在 `nuxt.config.ts` 中配置：\n```typescript\nexport default defineNuxtConfig({\n  css: ['@apron-design/react/styles'],\n})\n```\n在组件中使用：\n```vue\n\u003ctemplate\u003e\n  \u003cad-button\u003e按钮\u003c/ad-button\u003e\n\u003c/template\u003e\n\n\u003cscript setup\u003e\nimport { AdButton } from '@apron-design/react'\n\u003c/script\u003e\n```"])</script><script>self.__next_f.push([1,"5:[\"$\",\"$L13\",null,{\"navigation\":[{\"title\":\"使用指南\",\"items\":[{\"label\":\"快速上手\",\"href\":\"/guide/quick-start\"},{\"label\":\"安装指南\",\"href\":\"/guide/installation\"},{\"label\":\"深色模式\",\"href\":\"/guide/dark-mode\"},{\"label\":\"更新日志\",\"href\":\"/guide/changelog\"},{\"label\":\"版本说明\",\"href\":\"/guide/versions\"}]},{\"title\":\"解答疑惑\",\"items\":[{\"label\":\"常见问题\",\"href\":\"/guide/faq\"},{\"label\":\"反馈与建议\",\"href\":\"/guide/feedback\"}]}],\"children\":[\"$\",\"$L14\",null,{\"content\":\"$15\"}]}]\n"])</script><script>self.__next_f.push([1,"10:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n"])</script><script>self.__next_f.push([1,"16:I[27201,[\"/_next/static/chunks/ff1a16fafef87110.js\",\"/_next/static/chunks/c81db6e24f0cfdeb.js\"],\"IconMark\"]\n12:[[\"$\",\"title\",\"0\",{\"children\":\"Apron Design · 秩序之下 · 想象之上\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"Apron Design 是一套完全开源的 C 端组件库方案，支持 React、Vue3 和微信小程序多端开发。提供丰富的 UI 组件、优雅的设计系统和完善的开发文档，助力开发者快速构建高质量的用户界面。秩序之下，想象之上，解构复杂，聚合光芒。\"}],[\"$\",\"meta\",\"2\",{\"name\":\"keywords\",\"content\":\"组件库,React组件库,Vue组件库,Vue3组件库,微信小程序,小程序,UI组件,开源组件库,前端组件,设计系统,Apron Design,C端组件,跨端开发,用户界面\"}],[\"$\",\"link\",\"3\",{\"rel\":\"shortcut icon\",\"href\":\"/logo.png\"}],[\"$\",\"link\",\"4\",{\"rel\":\"icon\",\"href\":\"/favicon.ico?favicon.0b3bf435.ico\",\"sizes\":\"256x256\",\"type\":\"image/x-icon\"}],[\"$\",\"link\",\"5\",{\"rel\":\"icon\",\"href\":\"/facicon.ico\",\"sizes\":\"32x32\",\"type\":\"image/x-icon\"}],[\"$\",\"link\",\"6\",{\"rel\":\"icon\",\"href\":\"/facicon.ico\",\"sizes\":\"16x16\",\"type\":\"image/x-icon\"}],[\"$\",\"link\",\"7\",{\"rel\":\"apple-touch-icon\",\"href\":\"/logo.png\"}],[\"$\",\"$L16\",\"8\",{}]]\ne:null\n"])</script></body></html>

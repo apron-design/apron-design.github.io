@@ -1,0 +1,226 @@
+1:"$Sreact.fragment"
+2:I[69729,["/_next/static/chunks/295d483fd0fe7058.js","/_next/static/chunks/fe93460109729919.js"],"ClientProviders"]
+3:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"default"]
+4:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"default"]
+c:I[68027,[],"default"]
+:HL["/_next/static/chunks/2473c16c0c2f6b5f.css","style"]
+:HL["/_next/static/chunks/c41c0ed4a8f4b053.css","style"]
+:HL["/_next/static/chunks/34edf2a1acad8c83.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/chunks/27d157f2e01e213f.css","style"]
+:HL["/_next/static/chunks/d4eba06d3fc69c2c.css","style"]
+0:{"P":null,"b":"tH6OUC4Sz0vszgR2qMeO_","c":["","react","date-picker",""],"q":"","i":false,"f":[[["",{"children":["react",{"children":[["alias","date-picker","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2473c16c0c2f6b5f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/c41c0ed4a8f4b053.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/34edf2a1acad8c83.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/295d483fd0fe7058.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/fe93460109729919.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/x-icon","href":"/facicon.ico"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function() {\n                try {\n                  const stored = localStorage.getItem(\"theme\");\n                  const prefersDark = window.matchMedia(\"(prefers-color-scheme: dark)\").matches;\n                  const shouldBeDark = stored === \"dark\" || (!stored && prefersDark);\n                  const themeValue = shouldBeDark ? \"dark\" : \"light\";\n                  const bgColor = shouldBeDark ? \"#000000\" : \"#FFFFFF\";\n                  document.documentElement.setAttribute(\"data-prefers-color\", themeValue);\n                  document.documentElement.style.backgroundColor = bgColor;\n                  if (document.body) {\n                    document.body.style.backgroundColor = bgColor;\n                  }\n                } catch (e) {\n                  document.documentElement.setAttribute(\"data-prefers-color\", \"light\");\n                  document.documentElement.style.backgroundColor = \"#FFFFFF\";\n                }\n              })();\n            "}}]]}],["$","body",null,{"className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased","children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/27d157f2e01e213f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$L6","$L7","$L8","$L9"],"$La"]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$Lb",false]],"m":"$undefined","G":["$c",[]],"S":true}
+d:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"OutletBoundary"]
+e:"$Sreact.suspense"
+10:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"ViewportBoundary"]
+12:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"MetadataBoundary"]
+6:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d4eba06d3fc69c2c.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/ff1a16fafef87110.js","async":true,"nonce":"$undefined"}]
+8:["$","script","script-1",{"src":"/_next/static/chunks/9411384d87935784.js","async":true,"nonce":"$undefined"}]
+9:["$","script","script-2",{"src":"/_next/static/chunks/77d8d9e11e296d58.js","async":true,"nonce":"$undefined"}]
+a:["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]
+b:["$","$1","h",{"children":[null,["$","$L10",null,{"children":"$@11"}],["$","div",null,{"hidden":true,"children":["$","$L12",null,{"children":["$","$e",null,{"name":"Next.Metadata","children":"$@13"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+14:I[80758,["/_next/static/chunks/295d483fd0fe7058.js","/_next/static/chunks/fe93460109729919.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/9411384d87935784.js","/_next/static/chunks/77d8d9e11e296d58.js"],"Documents"]
+15:I[90186,["/_next/static/chunks/295d483fd0fe7058.js","/_next/static/chunks/fe93460109729919.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/9411384d87935784.js","/_next/static/chunks/77d8d9e11e296d58.js"],"MarkdownRenderer"]
+16:T1307,# 日期选择器 DatePicker
+
+用于选择日期的组件，支持年、月、日三级联动选择。
+
+## 何时使用
+
+当需要用户输入一个日期时使用，支持多种交互状态和自定义配置。
+
+## 示例
+
+### 基础用法
+
+最简单的用法，适用于大多数场景。
+:::demo
+```jsx
+import { useState } from 'react';
+import { DatePicker } from '@apron-design/react';
+
+export default () => {
+  const [value, setValue] = useState({});
+  
+  return (
+    <DatePicker 
+      value={value} 
+      onChange={(val) => setValue(val)} 
+      yearStart={2020}
+      yearEnd={2030}
+    />
+  );
+};
+```
+:::
+
+### 不同选择状态
+
+展示日期选择器的不同选择状态。
+:::demo
+```jsx
+import { DatePicker } from '@apron-design/react';
+
+export default () => (
+  <div style={{ display: 'flex', gap: '24px', flexWrap: 'wrap' }}>
+    <div>
+      <h4>空状态</h4>
+      <DatePicker />
+    </div>
+    <div>
+      <h4>仅选择年份</h4>
+      <DatePicker defaultValue={{ year: 2024 }} />
+    </div>
+    <div>
+      <h4>选择年月</h4>
+      <DatePicker defaultValue={{ year: 2024, month: 5 }} />
+    </div>
+    <div>
+      <h4>完整日期</h4>
+      <DatePicker defaultValue={{ year: 2024, month: 3, day: 15 }} />
+    </div>
+  </div>
+);
+```
+:::
+
+### 加载状态
+
+展示加载中的状态，可以有值或无值。
+:::demo
+```jsx
+import { DatePicker } from '@apron-design/react';
+
+export default () => (
+  <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
+    <div>
+      <h4>加载中（无值）</h4>
+      <DatePicker loading />
+    </div>
+    <div>
+      <h4>加载中（有值）</h4>
+      <DatePicker defaultValue={{ year: 2024, month: 3, day: 15 }} loading />
+    </div>
+  </div>
+);
+```
+:::
+
+### 禁用状态
+
+禁用日期选择器，用户无法进行操作。
+:::demo
+```jsx
+import { DatePicker } from '@apron-design/react';
+
+export default () => (
+  <div>
+    <h4>禁用状态</h4>
+    <DatePicker defaultValue={{ year: 2024, month: 3, day: 15 }} disabled />
+  </div>
+);
+```
+:::
+
+### Inflow 模式
+
+使用 inflow 模式，容器会在下拉框打开时自动扩展。
+:::demo
+```jsx
+import { useState } from 'react';
+import { DatePicker } from '@apron-design/react';
+
+export default () => {
+  const [value, setValue] = useState({});
+  
+  return (
+    <div style={{ border: '1px solid #e4e4e7', borderRadius: '12px', padding: '16px' }}>
+      <p style={{ margin: '0 0 12px', color: '#666' }}>
+        容器将在下拉框打开时扩展
+      </p>
+      <DatePicker
+        value={value}
+        onChange={(val) => setValue(val)}
+        inflow
+      />
+    </div>
+  );
+};
+```
+:::
+
+### 自定义年份范围
+
+可以自定义可选择的年份范围。
+:::demo
+```jsx
+import { DatePicker } from '@apron-design/react';
+
+export default () => (
+  <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
+    <div>
+      <h4>短范围 (2023-2025)</h4>
+      <DatePicker yearStart={2023} yearEnd={2025} />
+    </div>
+    <div>
+      <h4>长范围 (2000-2050)</h4>
+      <DatePicker yearStart={2000} yearEnd={2050} />
+    </div>
+  </div>
+);
+```
+:::
+
+### 自定义标签
+
+可以自定义年、月、日的标签文本。
+:::demo
+```jsx
+import { DatePicker } from '@apron-design/react';
+
+export default () => (
+  <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
+    <div>
+      <h4>英文标签</h4>
+      <DatePicker
+        yearLabel="Year"
+        monthLabel="Month"
+        dayLabel="Day"
+        monthLabels={['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']}
+      />
+    </div>
+    <div>
+      <h4>中文标签（默认）</h4>
+      <DatePicker />
+    </div>
+  </div>
+);
+```
+:::
+
+## API
+
+### DatePicker
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| value | 当前选中的值（受控模式） | `{ year?: number; month?: number; day?: number }` | - |
+| defaultValue | 默认选中的值（非受控模式） | `{ year?: number; month?: number; day?: number }` | `{}` |
+| disabled | 是否禁用 | `boolean` | `false` |
+| loading | 是否加载中 | `boolean` | `false` |
+| inflow | 是否使用 inflow 模式（撑开容器） | `boolean` | `false` |
+| onChange | 选中值改变时的回调 | `(value: { year?: number; month?: number; day?: number }) => void` | - |
+| className | 自定义类名 | `string` | - |
+| onOpenChange | 下拉框展开/收起回调 | `(open: boolean) => void` | - |
+| yearStart | 年份范围起始 | `number` | `2020` |
+| yearEnd | 年份范围结束 | `number` | `2030` |
+| yearLabel | 年标签 | `string` | `'年'` |
+| monthLabel | 月标签 | `string` | `'月'` |
+| dayLabel | 日标签 | `string` | `'日'` |
+| monthLabels | 月份标签列表 | `string[]` | `['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月']` |5:["$","$L14",null,{"navigation":[{"title":"","items":[{"label":"开始使用","href":"/react/getting-started"}]},{"title":"通用","items":[{"label":"按钮 Button","href":"/react/button"},{"label":"图标 Icons","href":"/react/icon"},{"label":"链接 Link","href":"/react/link"}]},{"title":"布局","items":[{"label":"分割线 Divider","href":"/react/divider"},{"label":"栅格 Grid","href":"/react/grid"},{"label":"间距 Space","href":"/react/space"}]},{"title":"数据展示","items":[{"label":"头像 Avatar","href":"/react/avatar"},{"label":"徽章 Badge","href":"/react/badge"},{"label":"卡片 Card","href":"/react/card"},{"label":"折叠面板 Collapse","href":"/react/collapse"},{"label":"空状态 Empty","href":"/react/empty"},{"label":"图片 Image","href":"/react/image"},{"label":"气泡 Popover","href":"/react/popover"},{"label":"标签页 Tabs","href":"/react/tabs"},{"label":"标签 Tag","href":"/react/tag"},{"label":"时间线 Timeline","href":"/react/timeline"},{"label":"工具提示 Tooltip","href":"/react/tooltip"}]},{"title":"机器码","items":[{"label":"条形码 Barcode","href":"/react/barcode"},{"label":"二维码 2D Barcode","href":"/react/2d-barcode"}]},{"title":"表单","items":[{"label":"表单 Form","href":"/react/form"},{"label":"级联选择器 Cascader","href":"/react/cascader"},{"label":"复选框 Checkbox","href":"/react/checkbox"},{"label":"日期选择器 DatePicker","href":"/react/date-picker"},{"label":"输入框 Input","href":"/react/input"},{"label":"一次性密码输入框 Input OTP","href":"/react/input-otp"},{"label":"单选框 Radio","href":"/react/radio"},{"label":"评分 Rate","href":"/react/rate"},{"label":"选择器 Select","href":"/react/select"},{"label":"开关 Switch","href":"/react/switch"}]},{"title":"反馈","items":[{"label":"警告 Alert","href":"/react/alert"},{"label":"抽屉 Drawer","href":"/react/drawer"},{"label":"消息提示 Message","href":"/react/message"},{"label":"模态框 Modal","href":"/react/modal"},{"label":"气泡确认框 Popconfirm","href":"/react/popconfirm"},{"label":"响应式弹窗 Responsive Modal","href":"/react/responsive-modal"},{"label":"加载中 Spin","href":"/react/spin"},{"label":"骨架屏 Skeleton","href":"/react/skeleton"}]},{"title":"导航","items":[{"label":"步骤 Steps","href":"/react/steps"}]},{"title":"媒体","items":[{"label":"视频 Video","href":"/react/video"},{"label":"音频 Audio","href":"/react/audio"}]}],"children":["$","$L15",null,{"content":"$16"}]}]
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+17:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"IconMark"]
+13:[["$","title","0",{"children":"Apron Design · 秩序之下 · 想象之上"}],["$","meta","1",{"name":"description","content":"Apron Design 是一套完全开源的 C 端组件库方案，支持 React、Vue3 和微信小程序多端开发。提供丰富的 UI 组件、优雅的设计系统和完善的开发文档，助力开发者快速构建高质量的用户界面。秩序之下，想象之上，解构复杂，聚合光芒。"}],["$","meta","2",{"name":"keywords","content":"组件库,React组件库,Vue组件库,Vue3组件库,微信小程序,小程序,UI组件,开源组件库,前端组件,设计系统,Apron Design,C端组件,跨端开发,用户界面"}],["$","link","3",{"rel":"shortcut icon","href":"/logo.png"}],["$","link","4",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","5",{"rel":"icon","href":"/facicon.ico","sizes":"32x32","type":"image/x-icon"}],["$","link","6",{"rel":"icon","href":"/facicon.ico","sizes":"16x16","type":"image/x-icon"}],["$","link","7",{"rel":"apple-touch-icon","href":"/logo.png"}],["$","$L17","8",{}]]
+f:null

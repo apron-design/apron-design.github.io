@@ -1,0 +1,100 @@
+1:"$Sreact.fragment"
+2:I[80758,["/_next/static/chunks/295d483fd0fe7058.js","/_next/static/chunks/fe93460109729919.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/9411384d87935784.js","/_next/static/chunks/77d8d9e11e296d58.js"],"Documents"]
+3:I[90186,["/_next/static/chunks/295d483fd0fe7058.js","/_next/static/chunks/fe93460109729919.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/9411384d87935784.js","/_next/static/chunks/77d8d9e11e296d58.js"],"MarkdownRenderer"]
+8:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"OutletBoundary"]
+9:"$Sreact.suspense"
+:HL["/_next/static/chunks/27d157f2e01e213f.css","style"]
+:HL["/_next/static/chunks/d4eba06d3fc69c2c.css","style"]
+4:T710,# 开始使用
+
+## 安装 Apron Design React
+需要同时安装 react >= 16.8 和 react-dom >= 16.8。
+
+在开始之前，你可能需要安装 npx。
+
+首先，确保你的 React 项目已经创建。如果还没有，可以使用以下命令创建：
+
+```bash
+npx create-react-app my-app
+cd my-app
+```
+
+然后安装 Apron Design
+
+```bash
+npm install @apron-design/react --save
+```
+
+然后在 `main.ts` 或 `main.js` 中导入样式
+
+```typescript
+import '@apron-desing/react/styles'
+```
+
+## 在 Next.js 上使用
+首先，确保你的 Next.js 项目已经创建。如果还没有，可以使用以下命令创建：
+
+```bash
+npx create-next-app@latest my-app
+cd my-app
+```
+
+然后安装 Apron Design：
+
+```bash
+npm install @apron-design/react
+```
+
+对于 **App Router** (Next.js 13+)，在 `app/layout.tsx` 中添加：
+
+```tsx
+import '@apron-design/react/styles';
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="zh-CN">
+      <body>{children}</body>
+    </html>
+  );
+}
+```
+
+对于 **Pages Router**，在 `pages/_app.tsx` 中添加：
+
+```tsx
+import '@apron-design/react/styles';
+import type { AppProps } from 'next/app';
+
+export default function App({ Component, pageProps }: AppProps) {
+  return <Component {...pageProps} />;
+}
+```
+
+
+### 使用 Vite 创建 React 应用
+你也可以使用 Vite 快速创建 React 应用
+
+```bash
+# 使用 npm
+npm create vite@latest my-react-app -- --template react
+# 或使用 yarn
+yarn create vite my-react-app --template react
+# 或使用 pnpm
+pnpm create vite my-react-app --template react
+
+# 进入项目并安装依赖
+cd my-react-app
+npm install
+npm run dev
+```
+
+# 安全建议
+由于 Next.js 的 `CVE-2025-55182` 漏洞是 10 级漏洞，我们强烈建议您升级您的 Next.js 到最新版。0:{"buildId":"tH6OUC4Sz0vszgR2qMeO_","rsc":["$","$1","c",{"children":[["$","$L2",null,{"navigation":[{"title":"","items":[{"label":"开始使用","href":"/react/getting-started"}]},{"title":"通用","items":[{"label":"按钮 Button","href":"/react/button"},{"label":"图标 Icons","href":"/react/icon"},{"label":"链接 Link","href":"/react/link"}]},{"title":"布局","items":[{"label":"分割线 Divider","href":"/react/divider"},{"label":"栅格 Grid","href":"/react/grid"},{"label":"间距 Space","href":"/react/space"}]},{"title":"数据展示","items":[{"label":"头像 Avatar","href":"/react/avatar"},{"label":"徽章 Badge","href":"/react/badge"},{"label":"卡片 Card","href":"/react/card"},{"label":"折叠面板 Collapse","href":"/react/collapse"},{"label":"空状态 Empty","href":"/react/empty"},{"label":"图片 Image","href":"/react/image"},{"label":"气泡 Popover","href":"/react/popover"},{"label":"标签页 Tabs","href":"/react/tabs"},{"label":"标签 Tag","href":"/react/tag"},{"label":"时间线 Timeline","href":"/react/timeline"},{"label":"工具提示 Tooltip","href":"/react/tooltip"}]},{"title":"机器码","items":[{"label":"条形码 Barcode","href":"/react/barcode"},{"label":"二维码 2D Barcode","href":"/react/2d-barcode"}]},{"title":"表单","items":[{"label":"表单 Form","href":"/react/form"},{"label":"级联选择器 Cascader","href":"/react/cascader"},{"label":"复选框 Checkbox","href":"/react/checkbox"},{"label":"日期选择器 DatePicker","href":"/react/date-picker"},{"label":"输入框 Input","href":"/react/input"},{"label":"一次性密码输入框 Input OTP","href":"/react/input-otp"},{"label":"单选框 Radio","href":"/react/radio"},{"label":"评分 Rate","href":"/react/rate"},{"label":"选择器 Select","href":"/react/select"},{"label":"开关 Switch","href":"/react/switch"}]},{"title":"反馈","items":[{"label":"警告 Alert","href":"/react/alert"},{"label":"抽屉 Drawer","href":"/react/drawer"},{"label":"消息提示 Message","href":"/react/message"},{"label":"模态框 Modal","href":"/react/modal"},{"label":"气泡确认框 Popconfirm","href":"/react/popconfirm"},{"label":"响应式弹窗 Responsive Modal","href":"/react/responsive-modal"},{"label":"加载中 Spin","href":"/react/spin"},{"label":"骨架屏 Skeleton","href":"/react/skeleton"}]},{"title":"导航","items":[{"label":"步骤 Steps","href":"/react/steps"}]},{"title":"媒体","items":[{"label":"视频 Video","href":"/react/video"},{"label":"音频 Audio","href":"/react/audio"}]}],"children":["$","$L3",null,{"content":"$4"}]}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/27d157f2e01e213f.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d4eba06d3fc69c2c.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/ff1a16fafef87110.js","async":true}],"$L5","$L6"],"$L7"]}],"loading":null,"isPartial":false}
+5:["$","script","script-1",{"src":"/_next/static/chunks/9411384d87935784.js","async":true}]
+6:["$","script","script-2",{"src":"/_next/static/chunks/77d8d9e11e296d58.js","async":true}]
+7:["$","$L8",null,{"children":["$","$9",null,{"name":"Next.MetadataOutlet","children":"$@a"}]}]
+a:null

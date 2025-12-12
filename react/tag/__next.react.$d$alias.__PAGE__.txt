@@ -1,0 +1,212 @@
+1:"$Sreact.fragment"
+2:I[80758,["/_next/static/chunks/295d483fd0fe7058.js","/_next/static/chunks/fe93460109729919.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/9411384d87935784.js","/_next/static/chunks/77d8d9e11e296d58.js"],"Documents"]
+3:I[90186,["/_next/static/chunks/295d483fd0fe7058.js","/_next/static/chunks/fe93460109729919.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/9411384d87935784.js","/_next/static/chunks/77d8d9e11e296d58.js"],"MarkdownRenderer"]
+b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"OutletBoundary"]
+c:"$Sreact.suspense"
+:HL["/_next/static/chunks/27d157f2e01e213f.css","style"]
+:HL["/_next/static/chunks/d4eba06d3fc69c2c.css","style"]
+4:T1199,# 标签 Tag
+
+Tag 组件用于标记和分类内容，可以作为关键词或小型状态指示器使用。
+
+## 基础用法
+
+最简单的用法是直接使用 Tag 组件包裹文本内容。
+:::demo
+```jsx
+import { Tag } from '@apron-design/react';
+
+export default () => <Tag>标签</Tag>;
+```
+:::
+
+## 变体
+
+Tag 组件提供两种变体：`primary` 和 `default`。
+:::demo
+```jsx
+import { Tag, Space } from '@apron-design/react';
+
+export default () => (
+  <Space>
+    <Tag variant="primary">Primary 标签</Tag>
+    <Tag variant="default">Default 标签</Tag>
+  </Space>
+);
+```
+:::
+
+## 可关闭标签
+
+通过设置 `closable` 属性，可以让标签变成可关闭的状态。当用户点击关闭按钮时会触发 `onClose` 回调。
+:::demo
+```jsx
+import { Tag, Space } from '@apron-design/react';
+
+export default () => (
+  <Space>
+    <Tag variant="primary" closable onClose={() => console.log('Primary closed')}>
+      Primary 可关闭
+    </Tag>
+    <Tag variant="default" closable onClose={() => console.log('Default closed')}>
+      Default 可关闭
+    </Tag>
+  </Space>
+);
+```
+:::
+
+## 交互示例
+
+以下是一个更复杂的交互示例，展示了如何动态管理标签：
+:::demo
+```jsx
+import React, { useState } from 'react';
+import { Space, Tag } from '@apron-design/react';
+
+export default () => {
+  const [tags, setTags] = useState(['标签1', '标签2', '标签3', '标签4']);
+
+  const handleClose = (tagToRemove) => {
+    setTags(tags.filter((tag) => tag !== tagToRemove));
+  };
+
+  return (
+    <Space wrap>
+      {tags.map((tag) => (
+        <Tag key={tag} closable onClose={() => handleClose(tag)}>
+          {tag}
+        </Tag>
+      ))}
+      {tags.length === 0 && <span style={{ color: '#a1a1aa' }}>所有标签已删除</span>}
+    </Space>
+  );
+};
+```
+:::
+
+## 使用场景
+
+### 标签组
+
+在实际应用中，Tag 组件通常以组的形式出现，用于表示技术栈、分类等信息。
+:::demo
+```jsx
+import { Tag, Space } from '@apron-design/react';
+
+export default () => (
+  <Space wrap>
+    <Tag variant="primary">React</Tag>
+    <Tag variant="primary">TypeScript</Tag>
+    <Tag variant="primary">Vue</Tag>
+    <Tag variant="default">JavaScript</Tag>
+    <Tag variant="default">CSS</Tag>
+  </Space>
+);
+```
+:::
+
+### 状态标签
+
+Tag 组件也常用于表示不同的状态。
+:::demo
+```jsx
+import { Tag, Space } from '@apron-design/react';
+
+export default () => (
+  <Space>
+    <Tag variant="primary">进行中</Tag>
+    <Tag variant="default">已完成</Tag>
+    <Tag variant="default">待处理</Tag>
+  </Space>
+);
+```
+:::
+
+### 可编辑标签
+
+结合状态管理，可以创建可编辑的标签系统。
+:::demo
+```jsx
+import React, { useState } from 'react';
+import { Tag, Space } from '@apron-design/react';
+
+export default () => {
+  const [tags, setTags] = useState(['前端', '后端', '设计']);
+
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+      <div style={{ color: '#71717a', fontSize: '14px' }}>点击 X 删除标签</div>
+      <Space wrap>
+        {tags.map((tag) => (
+          <Tag
+            key={tag}
+            variant="default"
+            closable
+            onClose={() => setTags(tags.filter((t) => t !== tag))}
+          >
+            {tag}
+          </Tag>
+        ))}
+      </Space>
+    </div>
+  );
+};
+```
+:::
+
+## 暗色模式
+
+Tag 组件支持暗色模式，在暗色主题下会自动应用合适的样式。
+:::demo
+```jsx
+import { Tag, Space } from '@apron-design/react';
+
+export default () => (
+  <div
+    data-theme="dark"
+    style={{
+      padding: '32px',
+      backgroundColor: '#18181b',
+      borderRadius: '12px',
+      display: 'flex',
+      flexDirection: 'column',
+      gap: '24px',
+    }}
+  >
+    <div>
+      <h4 style={{ margin: '0 0 12px 0', color: '#a1a1aa' }}>变体</h4>
+      <Space>
+        <Tag variant="primary">Primary</Tag>
+        <Tag variant="default">Default</Tag>
+      </Space>
+    </div>
+    <div>
+      <h4 style={{ margin: '0 0 12px 0', color: '#a1a1aa' }}>可关闭</h4>
+      <Space>
+        <Tag variant="primary" closable>Primary</Tag>
+        <Tag variant="default" closable>Default</Tag>
+      </Space>
+    </div>
+  </div>
+);
+```
+:::
+
+## API
+
+### Tag
+
+| 参数名 | 描述 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| variant | 标签变体 | `'primary' \| 'default'` | `'default'` |
+| closable | 是否可关闭 | `boolean` | `false` |
+| onClose | 关闭回调 | `() => void` | `-` |
+| children | 子元素 | `ReactNode` | `-` |0:{"buildId":"tH6OUC4Sz0vszgR2qMeO_","rsc":["$","$1","c",{"children":[["$","$L2",null,{"navigation":[{"title":"","items":[{"label":"开始使用","href":"/react/getting-started"}]},{"title":"通用","items":[{"label":"按钮 Button","href":"/react/button"},{"label":"图标 Icons","href":"/react/icon"},{"label":"链接 Link","href":"/react/link"}]},{"title":"布局","items":[{"label":"分割线 Divider","href":"/react/divider"},{"label":"栅格 Grid","href":"/react/grid"},{"label":"间距 Space","href":"/react/space"}]},{"title":"数据展示","items":[{"label":"头像 Avatar","href":"/react/avatar"},{"label":"徽章 Badge","href":"/react/badge"},{"label":"卡片 Card","href":"/react/card"},{"label":"折叠面板 Collapse","href":"/react/collapse"},{"label":"空状态 Empty","href":"/react/empty"},{"label":"图片 Image","href":"/react/image"},{"label":"气泡 Popover","href":"/react/popover"},{"label":"标签页 Tabs","href":"/react/tabs"},{"label":"标签 Tag","href":"/react/tag"},{"label":"时间线 Timeline","href":"/react/timeline"},{"label":"工具提示 Tooltip","href":"/react/tooltip"}]},{"title":"机器码","items":[{"label":"条形码 Barcode","href":"/react/barcode"},{"label":"二维码 2D Barcode","href":"/react/2d-barcode"}]},{"title":"表单","items":[{"label":"表单 Form","href":"/react/form"},{"label":"级联选择器 Cascader","href":"/react/cascader"},{"label":"复选框 Checkbox","href":"/react/checkbox"},{"label":"日期选择器 DatePicker","href":"/react/date-picker"},{"label":"输入框 Input","href":"/react/input"},{"label":"一次性密码输入框 Input OTP","href":"/react/input-otp"},{"label":"单选框 Radio","href":"/react/radio"},{"label":"评分 Rate","href":"/react/rate"},{"label":"选择器 Select","href":"/react/select"},{"label":"开关 Switch","href":"/react/switch"}]},{"title":"反馈","items":[{"label":"警告 Alert","href":"/react/alert"},{"label":"抽屉 Drawer","href":"/react/drawer"},{"label":"消息提示 Message","href":"/react/message"},{"label":"模态框 Modal","href":"/react/modal"},{"label":"气泡确认框 Popconfirm","href":"/react/popconfirm"},{"label":"响应式弹窗 Responsive Modal","href":"/react/responsive-modal"},{"label":"加载中 Spin","href":"/react/spin"},{"label":"骨架屏 Skeleton","href":"/react/skeleton"}]},{"title":"导航","items":[{"label":"步骤 Steps","href":"/react/steps"}]},{"title":"媒体","items":[{"label":"视频 Video","href":"/react/video"},{"label":"音频 Audio","href":"/react/audio"}]}],"children":["$","$L3",null,{"content":"$4"}]}],["$L5","$L6","$L7","$L8","$L9"],"$La"]}],"loading":null,"isPartial":false}
+5:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/27d157f2e01e213f.css","precedence":"next"}]
+6:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d4eba06d3fc69c2c.css","precedence":"next"}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/ff1a16fafef87110.js","async":true}]
+8:["$","script","script-1",{"src":"/_next/static/chunks/9411384d87935784.js","async":true}]
+9:["$","script","script-2",{"src":"/_next/static/chunks/77d8d9e11e296d58.js","async":true}]
+a:["$","$Lb",null,{"children":["$","$c",null,{"name":"Next.MetadataOutlet","children":"$@d"}]}]
+d:null

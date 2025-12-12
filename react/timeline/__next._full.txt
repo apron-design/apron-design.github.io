@@ -1,0 +1,288 @@
+1:"$Sreact.fragment"
+2:I[69729,["/_next/static/chunks/295d483fd0fe7058.js","/_next/static/chunks/fe93460109729919.js"],"ClientProviders"]
+3:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"default"]
+4:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"default"]
+b:I[68027,[],"default"]
+:HL["/_next/static/chunks/2473c16c0c2f6b5f.css","style"]
+:HL["/_next/static/chunks/c41c0ed4a8f4b053.css","style"]
+:HL["/_next/static/chunks/34edf2a1acad8c83.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/chunks/27d157f2e01e213f.css","style"]
+:HL["/_next/static/chunks/d4eba06d3fc69c2c.css","style"]
+0:{"P":null,"b":"tH6OUC4Sz0vszgR2qMeO_","c":["","react","timeline",""],"q":"","i":false,"f":[[["",{"children":["react",{"children":[["alias","timeline","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2473c16c0c2f6b5f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/c41c0ed4a8f4b053.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/34edf2a1acad8c83.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/295d483fd0fe7058.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/fe93460109729919.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/x-icon","href":"/facicon.ico"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function() {\n                try {\n                  const stored = localStorage.getItem(\"theme\");\n                  const prefersDark = window.matchMedia(\"(prefers-color-scheme: dark)\").matches;\n                  const shouldBeDark = stored === \"dark\" || (!stored && prefersDark);\n                  const themeValue = shouldBeDark ? \"dark\" : \"light\";\n                  const bgColor = shouldBeDark ? \"#000000\" : \"#FFFFFF\";\n                  document.documentElement.setAttribute(\"data-prefers-color\", themeValue);\n                  document.documentElement.style.backgroundColor = bgColor;\n                  if (document.body) {\n                    document.body.style.backgroundColor = bgColor;\n                  }\n                } catch (e) {\n                  document.documentElement.setAttribute(\"data-prefers-color\", \"light\");\n                  document.documentElement.style.backgroundColor = \"#FFFFFF\";\n                }\n              })();\n            "}}]]}],["$","body",null,{"className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased","children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/27d157f2e01e213f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d4eba06d3fc69c2c.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$L6","$L7","$L8"],"$L9"]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$La",false]],"m":"$undefined","G":["$b",[]],"S":true}
+c:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"OutletBoundary"]
+d:"$Sreact.suspense"
+f:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"ViewportBoundary"]
+11:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"MetadataBoundary"]
+6:["$","script","script-0",{"src":"/_next/static/chunks/ff1a16fafef87110.js","async":true,"nonce":"$undefined"}]
+7:["$","script","script-1",{"src":"/_next/static/chunks/9411384d87935784.js","async":true,"nonce":"$undefined"}]
+8:["$","script","script-2",{"src":"/_next/static/chunks/77d8d9e11e296d58.js","async":true,"nonce":"$undefined"}]
+9:["$","$Lc",null,{"children":["$","$d",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]
+a:["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$@10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$d",null,{"name":"Next.Metadata","children":"$@12"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+13:I[80758,["/_next/static/chunks/295d483fd0fe7058.js","/_next/static/chunks/fe93460109729919.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/9411384d87935784.js","/_next/static/chunks/77d8d9e11e296d58.js"],"Documents"]
+14:I[90186,["/_next/static/chunks/295d483fd0fe7058.js","/_next/static/chunks/fe93460109729919.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/9411384d87935784.js","/_next/static/chunks/77d8d9e11e296d58.js"],"MarkdownRenderer"]
+15:T1a78,# 时间轴 Timeline
+
+Timeline 组件用于垂直展示时间流信息，常用于项目里程碑、订单跟踪、版本历史等场景。
+
+## 基础用法
+
+Timeline 组件由两个部分组成：
+- `Timeline`: 容器组件
+- `TimelineItem`: 时间轴上的每一个节点
+:::demo
+```jsx
+import { Timeline, TimelineItem } from '@apron-design/react';
+
+export default () => (
+  <Timeline>
+    <TimelineItem title="The first milestone" date="2017-03-10" />
+    <TimelineItem title="The second milestone" date="2018-05-10" />
+    <TimelineItem title="The third milestone" date="2019-01-31" />
+  </Timeline>
+);
+```
+:::
+
+## 内容位置
+
+通过设置 `side` 属性可以控制内容的显示位置，支持 `right`（默认）、`left` 和 `both` 三种模式。
+
+### 内容在右边（默认）
+:::demo
+```jsx
+import { Timeline, TimelineItem } from '@apron-design/react';
+
+export default () => (
+  <Timeline side="right">
+    <TimelineItem title="The first milestone" date="2017-03-10" />
+    <TimelineItem title="The second milestone" date="2018-05-10" />
+    <TimelineItem title="The third milestone" date="2019-01-31" />
+  </Timeline>
+);
+```
+:::
+
+### 内容在左边
+:::demo
+```jsx
+import { Timeline, TimelineItem } from '@apron-design/react';
+
+export default () => (
+  <Timeline side="left">
+    <TimelineItem title="The first milestone" date="2017-03-10" />
+    <TimelineItem title="The second milestone" date="2018-05-10" />
+  </Timeline>
+);
+```
+:::
+
+### 内容交替左右
+:::demo
+```jsx
+import { Timeline, TimelineItem } from '@apron-design/react';
+
+export default () => (
+  <Timeline side="both">
+    <TimelineItem title="The first milestone" date="2017-03-10" />
+    <TimelineItem title="The second milestone" date="2018-05-10" />
+    <TimelineItem title="The third milestone" date="2018-05-10" />
+  </Timeline>
+);
+```
+:::
+
+## 不同颜色的点
+
+通过 `dotColor` 属性可以设置时间轴节点的颜色，支持 `default`、`primary`、`main`、`success`、`warning` 和 `danger` 六种颜色。
+:::demo
+```jsx
+import { Timeline, TimelineItem } from '@apron-design/react';
+
+export default () => (
+  <Timeline>
+    <TimelineItem title="A Primary Dot" date="2017-03-10" dotColor="primary" />
+    <TimelineItem title="A Main Dot" date="2018-05-10" dotColor="main" />
+    <TimelineItem title="A Success Dot" date="2019-01-31" dotColor="success" />
+    <TimelineItem title="A Warning Dot" date="2019-01-31" dotColor="warning" />
+    <TimelineItem title="A Danger Dot" date="2019-01-31" dotColor="danger" />
+  </Timeline>
+);
+```
+:::
+
+## 带内容描述
+
+除了标题和日期，还可以通过 `content` 属性添加详细的内容描述。
+:::demo
+```jsx
+import { Timeline, TimelineItem } from '@apron-design/react';
+
+export default () => (
+  <Timeline>
+    <TimelineItem
+      title="项目启动"
+      content="完成项目立项和团队组建"
+      date="2023-01-15"
+      dotColor="success"
+    />
+    <TimelineItem
+      title="需求评审"
+      content="完成产品需求文档评审"
+      date="2023-02-20"
+      dotColor="success"
+    />
+    <TimelineItem
+      title="开发中"
+      content="功能开发进行中"
+      date="2023-03-10"
+      dotColor="main"
+    />
+    <TimelineItem
+      title="待测试"
+      content="等待QA测试"
+      date="2023-04-01"
+    />
+  </Timeline>
+);
+```
+:::
+
+## 使用场景
+
+### 订单跟踪
+
+Timeline 组件非常适合用于展示订单的物流跟踪信息。
+:::demo
+```jsx
+import { Timeline, TimelineItem } from '@apron-design/react';
+
+export default () => (
+  <Timeline>
+    <TimelineItem
+      title="订单已签收"
+      content="您的订单已由本人签收，感谢您的购买"
+      date="2023-12-05 14:30"
+      dotColor="success"
+    />
+    <TimelineItem
+      title="派送中"
+      content="快递员正在派送，请保持电话畅通"
+      date="2023-12-05 09:15"
+      dotColor="success"
+    />
+    <TimelineItem
+      title="已到达"
+      content="快件已到达【北京朝阳区营业点】"
+      date="2023-12-04 18:20"
+      dotColor="success"
+    />
+    <TimelineItem
+      title="运输中"
+      content="快件正在运往【北京转运中心】"
+      date="2023-12-03 22:00"
+      dotColor="success"
+    />
+    <TimelineItem
+      title="已发货"
+      content="商家已发货，快递公司：顺丰速运"
+      date="2023-12-02 16:00"
+      dotColor="success"
+    />
+  </Timeline>
+);
+```
+:::
+
+### 版本历史
+
+Timeline 组件也可用于展示产品的版本迭代历史。
+:::demo
+```jsx
+import { Timeline, TimelineItem } from '@apron-design/react';
+
+export default () => (
+  <Timeline side="left">
+    <TimelineItem
+      title="v2.0.0"
+      content="全新设计系统，支持暗色模式"
+      date="2023-12-01"
+      dotColor="primary"
+    />
+    <TimelineItem
+      title="v1.5.0"
+      content="新增 Timeline 组件"
+      date="2023-11-15"
+      dotColor="main"
+    />
+    <TimelineItem
+      title="v1.0.0"
+      content="首个正式版本发布"
+      date="2023-10-01"
+    />
+  </Timeline>
+);
+```
+:::
+
+## 暗色模式
+
+Timeline 组件支持暗色模式，在暗色主题下会自动应用合适的样式。
+:::demo
+```jsx
+import { Timeline, TimelineItem } from '@apron-design/react';
+
+export default () => (
+  <div
+    data-theme="dark"
+    style={{
+      padding: '32px',
+      backgroundColor: '#18181b',
+      borderRadius: '12px',
+      display: 'flex',
+      gap: '48px',
+    }}
+  >
+    <div style={{ flex: 1 }}>
+      <h4 style={{ margin: '0 0 16px 0', color: '#a1a1aa' }}>右侧内容</h4>
+      <Timeline>
+        <TimelineItem title="The first milestone" date="2017-03-10" dotColor="primary" />
+        <TimelineItem title="The second milestone" date="2018-05-10" dotColor="main" />
+        <TimelineItem title="The third milestone" date="2019-01-31" dotColor="success" />
+      </Timeline>
+    </div>
+    <div style={{ flex: 1 }}>
+      <h4 style={{ margin: '0 0 16px 0', color: '#a1a1aa' }}>左侧内容</h4>
+      <Timeline side="left">
+        <TimelineItem title="The first milestone" date="2017-03-10" />
+        <TimelineItem title="The second milestone" date="2018-05-10" />
+      </Timeline>
+    </div>
+  </div>
+);
+```
+:::
+
+## API
+
+### Timeline
+
+| 参数名 | 描述 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| side | 内容显示位置 | `'left' \| 'right' \| 'both'` | `'right'` |
+| children | 子元素 | `ReactNode` | `-` |
+
+### TimelineItem
+
+| 参数名 | 描述 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| title | 标题 | `ReactNode` | `-` |
+| content | 内容 | `ReactNode` | `-` |
+| date | 日期 | `ReactNode` | `-` |
+| dotColor | 点颜色 | `'default' \| 'primary' \| 'main' \| 'success' \| 'warning' \| 'danger'` | `'default'` |
+| children | 子元素（作为 content 使用） | `ReactNode` | `-` |5:["$","$L13",null,{"navigation":[{"title":"","items":[{"label":"开始使用","href":"/react/getting-started"}]},{"title":"通用","items":[{"label":"按钮 Button","href":"/react/button"},{"label":"图标 Icons","href":"/react/icon"},{"label":"链接 Link","href":"/react/link"}]},{"title":"布局","items":[{"label":"分割线 Divider","href":"/react/divider"},{"label":"栅格 Grid","href":"/react/grid"},{"label":"间距 Space","href":"/react/space"}]},{"title":"数据展示","items":[{"label":"头像 Avatar","href":"/react/avatar"},{"label":"徽章 Badge","href":"/react/badge"},{"label":"卡片 Card","href":"/react/card"},{"label":"折叠面板 Collapse","href":"/react/collapse"},{"label":"空状态 Empty","href":"/react/empty"},{"label":"图片 Image","href":"/react/image"},{"label":"气泡 Popover","href":"/react/popover"},{"label":"标签页 Tabs","href":"/react/tabs"},{"label":"标签 Tag","href":"/react/tag"},{"label":"时间线 Timeline","href":"/react/timeline"},{"label":"工具提示 Tooltip","href":"/react/tooltip"}]},{"title":"机器码","items":[{"label":"条形码 Barcode","href":"/react/barcode"},{"label":"二维码 2D Barcode","href":"/react/2d-barcode"}]},{"title":"表单","items":[{"label":"表单 Form","href":"/react/form"},{"label":"级联选择器 Cascader","href":"/react/cascader"},{"label":"复选框 Checkbox","href":"/react/checkbox"},{"label":"日期选择器 DatePicker","href":"/react/date-picker"},{"label":"输入框 Input","href":"/react/input"},{"label":"一次性密码输入框 Input OTP","href":"/react/input-otp"},{"label":"单选框 Radio","href":"/react/radio"},{"label":"评分 Rate","href":"/react/rate"},{"label":"选择器 Select","href":"/react/select"},{"label":"开关 Switch","href":"/react/switch"}]},{"title":"反馈","items":[{"label":"警告 Alert","href":"/react/alert"},{"label":"抽屉 Drawer","href":"/react/drawer"},{"label":"消息提示 Message","href":"/react/message"},{"label":"模态框 Modal","href":"/react/modal"},{"label":"气泡确认框 Popconfirm","href":"/react/popconfirm"},{"label":"响应式弹窗 Responsive Modal","href":"/react/responsive-modal"},{"label":"加载中 Spin","href":"/react/spin"},{"label":"骨架屏 Skeleton","href":"/react/skeleton"}]},{"title":"导航","items":[{"label":"步骤 Steps","href":"/react/steps"}]},{"title":"媒体","items":[{"label":"视频 Video","href":"/react/video"},{"label":"音频 Audio","href":"/react/audio"}]}],"children":["$","$L14",null,{"content":"$15"}]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+16:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"IconMark"]
+12:[["$","title","0",{"children":"Apron Design · 秩序之下 · 想象之上"}],["$","meta","1",{"name":"description","content":"Apron Design 是一套完全开源的 C 端组件库方案，支持 React、Vue3 和微信小程序多端开发。提供丰富的 UI 组件、优雅的设计系统和完善的开发文档，助力开发者快速构建高质量的用户界面。秩序之下，想象之上，解构复杂，聚合光芒。"}],["$","meta","2",{"name":"keywords","content":"组件库,React组件库,Vue组件库,Vue3组件库,微信小程序,小程序,UI组件,开源组件库,前端组件,设计系统,Apron Design,C端组件,跨端开发,用户界面"}],["$","link","3",{"rel":"shortcut icon","href":"/logo.png"}],["$","link","4",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","5",{"rel":"icon","href":"/facicon.ico","sizes":"32x32","type":"image/x-icon"}],["$","link","6",{"rel":"icon","href":"/facicon.ico","sizes":"16x16","type":"image/x-icon"}],["$","link","7",{"rel":"apple-touch-icon","href":"/logo.png"}],["$","$L16","8",{}]]
+e:null

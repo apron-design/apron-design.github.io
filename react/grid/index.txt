@@ -1,0 +1,602 @@
+1:"$Sreact.fragment"
+2:I[69729,["/_next/static/chunks/295d483fd0fe7058.js","/_next/static/chunks/fe93460109729919.js"],"ClientProviders"]
+3:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"default"]
+4:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"default"]
+b:I[68027,[],"default"]
+:HL["/_next/static/chunks/2473c16c0c2f6b5f.css","style"]
+:HL["/_next/static/chunks/c41c0ed4a8f4b053.css","style"]
+:HL["/_next/static/chunks/34edf2a1acad8c83.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/chunks/27d157f2e01e213f.css","style"]
+:HL["/_next/static/chunks/d4eba06d3fc69c2c.css","style"]
+0:{"P":null,"b":"tH6OUC4Sz0vszgR2qMeO_","c":["","react","grid",""],"q":"","i":false,"f":[[["",{"children":["react",{"children":[["alias","grid","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2473c16c0c2f6b5f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/c41c0ed4a8f4b053.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/34edf2a1acad8c83.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/295d483fd0fe7058.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/fe93460109729919.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/x-icon","href":"/facicon.ico"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function() {\n                try {\n                  const stored = localStorage.getItem(\"theme\");\n                  const prefersDark = window.matchMedia(\"(prefers-color-scheme: dark)\").matches;\n                  const shouldBeDark = stored === \"dark\" || (!stored && prefersDark);\n                  const themeValue = shouldBeDark ? \"dark\" : \"light\";\n                  const bgColor = shouldBeDark ? \"#000000\" : \"#FFFFFF\";\n                  document.documentElement.setAttribute(\"data-prefers-color\", themeValue);\n                  document.documentElement.style.backgroundColor = bgColor;\n                  if (document.body) {\n                    document.body.style.backgroundColor = bgColor;\n                  }\n                } catch (e) {\n                  document.documentElement.setAttribute(\"data-prefers-color\", \"light\");\n                  document.documentElement.style.backgroundColor = \"#FFFFFF\";\n                }\n              })();\n            "}}]]}],["$","body",null,{"className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased","children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/27d157f2e01e213f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d4eba06d3fc69c2c.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$L6","$L7","$L8"],"$L9"]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$La",false]],"m":"$undefined","G":["$b",[]],"S":true}
+c:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"OutletBoundary"]
+d:"$Sreact.suspense"
+f:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"ViewportBoundary"]
+11:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"MetadataBoundary"]
+6:["$","script","script-0",{"src":"/_next/static/chunks/ff1a16fafef87110.js","async":true,"nonce":"$undefined"}]
+7:["$","script","script-1",{"src":"/_next/static/chunks/9411384d87935784.js","async":true,"nonce":"$undefined"}]
+8:["$","script","script-2",{"src":"/_next/static/chunks/77d8d9e11e296d58.js","async":true,"nonce":"$undefined"}]
+9:["$","$Lc",null,{"children":["$","$d",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]
+a:["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$@10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$d",null,{"name":"Next.Metadata","children":"$@12"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+13:I[80758,["/_next/static/chunks/295d483fd0fe7058.js","/_next/static/chunks/fe93460109729919.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/9411384d87935784.js","/_next/static/chunks/77d8d9e11e296d58.js"],"Documents"]
+14:I[90186,["/_next/static/chunks/295d483fd0fe7058.js","/_next/static/chunks/fe93460109729919.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/9411384d87935784.js","/_next/static/chunks/77d8d9e11e296d58.js"],"MarkdownRenderer"]
+15:T39df,# 栅格 Grid
+
+24 栅格系统，帮助开发者快速创建响应式布局。
+
+## 设计理念
+
+在多数业务情况下，Ant Design 需要在设计区域内解决大量信息收纳的问题，因此在 12 栅格系统的基础上，我们将整个设计建议区域按照 24 等分的原则进行划分。
+
+划分之后的信息区块我们称之为『盒子』。建议横向排列的盒子数量最多四个，最少一个。『盒子』在整个屏幕上占比见上图。设计部分基于盒子的单位定制盒子内部的排版布局，以保证整体设计的一致性。
+
+## 示例
+
+### 基础栅格
+
+从堆叠到水平排列。使用单一的一组 Row 和 Col 栅格组件，就可以创建一个基本的栅格系统。所有 Col 必须放在 Row 内。
+:::demo
+```jsx
+import { Row, Col } from '@apron-design/react';
+
+const DemoBox = ({ children, height = 40, light = false }) => (
+  <div
+    style={{
+      height,
+      lineHeight: `${height}px`,
+      textAlign: 'center',
+      color: '#fff',
+      backgroundColor: light ? 'rgba(0, 146, 255, 0.75)' : 'rgba(0, 146, 255, 1)',
+      borderRadius: 4,
+    }}
+  >
+    {children}
+  </div>
+);
+
+export default () => (
+  <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+    <Row>
+      <Col span={24}>
+        <DemoBox>col-24</DemoBox>
+      </Col>
+    </Row>
+    <Row>
+      <Col span={12}>
+        <DemoBox>col-12</DemoBox>
+      </Col>
+      <Col span={12}>
+        <DemoBox light>col-12</DemoBox>
+      </Col>
+    </Row>
+    <Row>
+      <Col span={8}>
+        <DemoBox>col-8</DemoBox>
+      </Col>
+      <Col span={8}>
+        <DemoBox light>col-8</DemoBox>
+      </Col>
+      <Col span={8}>
+        <DemoBox>col-8</DemoBox>
+      </Col>
+    </Row>
+    <Row>
+      <Col span={6}>
+        <DemoBox>col-6</DemoBox>
+      </Col>
+      <Col span={6}>
+        <DemoBox light>col-6</DemoBox>
+      </Col>
+      <Col span={6}>
+        <DemoBox>col-6</DemoBox>
+      </Col>
+      <Col span={6}>
+        <DemoBox light>col-6</DemoBox>
+      </Col>
+    </Row>
+  </div>
+);
+```
+:::
+
+### 区块间隔
+
+栅格常常需要和间隔进行配合，你可以使用 Row 的 gutter 属性来指定每一栏之间的间隔，推荐使用 (16+8n)px 作为栅格间隔（n 是自然数）。
+:::demo
+```jsx
+import { Row, Col } from '@apron-design/react';
+
+const DemoBox = ({ children, height = 40, light = false }) => (
+  <div
+    style={{
+      height,
+      lineHeight: `${height}px`,
+      textAlign: 'center',
+      color: '#fff',
+      backgroundColor: light ? 'rgba(0, 146, 255, 0.75)' : 'rgba(0, 146, 255, 1)',
+      borderRadius: 4,
+    }}
+  >
+    {children}
+  </div>
+);
+
+export default () => (
+  <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+    <p>水平间隔 16px</p>
+    <Row gutter={16}>
+      <Col span={6}>
+        <DemoBox>col-6</DemoBox>
+      </Col>
+      <Col span={6}>
+        <DemoBox>col-6</DemoBox>
+      </Col>
+      <Col span={6}>
+        <DemoBox>col-6</DemoBox>
+      </Col>
+      <Col span={6}>
+        <DemoBox>col-6</DemoBox>
+      </Col>
+    </Row>
+    
+    <p>水平间隔 16px，垂直间隔 24px</p>
+    <Row gutter={[16, 24]}>
+      <Col span={6}>
+        <DemoBox>col-6</DemoBox>
+      </Col>
+      <Col span={6}>
+        <DemoBox>col-6</DemoBox>
+      </Col>
+      <Col span={6}>
+        <DemoBox>col-6</DemoBox>
+      </Col>
+      <Col span={6}>
+        <DemoBox>col-6</DemoBox>
+      </Col>
+      <Col span={6}>
+        <DemoBox>col-6</DemoBox>
+      </Col>
+      <Col span={6}>
+        <DemoBox>col-6</DemoBox>
+      </Col>
+      <Col span={6}>
+        <DemoBox>col-6</DemoBox>
+      </Col>
+      <Col span={6}>
+        <DemoBox>col-6</DemoBox>
+      </Col>
+    </Row>
+  </div>
+);
+```
+:::
+
+### 左右偏移
+
+使用 offset 可以将列向右侧偏移。
+:::demo
+```jsx
+import { Row, Col } from '@apron-design/react';
+
+const DemoBox = ({ children, height = 40, light = false }) => (
+  <div
+    style={{
+      height,
+      lineHeight: `${height}px`,
+      textAlign: 'center',
+      color: '#fff',
+      backgroundColor: light ? 'rgba(0, 146, 255, 0.75)' : 'rgba(0, 146, 255, 1)',
+      borderRadius: 4,
+    }}
+  >
+    {children}
+  </div>
+);
+
+export default () => (
+  <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+    <Row>
+      <Col span={8}>
+        <DemoBox>col-8</DemoBox>
+      </Col>
+      <Col span={8} offset={8}>
+        <DemoBox>col-8 offset-8</DemoBox>
+      </Col>
+    </Row>
+    <Row>
+      <Col span={6} offset={6}>
+        <DemoBox>col-6 offset-6</DemoBox>
+      </Col>
+      <Col span={6} offset={6}>
+        <DemoBox>col-6 offset-6</DemoBox>
+      </Col>
+    </Row>
+    <Row>
+      <Col span={12} offset={6}>
+        <DemoBox>col-12 offset-6</DemoBox>
+      </Col>
+    </Row>
+  </div>
+);
+```
+:::
+
+### 栅格排序
+
+通过使用 push 和 pull 类就可以很容易的改变列的顺序。
+:::demo
+```jsx
+import { Row, Col } from '@apron-design/react';
+
+const DemoBox = ({ children, height = 40, light = false }) => (
+  <div
+    style={{
+      height,
+      lineHeight: `${height}px`,
+      textAlign: 'center',
+      color: '#fff',
+      backgroundColor: light ? 'rgba(0, 146, 255, 0.75)' : 'rgba(0, 146, 255, 1)',
+      borderRadius: 4,
+    }}
+  >
+    {children}
+  </div>
+);
+
+export default () => (
+  <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+    <Row>
+      <Col span={18} push={6}>
+        <DemoBox>col-18 push-6</DemoBox>
+      </Col>
+      <Col span={6} pull={18}>
+        <DemoBox light>col-6 pull-18</DemoBox>
+      </Col>
+    </Row>
+  </div>
+);
+```
+:::
+
+### 水平排列
+
+通过 Row 的 justify 属性可以设置列在水平方向上的对齐方式。
+:::demo
+```jsx
+import { Row, Col } from '@apron-design/react';
+
+const DemoBox = ({ children, height = 40, light = false }) => (
+  <div
+    style={{
+      height,
+      lineHeight: `${height}px`,
+      textAlign: 'center',
+      color: '#fff',
+      backgroundColor: light ? 'rgba(0, 146, 255, 0.75)' : 'rgba(0, 146, 255, 1)',
+      borderRadius: 4,
+    }}
+  >
+    {children}
+  </div>
+);
+
+export default () => (
+  <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+    <p>justify: start</p>
+    <Row justify="start" style={{ background: 'rgba(0, 0, 0, 0.05)' }}>
+      <Col span={4}>
+        <DemoBox>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox light>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox light>col-4</DemoBox>
+      </Col>
+    </Row>
+
+    <p>justify: center</p>
+    <Row justify="center" style={{ background: 'rgba(0, 0, 0, 0.05)' }}>
+      <Col span={4}>
+        <DemoBox>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox light>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox light>col-4</DemoBox>
+      </Col>
+    </Row>
+
+    <p>justify: end</p>
+    <Row justify="end" style={{ background: 'rgba(0, 0, 0, 0.05)' }}>
+      <Col span={4}>
+        <DemoBox>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox light>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox light>col-4</DemoBox>
+      </Col>
+    </Row>
+
+    <p>justify: space-between</p>
+    <Row justify="space-between" style={{ background: 'rgba(0, 0, 0, 0.05)' }}>
+      <Col span={4}>
+        <DemoBox>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox light>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox light>col-4</DemoBox>
+      </Col>
+    </Row>
+
+    <p>justify: space-around</p>
+    <Row justify="space-around" style={{ background: 'rgba(0, 0, 0, 0.05)' }}>
+      <Col span={4}>
+        <DemoBox>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox light>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox light>col-4</DemoBox>
+      </Col>
+    </Row>
+
+    <p>justify: space-evenly</p>
+    <Row justify="space-evenly" style={{ background: 'rgba(0, 0, 0, 0.05)' }}>
+      <Col span={4}>
+        <DemoBox>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox light>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox light>col-4</DemoBox>
+      </Col>
+    </Row>
+  </div>
+);
+```
+:::
+
+### 垂直对齐
+
+通过 Row 的 align 属性可以设置列在垂直方向上的对齐方式。
+:::demo
+```jsx
+import { Row, Col } from '@apron-design/react';
+
+const DemoBox = ({ children, height = 40, light = false }) => (
+  <div
+    style={{
+      height,
+      lineHeight: `${height}px`,
+      textAlign: 'center',
+      color: '#fff',
+      backgroundColor: light ? 'rgba(0, 146, 255, 0.75)' : 'rgba(0, 146, 255, 1)',
+      borderRadius: 4,
+    }}
+  >
+    {children}
+  </div>
+);
+
+export default () => (
+  <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+    <p>align: top</p>
+    <Row align="top" justify="center" style={{ background: 'rgba(0, 0, 0, 0.05)' }}>
+      <Col span={4}>
+        <DemoBox height={100}>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox height={50} light>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox height={120}>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox height={80} light>col-4</DemoBox>
+      </Col>
+    </Row>
+
+    <p>align: middle</p>
+    <Row align="middle" justify="center" style={{ background: 'rgba(0, 0, 0, 0.05)' }}>
+      <Col span={4}>
+        <DemoBox height={100}>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox height={50} light>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox height={120}>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox height={80} light>col-4</DemoBox>
+      </Col>
+    </Row>
+
+    <p>align: bottom</p>
+    <Row align="bottom" justify="center" style={{ background: 'rgba(0, 0, 0, 0.05)' }}>
+      <Col span={4}>
+        <DemoBox height={100}>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox height={50} light>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox height={120}>col-4</DemoBox>
+      </Col>
+      <Col span={4}>
+        <DemoBox height={80} light>col-4</DemoBox>
+      </Col>
+    </Row>
+  </div>
+);
+```
+:::
+
+### Flex 布局
+
+通过 Col 的 flex 属性可以设置弹性布局。
+:::demo
+```jsx
+import { Row, Col } from '@apron-design/react';
+
+const DemoBox = ({ children, height = 40, light = false }) => (
+  <div
+    style={{
+      height,
+      lineHeight: `${height}px`,
+      textAlign: 'center',
+      color: '#fff',
+      backgroundColor: light ? 'rgba(0, 146, 255, 0.75)' : 'rgba(0, 146, 255, 1)',
+      borderRadius: 4,
+    }}
+  >
+    {children}
+  </div>
+);
+
+export default () => (
+  <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+    <p>百分比</p>
+    <Row>
+      <Col flex={2}>
+        <DemoBox>2 / 5</DemoBox>
+      </Col>
+      <Col flex={3}>
+        <DemoBox light>3 / 5</DemoBox>
+      </Col>
+    </Row>
+
+    <p>固定宽度</p>
+    <Row>
+      <Col flex="100px">
+        <DemoBox>100px</DemoBox>
+      </Col>
+      <Col flex="auto">
+        <DemoBox light>auto</DemoBox>
+      </Col>
+    </Row>
+
+    <p>flex 属性</p>
+    <Row>
+      <Col flex="1 1 200px">
+        <DemoBox>1 1 200px</DemoBox>
+      </Col>
+      <Col flex="0 1 300px">
+        <DemoBox light>0 1 300px</DemoBox>
+      </Col>
+    </Row>
+  </div>
+);
+```
+:::
+
+### 响应式布局
+
+预设六个响应尺寸：xs、sm、md、lg、xl、xxl。
+:::demo
+```jsx
+import { Row, Col } from '@apron-design/react';
+
+const DemoBox = ({ children, height = 40, light = false }) => (
+  <div
+    style={{
+      height,
+      lineHeight: `${height}px`,
+      textAlign: 'center',
+      color: '#fff',
+      backgroundColor: light ? 'rgba(0, 146, 255, 0.75)' : 'rgba(0, 146, 255, 1)',
+      borderRadius: 4,
+    }}
+  >
+    {children}
+  </div>
+);
+
+export default () => (
+  <div style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+    <Row gutter={[16, 16]}>
+      <Col xs={24} sm={12} md={8} lg={6} xl={4}>
+        <DemoBox>Col</DemoBox>
+      </Col>
+      <Col xs={24} sm={12} md={8} lg={6} xl={4}>
+        <DemoBox>Col</DemoBox>
+      </Col>
+      <Col xs={24} sm={12} md={8} lg={6} xl={4}>
+        <DemoBox>Col</DemoBox>
+      </Col>
+      <Col xs={24} sm={12} md={8} lg={6} xl={4}>
+        <DemoBox>Col</DemoBox>
+      </Col>
+      <Col xs={24} sm={12} md={8} lg={6} xl={4}>
+        <DemoBox>Col</DemoBox>
+      </Col>
+      <Col xs={24} sm={12} md={8} lg={6} xl={4}>
+        <DemoBox>Col</DemoBox>
+      </Col>
+    </Row>
+  </div>
+);
+```
+:::
+
+## API
+
+### Row
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| gutter | 栅格间隔，可以是数字或数组 [水平间距, 垂直间距] | `number \| [number, number] \| { xs?: Gutter; sm?: Gutter; md?: Gutter; lg?: Gutter; xl?: Gutter; xxl?: Gutter }` | `0` |
+| justify | 水平排列方式 | `'start' \| 'end' \| 'center' \| 'space-around' \| 'space-between' \| 'space-evenly'` | `'start'` |
+| align | 垂直对齐方式 | `'top' \| 'middle' \| 'bottom' \| 'stretch'` | `'top'` |
+| wrap | 是否自动换行 | `boolean` | `true` |
+| children | 子元素 | `ReactNode` | - |
+
+### Col
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| span | 栅格占位格数，为 0 时相当于 display: none | `number \| string` | - |
+| offset | 栅格左侧的间隔格数 | `number` | `0` |
+| order | 栅格顺序 | `number` | `0` |
+| push | 栅格向右移动格数 | `number` | `0` |
+| pull | 栅格向左移动格数 | `number` | `0` |
+| flex | flex 布局属性 | `string \| number` | - |
+| xs | <576px 响应式栅格 | `number \| string \| { span?: number \| string; offset?: number; order?: number; push?: number; pull?: number }` | - |
+| sm | ≥576px 响应式栅格 | `number \| string \| { span?: number \| string; offset?: number; order?: number; push?: number; pull?: number }` | - |
+| md | ≥768px 响应式栅格 | `number \| string \| { span?: number \| string; offset?: number; order?: number; push?: number; pull?: number }` | - |
+| lg | ≥992px 响应式栅格 | `number \| string \| { span?: number \| string; offset?: number; order?: number; push?: number; pull?: number }` | - |
+| xl | ≥1200px 响应式栅格 | `number \| string \| { span?: number \| string; offset?: number; order?: number; push?: number; pull?: number }` | - |
+| xxl | ≥1600px 响应式栅格 | `number \| string \| { span?: number \| string; offset?: number; order?: number; push?: number; pull?: number }` | - |
+| children | 子元素 | `ReactNode` | - |5:["$","$L13",null,{"navigation":[{"title":"","items":[{"label":"开始使用","href":"/react/getting-started"}]},{"title":"通用","items":[{"label":"按钮 Button","href":"/react/button"},{"label":"图标 Icons","href":"/react/icon"},{"label":"链接 Link","href":"/react/link"}]},{"title":"布局","items":[{"label":"分割线 Divider","href":"/react/divider"},{"label":"栅格 Grid","href":"/react/grid"},{"label":"间距 Space","href":"/react/space"}]},{"title":"数据展示","items":[{"label":"头像 Avatar","href":"/react/avatar"},{"label":"徽章 Badge","href":"/react/badge"},{"label":"卡片 Card","href":"/react/card"},{"label":"折叠面板 Collapse","href":"/react/collapse"},{"label":"空状态 Empty","href":"/react/empty"},{"label":"图片 Image","href":"/react/image"},{"label":"气泡 Popover","href":"/react/popover"},{"label":"标签页 Tabs","href":"/react/tabs"},{"label":"标签 Tag","href":"/react/tag"},{"label":"时间线 Timeline","href":"/react/timeline"},{"label":"工具提示 Tooltip","href":"/react/tooltip"}]},{"title":"机器码","items":[{"label":"条形码 Barcode","href":"/react/barcode"},{"label":"二维码 2D Barcode","href":"/react/2d-barcode"}]},{"title":"表单","items":[{"label":"表单 Form","href":"/react/form"},{"label":"级联选择器 Cascader","href":"/react/cascader"},{"label":"复选框 Checkbox","href":"/react/checkbox"},{"label":"日期选择器 DatePicker","href":"/react/date-picker"},{"label":"输入框 Input","href":"/react/input"},{"label":"一次性密码输入框 Input OTP","href":"/react/input-otp"},{"label":"单选框 Radio","href":"/react/radio"},{"label":"评分 Rate","href":"/react/rate"},{"label":"选择器 Select","href":"/react/select"},{"label":"开关 Switch","href":"/react/switch"}]},{"title":"反馈","items":[{"label":"警告 Alert","href":"/react/alert"},{"label":"抽屉 Drawer","href":"/react/drawer"},{"label":"消息提示 Message","href":"/react/message"},{"label":"模态框 Modal","href":"/react/modal"},{"label":"气泡确认框 Popconfirm","href":"/react/popconfirm"},{"label":"响应式弹窗 Responsive Modal","href":"/react/responsive-modal"},{"label":"加载中 Spin","href":"/react/spin"},{"label":"骨架屏 Skeleton","href":"/react/skeleton"}]},{"title":"导航","items":[{"label":"步骤 Steps","href":"/react/steps"}]},{"title":"媒体","items":[{"label":"视频 Video","href":"/react/video"},{"label":"音频 Audio","href":"/react/audio"}]}],"children":["$","$L14",null,{"content":"$15"}]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+16:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"IconMark"]
+12:[["$","title","0",{"children":"Apron Design · 秩序之下 · 想象之上"}],["$","meta","1",{"name":"description","content":"Apron Design 是一套完全开源的 C 端组件库方案，支持 React、Vue3 和微信小程序多端开发。提供丰富的 UI 组件、优雅的设计系统和完善的开发文档，助力开发者快速构建高质量的用户界面。秩序之下，想象之上，解构复杂，聚合光芒。"}],["$","meta","2",{"name":"keywords","content":"组件库,React组件库,Vue组件库,Vue3组件库,微信小程序,小程序,UI组件,开源组件库,前端组件,设计系统,Apron Design,C端组件,跨端开发,用户界面"}],["$","link","3",{"rel":"shortcut icon","href":"/logo.png"}],["$","link","4",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","5",{"rel":"icon","href":"/facicon.ico","sizes":"32x32","type":"image/x-icon"}],["$","link","6",{"rel":"icon","href":"/facicon.ico","sizes":"16x16","type":"image/x-icon"}],["$","link","7",{"rel":"apple-touch-icon","href":"/logo.png"}],["$","$L16","8",{}]]
+e:null

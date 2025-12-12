@@ -1,0 +1,150 @@
+1:"$Sreact.fragment"
+2:I[80758,["/_next/static/chunks/295d483fd0fe7058.js","/_next/static/chunks/fe93460109729919.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/9411384d87935784.js","/_next/static/chunks/77d8d9e11e296d58.js"],"Documents"]
+3:I[90186,["/_next/static/chunks/295d483fd0fe7058.js","/_next/static/chunks/fe93460109729919.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/9411384d87935784.js","/_next/static/chunks/77d8d9e11e296d58.js"],"MarkdownRenderer"]
+b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"OutletBoundary"]
+c:"$Sreact.suspense"
+:HL["/_next/static/chunks/27d157f2e01e213f.css","style"]
+:HL["/_next/static/chunks/d4eba06d3fc69c2c.css","style"]
+4:Tacb,# 分割线 Divider
+
+区隔内容的分割线，可用于对不同内容进行分组或分隔。
+
+## 何时使用
+
+- 对不同内容区域进行分隔
+- 对长列表或表单进行分组
+- 创建视觉上的层次感
+
+## 示例
+
+### 基础用法
+
+最简单的用法，渲染一条水平分割线。
+:::demo
+```jsx
+import { Divider } from '@apron-design/react';
+
+export default () => (
+  <>
+    <p>这是第一段内容</p>
+    <Divider />
+    <p>这是第二段内容</p>
+  </>
+);
+```
+:::
+
+### 虚线分割线
+
+通过设置 `dashed` 属性渲染虚线分割线。
+:::demo
+```jsx
+import { Divider } from '@apron-design/react';
+
+export default () => (
+  <div>
+    <p>实线分割线</p>
+    <Divider />
+    <p>虚线分割线</p>
+    <Divider dashed />
+    <p>内容继续</p>
+  </div>
+);
+```
+:::
+
+### 带文字的分割线
+
+给分割线添加文字，方便描述或分隔不同内容。
+:::demo
+```jsx
+import { Divider } from '@apron-design/react';
+
+export default () => (
+  <div>
+    <p>第一部分内容</p>
+    <Divider>或者</Divider>
+    <p>第二部分内容</p>
+  </div>
+);
+```
+:::
+
+### 文字对齐方式
+
+通过 `align` 属性控制文字在分割线中的对齐方式。
+:::demo
+```jsx
+import { Divider } from '@apron-design/react';
+
+export default () => (
+  <div>
+    <Divider align="left">左对齐</Divider>
+    <Divider align="center">居中对齐</Divider>
+    <Divider align="right">右对齐</Divider>
+  </div>
+);
+```
+:::
+
+### 虚线带文字
+
+结合 `dashed` 和文字内容，创建虚线带文字的分割线。
+:::demo
+```jsx
+import { Divider } from '@apron-design/react';
+
+export default () => (
+  <div>
+    <Divider dashed>虚线分割</Divider>
+    <Divider align="center" dashed>居中虚线分割</Divider>
+    <Divider align="right" dashed>右对齐虚线分割</Divider>
+  </div>
+);
+```
+:::
+
+### 完整示例
+
+展示分割线的各种使用方式。
+:::demo
+```jsx
+import { Divider } from '@apron-design/react';
+
+export default () => (
+  <div>
+    <p>这是第一段内容，展示无文字分割线。</p>
+    <Divider />
+    
+    <p>这是第二段内容，展示虚线分割线。</p>
+    <Divider dashed />
+    
+    <p>这是第三段内容，展示带文字的分割线。</p>
+    <Divider align="center">或者</Divider>
+    
+    <p>这是第四段内容，展示右对齐的虚线分割。</p>
+    <Divider align="right" dashed>结束</Divider>
+    
+    <p>最后一段内容。</p>
+  </div>
+);
+```
+:::
+
+## API
+
+### Divider
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| dashed | 是否为虚线 | `boolean` | `false` |
+| align | 文字对齐方式 | `'left' \| 'center' \| 'right'` | `'left'` |
+| children | 分割线中的文字内容 | `ReactNode` | - |
+| className | 自定义类名 | `string` | - |0:{"buildId":"tH6OUC4Sz0vszgR2qMeO_","rsc":["$","$1","c",{"children":[["$","$L2",null,{"navigation":[{"title":"","items":[{"label":"开始使用","href":"/react/getting-started"}]},{"title":"通用","items":[{"label":"按钮 Button","href":"/react/button"},{"label":"图标 Icons","href":"/react/icon"},{"label":"链接 Link","href":"/react/link"}]},{"title":"布局","items":[{"label":"分割线 Divider","href":"/react/divider"},{"label":"栅格 Grid","href":"/react/grid"},{"label":"间距 Space","href":"/react/space"}]},{"title":"数据展示","items":[{"label":"头像 Avatar","href":"/react/avatar"},{"label":"徽章 Badge","href":"/react/badge"},{"label":"卡片 Card","href":"/react/card"},{"label":"折叠面板 Collapse","href":"/react/collapse"},{"label":"空状态 Empty","href":"/react/empty"},{"label":"图片 Image","href":"/react/image"},{"label":"气泡 Popover","href":"/react/popover"},{"label":"标签页 Tabs","href":"/react/tabs"},{"label":"标签 Tag","href":"/react/tag"},{"label":"时间线 Timeline","href":"/react/timeline"},{"label":"工具提示 Tooltip","href":"/react/tooltip"}]},{"title":"机器码","items":[{"label":"条形码 Barcode","href":"/react/barcode"},{"label":"二维码 2D Barcode","href":"/react/2d-barcode"}]},{"title":"表单","items":[{"label":"表单 Form","href":"/react/form"},{"label":"级联选择器 Cascader","href":"/react/cascader"},{"label":"复选框 Checkbox","href":"/react/checkbox"},{"label":"日期选择器 DatePicker","href":"/react/date-picker"},{"label":"输入框 Input","href":"/react/input"},{"label":"一次性密码输入框 Input OTP","href":"/react/input-otp"},{"label":"单选框 Radio","href":"/react/radio"},{"label":"评分 Rate","href":"/react/rate"},{"label":"选择器 Select","href":"/react/select"},{"label":"开关 Switch","href":"/react/switch"}]},{"title":"反馈","items":[{"label":"警告 Alert","href":"/react/alert"},{"label":"抽屉 Drawer","href":"/react/drawer"},{"label":"消息提示 Message","href":"/react/message"},{"label":"模态框 Modal","href":"/react/modal"},{"label":"气泡确认框 Popconfirm","href":"/react/popconfirm"},{"label":"响应式弹窗 Responsive Modal","href":"/react/responsive-modal"},{"label":"加载中 Spin","href":"/react/spin"},{"label":"骨架屏 Skeleton","href":"/react/skeleton"}]},{"title":"导航","items":[{"label":"步骤 Steps","href":"/react/steps"}]},{"title":"媒体","items":[{"label":"视频 Video","href":"/react/video"},{"label":"音频 Audio","href":"/react/audio"}]}],"children":["$","$L3",null,{"content":"$4"}]}],["$L5","$L6","$L7","$L8","$L9"],"$La"]}],"loading":null,"isPartial":false}
+5:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/27d157f2e01e213f.css","precedence":"next"}]
+6:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d4eba06d3fc69c2c.css","precedence":"next"}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/ff1a16fafef87110.js","async":true}]
+8:["$","script","script-1",{"src":"/_next/static/chunks/9411384d87935784.js","async":true}]
+9:["$","script","script-2",{"src":"/_next/static/chunks/77d8d9e11e296d58.js","async":true}]
+a:["$","$Lb",null,{"children":["$","$c",null,{"name":"Next.MetadataOutlet","children":"$@d"}]}]
+d:null

@@ -1,0 +1,238 @@
+1:"$Sreact.fragment"
+2:I[80758,["/_next/static/chunks/295d483fd0fe7058.js","/_next/static/chunks/fe93460109729919.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/9411384d87935784.js","/_next/static/chunks/77d8d9e11e296d58.js"],"Documents"]
+3:I[90186,["/_next/static/chunks/295d483fd0fe7058.js","/_next/static/chunks/fe93460109729919.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/9411384d87935784.js","/_next/static/chunks/77d8d9e11e296d58.js"],"MarkdownRenderer"]
+b:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"OutletBoundary"]
+c:"$Sreact.suspense"
+:HL["/_next/static/chunks/27d157f2e01e213f.css","style"]
+:HL["/_next/static/chunks/d4eba06d3fc69c2c.css","style"]
+4:T1551,# 按钮 Button
+
+按钮用于开始一个即时操作。
+
+## 何时使用
+
+标记了一个（或封装一组）操作命令，响应用户点击行为，触发相应的业务逻辑。
+
+## 代码演示
+
+### 基本用法
+
+基础的按钮用法。
+:::demo
+```jsx
+import React from 'react';
+import { Button } from '@apron-design/react';
+
+export default () => (
+  <Button>Button</Button>
+);
+```
+:::
+
+### 按钮类型
+
+按钮有五种类型：主按钮、次按钮、默认按钮、文字按钮和链接按钮。
+
+:::demo
+```jsx
+import React from 'react';
+import { Button, Space } from '@apron-design/react';
+
+export default () => (
+  <Space>
+    <Button variant="primary">Primary</Button>
+    <Button variant="secondary">Secondary</Button>
+    <Button variant="default">Default</Button>
+    <Button variant="text">Text</Button>
+    <Button variant="link">Link</Button>
+  </Space>
+);
+```
+:::
+
+### 按钮尺寸
+
+按钮有两种尺寸：中号（40px）和小号（30px）。
+
+:::demo
+```jsx
+import React from 'react';
+import { Button, Space } from '@apron-design/react';
+
+export default () => (
+  <Space>
+    <Button size="md" variant="primary">Medium (40px)</Button>
+    <Button size="sm" variant="primary">Small (30px)</Button>
+  </Space>
+);
+```
+:::
+
+### 虚线边框
+
+通过 `dashed` 属性设置按钮边框为虚线样式。
+
+:::demo
+```jsx
+import React from 'react';
+import { Button } from '@apron-design/react';
+
+export default () => (
+  <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
+    <Button variant="primary" dashed>Primary Dashed</Button>
+    <Button variant="secondary" dashed>Secondary Dashed</Button>
+    <Button variant="default" dashed>Default Dashed</Button>
+  </div>
+);
+```
+:::
+
+### 危险按钮
+
+通过 `danger` 属性设置危险按钮样式，可与其他属性组合使用。
+
+:::demo
+```jsx
+import React from 'react';
+import { Button } from '@apron-design/react';
+
+export default () => (
+  <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
+    <Button variant="primary" danger>Primary Danger</Button>
+    <Button variant="secondary" danger>Secondary Danger</Button>
+    <Button variant="default" danger>Default Danger</Button>
+    <Button variant="text" danger>Text Danger</Button>
+    <Button variant="link" danger>Link Danger</Button>
+  </div>
+);
+```
+:::
+
+### 危险虚线按钮
+
+危险样式与虚线样式的组合。
+
+:::demo
+```jsx
+import React from 'react';
+import { Button } from '@apron-design/react';
+
+export default () => (
+  <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
+    <Button variant="primary" danger dashed>Primary</Button>
+    <Button variant="secondary" danger dashed>Secondary</Button>
+    <Button variant="default" danger dashed>Default</Button>
+  </div>
+);
+```
+:::
+
+### 加载中状态
+
+通过 `loading` 属性设置按钮为加载中状态。
+
+:::demo
+```jsx
+import React from 'react';
+import { Button } from '@apron-design/react';
+
+export default () => (
+  <Button loading>Loading...</Button>
+);
+```
+:::
+
+### 块级按钮
+
+通过 `block` 属性将按钮宽度调整为其父容器宽度。
+
+:::demo
+```jsx
+import React from 'react';
+import { Button } from '@apron-design/react';
+
+export default () => (
+  <div style={{ width: '300px' }}>
+    <Button block>Block Button</Button>
+  </div>
+);
+```
+:::
+
+### 禁用状态
+
+通过 `disabled` 属性禁用按钮。
+
+:::demo
+```jsx
+import React from 'react';
+import { Button } from '@apron-design/react';
+
+export default () => (
+  <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
+    <Button variant="primary" disabled>Primary</Button>
+    <Button variant="secondary" disabled>Secondary</Button>
+    <Button variant="default" disabled>Default</Button>
+    <Button variant="text" disabled>Text</Button>
+    <Button variant="link" disabled>Link</Button>
+  </div>
+);
+```
+:::
+
+### 带图标按钮
+
+通过 `iconLeft` 和 `iconRight` 属性添加图标。
+:::demo
+```jsx
+import React from 'react';
+import { Button } from '@apron-design/react';
+
+const SearchIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+    <circle cx="11" cy="11" r="8" />
+    <path d="m21 21-4.35-4.35" />
+  </svg>
+);
+
+const ArrowIcon = () => (
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+    <path d="M5 12h14M12 5l7 7-7 7" />
+  </svg>
+);
+
+export default () => (
+  <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
+    <Button iconLeft={<SearchIcon />}>Search</Button>
+    <Button iconRight={<ArrowIcon />}>Next</Button>
+    <Button iconLeft={<SearchIcon />} iconRight={<ArrowIcon />}>
+      Both Icons
+    </Button>
+  </div>
+);
+```
+:::
+
+## API
+
+通过设置 Button 的属性来产生不同的按钮样式。
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| variant | 设置按钮类型 | `primary` \| `secondary` \| `default` \| `text` \| `link` | `primary` |
+| size | 设置按钮大小 | `md` \| `sm` | `md` |
+| dashed | 设置按钮边框为虚线 | boolean | false |
+| danger | 设置危险按钮 | boolean | false |
+| loading | 设置按钮载入状态 | boolean | false |
+| block | 将按钮宽度调整为其父宽度的选项 | boolean | false |
+| disabled | 按钮失效状态 | boolean | false |
+| iconLeft | 左侧图标 | ReactNode | - |
+| iconRight | 右侧图标 | ReactNode | - |
+| onClick | 点击按钮时的回调 | (event) => void | - |0:{"buildId":"tH6OUC4Sz0vszgR2qMeO_","rsc":["$","$1","c",{"children":[["$","$L2",null,{"navigation":[{"title":"","items":[{"label":"开始使用","href":"/react/getting-started"}]},{"title":"通用","items":[{"label":"按钮 Button","href":"/react/button"},{"label":"图标 Icons","href":"/react/icon"},{"label":"链接 Link","href":"/react/link"}]},{"title":"布局","items":[{"label":"分割线 Divider","href":"/react/divider"},{"label":"栅格 Grid","href":"/react/grid"},{"label":"间距 Space","href":"/react/space"}]},{"title":"数据展示","items":[{"label":"头像 Avatar","href":"/react/avatar"},{"label":"徽章 Badge","href":"/react/badge"},{"label":"卡片 Card","href":"/react/card"},{"label":"折叠面板 Collapse","href":"/react/collapse"},{"label":"空状态 Empty","href":"/react/empty"},{"label":"图片 Image","href":"/react/image"},{"label":"气泡 Popover","href":"/react/popover"},{"label":"标签页 Tabs","href":"/react/tabs"},{"label":"标签 Tag","href":"/react/tag"},{"label":"时间线 Timeline","href":"/react/timeline"},{"label":"工具提示 Tooltip","href":"/react/tooltip"}]},{"title":"机器码","items":[{"label":"条形码 Barcode","href":"/react/barcode"},{"label":"二维码 2D Barcode","href":"/react/2d-barcode"}]},{"title":"表单","items":[{"label":"表单 Form","href":"/react/form"},{"label":"级联选择器 Cascader","href":"/react/cascader"},{"label":"复选框 Checkbox","href":"/react/checkbox"},{"label":"日期选择器 DatePicker","href":"/react/date-picker"},{"label":"输入框 Input","href":"/react/input"},{"label":"一次性密码输入框 Input OTP","href":"/react/input-otp"},{"label":"单选框 Radio","href":"/react/radio"},{"label":"评分 Rate","href":"/react/rate"},{"label":"选择器 Select","href":"/react/select"},{"label":"开关 Switch","href":"/react/switch"}]},{"title":"反馈","items":[{"label":"警告 Alert","href":"/react/alert"},{"label":"抽屉 Drawer","href":"/react/drawer"},{"label":"消息提示 Message","href":"/react/message"},{"label":"模态框 Modal","href":"/react/modal"},{"label":"气泡确认框 Popconfirm","href":"/react/popconfirm"},{"label":"响应式弹窗 Responsive Modal","href":"/react/responsive-modal"},{"label":"加载中 Spin","href":"/react/spin"},{"label":"骨架屏 Skeleton","href":"/react/skeleton"}]},{"title":"导航","items":[{"label":"步骤 Steps","href":"/react/steps"}]},{"title":"媒体","items":[{"label":"视频 Video","href":"/react/video"},{"label":"音频 Audio","href":"/react/audio"}]}],"children":["$","$L3",null,{"content":"$4"}]}],["$L5","$L6","$L7","$L8","$L9"],"$La"]}],"loading":null,"isPartial":false}
+5:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/27d157f2e01e213f.css","precedence":"next"}]
+6:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d4eba06d3fc69c2c.css","precedence":"next"}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/ff1a16fafef87110.js","async":true}]
+8:["$","script","script-1",{"src":"/_next/static/chunks/9411384d87935784.js","async":true}]
+9:["$","script","script-2",{"src":"/_next/static/chunks/77d8d9e11e296d58.js","async":true}]
+a:["$","$Lb",null,{"children":["$","$c",null,{"name":"Next.MetadataOutlet","children":"$@d"}]}]
+d:null

@@ -1,0 +1,520 @@
+1:"$Sreact.fragment"
+2:I[69729,["/_next/static/chunks/295d483fd0fe7058.js","/_next/static/chunks/fe93460109729919.js"],"ClientProviders"]
+3:I[39756,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"default"]
+4:I[37457,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"default"]
+b:I[68027,[],"default"]
+:HL["/_next/static/chunks/2473c16c0c2f6b5f.css","style"]
+:HL["/_next/static/chunks/c41c0ed4a8f4b053.css","style"]
+:HL["/_next/static/chunks/34edf2a1acad8c83.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/chunks/27d157f2e01e213f.css","style"]
+:HL["/_next/static/chunks/d4eba06d3fc69c2c.css","style"]
+0:{"P":null,"b":"tH6OUC4Sz0vszgR2qMeO_","c":["","react","modal",""],"q":"","i":false,"f":[[["",{"children":["react",{"children":[["alias","modal","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2473c16c0c2f6b5f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/c41c0ed4a8f4b053.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/34edf2a1acad8c83.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/295d483fd0fe7058.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/fe93460109729919.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/x-icon","href":"/facicon.ico"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function() {\n                try {\n                  const stored = localStorage.getItem(\"theme\");\n                  const prefersDark = window.matchMedia(\"(prefers-color-scheme: dark)\").matches;\n                  const shouldBeDark = stored === \"dark\" || (!stored && prefersDark);\n                  const themeValue = shouldBeDark ? \"dark\" : \"light\";\n                  const bgColor = shouldBeDark ? \"#000000\" : \"#FFFFFF\";\n                  document.documentElement.setAttribute(\"data-prefers-color\", themeValue);\n                  document.documentElement.style.backgroundColor = bgColor;\n                  if (document.body) {\n                    document.body.style.backgroundColor = bgColor;\n                  }\n                } catch (e) {\n                  document.documentElement.setAttribute(\"data-prefers-color\", \"light\");\n                  document.documentElement.style.backgroundColor = \"#FFFFFF\";\n                }\n              })();\n            "}}]]}],["$","body",null,{"className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased","children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/27d157f2e01e213f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d4eba06d3fc69c2c.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$L6","$L7","$L8"],"$L9"]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$La",false]],"m":"$undefined","G":["$b",[]],"S":true}
+c:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"OutletBoundary"]
+d:"$Sreact.suspense"
+f:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"ViewportBoundary"]
+11:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"MetadataBoundary"]
+6:["$","script","script-0",{"src":"/_next/static/chunks/ff1a16fafef87110.js","async":true,"nonce":"$undefined"}]
+7:["$","script","script-1",{"src":"/_next/static/chunks/9411384d87935784.js","async":true,"nonce":"$undefined"}]
+8:["$","script","script-2",{"src":"/_next/static/chunks/77d8d9e11e296d58.js","async":true,"nonce":"$undefined"}]
+9:["$","$Lc",null,{"children":["$","$d",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]
+a:["$","$1","h",{"children":[null,["$","$Lf",null,{"children":"$@10"}],["$","div",null,{"hidden":true,"children":["$","$L11",null,{"children":["$","$d",null,{"name":"Next.Metadata","children":"$@12"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+13:I[80758,["/_next/static/chunks/295d483fd0fe7058.js","/_next/static/chunks/fe93460109729919.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/9411384d87935784.js","/_next/static/chunks/77d8d9e11e296d58.js"],"Documents"]
+14:I[90186,["/_next/static/chunks/295d483fd0fe7058.js","/_next/static/chunks/fe93460109729919.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/9411384d87935784.js","/_next/static/chunks/77d8d9e11e296d58.js"],"MarkdownRenderer"]
+15:T3256,# 对话框 Modal
+
+模态对话框用于显示重要的信息或请求用户输入。它会中断用户的当前操作，直到用户与对话框进行交互。
+
+## 何时使用
+
+- 需要用户确认某些操作时
+- 显示重要信息时
+- 收集用户输入时
+- 展示详细内容时
+
+## 示例
+
+### 基础用法
+
+最简单的对话框，包含标题、内容和默认的操作按钮。
+:::demo
+```jsx
+import { useState } from 'react';
+import { Modal, Button } from '@apron-design/react';
+
+export default function BasicModal() {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <>
+      <Button onClick={() => setOpen(true)}>打开对话框</Button>
+      <Modal
+        open={open}
+        title="基础对话框"
+        onClose={() => setOpen(false)}
+        onOk={() => {
+          console.log('确认');
+          setOpen(false);
+        }}
+      >
+        <p>这是对话框的内容。</p>
+        <p>点击蒙层或按 ESC 键可以关闭对话框。</p>
+      </Modal>
+    </>
+  );
+}
+```
+:::
+
+### 无标题对话框
+
+可以通过省略 `title` 属性来创建无标题的对话框。
+:::demo
+```jsx
+import { useState } from 'react';
+import { Modal, Button } from '@apron-design/react';
+
+export default function WithoutTitleModal() {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <>
+      <Button onClick={() => setOpen(true)}>无标题对话框</Button>
+      <Modal
+        open={open}
+        onClose={() => setOpen(false)}
+        onOk={() => setOpen(false)}
+        showCancel={false}
+        okText="关闭"
+      >
+        <p>这是一个没有标题的对话框。</p>
+      </Modal>
+    </>
+  );
+}
+```
+:::
+
+### 无底部对话框
+
+通过设置 `showFooter` 为 `false` 来隐藏底部操作区域。
+:::demo
+```jsx
+import { useState } from 'react';
+import { Modal, Button } from '@apron-design/react';
+
+export default function WithoutFooterModal() {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <>
+      <Button onClick={() => setOpen(true)}>无底部对话框</Button>
+      <Modal
+        open={open}
+        title="无底部对话框"
+        onClose={() => setOpen(false)}
+        showFooter={false}
+      >
+        <p>这是一个没有底部的对话框。</p>
+        <p>你可以通过关闭按钮或点击蒙层来关闭它。</p>
+      </Modal>
+    </>
+  );
+}
+```
+:::
+
+### 禁止点击蒙层关闭
+
+通过设置 `closeByOverlay` 为 `false` 来禁止用户通过点击蒙层关闭对话框。
+:::demo
+```jsx
+import { useState } from 'react';
+import { Modal, Button } from '@apron-design/react';
+
+export default function NoCloseByOverlayModal() {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <>
+      <Button onClick={() => setOpen(true)}>禁止点击蒙层关闭</Button>
+      <Modal
+        open={open}
+        title="禁止点击蒙层关闭"
+        closeByOverlay={false}
+        onClose={() => setOpen(false)}
+        onOk={() => setOpen(false)}
+        showCancel={false}
+        okText="知道了"
+      >
+        <p>这个对话框不能通过点击蒙层来关闭。</p>
+        <p>请点击按钮或关闭图标来关闭。</p>
+      </Modal>
+    </>
+  );
+}
+```
+:::
+
+### 不可关闭对话框
+
+通过设置 `closable` 和 `closeByOverlay` 为 `false` 来创建不可关闭的对话框。
+:::demo
+```jsx
+import { useState } from 'react';
+import { Modal, Button } from '@apron-design/react';
+
+export default function NotClosableModal() {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <>
+      <Button onClick={() => setOpen(true)}>不可关闭对话框</Button>
+      <Modal
+        open={open}
+        title="重要提示"
+        closable={false}
+        closeByOverlay={false}
+        onClose={() => setOpen(false)}
+        footer={
+          <Button onClick={() => setOpen(false)}>我已阅读并同意</Button>
+        }
+      >
+        <p>这是一条重要信息，你必须阅读后才能关闭。</p>
+        <p>没有关闭按钮，也不能点击蒙层关闭。</p>
+      </Modal>
+    </>
+  );
+}
+```
+:::
+
+### 自定义宽度
+
+通过 `width` 属性来自定义对话框的宽度。
+:::demo
+```jsx
+import { useState } from 'react';
+import { Modal, Button } from '@apron-design/react';
+
+export default function CustomWidthModal() {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <>
+      <Button onClick={() => setOpen(true)}>自定义宽度（800px）</Button>
+      <Modal
+        open={open}
+        title="宽对话框"
+        width={800}
+        onClose={() => setOpen(false)}
+        footer={<Button onClick={() => setOpen(false)}>关闭</Button>}
+      >
+        <p>这是一个宽度为 800px 的对话框。</p>
+      </Modal>
+    </>
+  );
+}
+```
+:::
+
+### 长内容对话框
+
+当内容较长时，对话框会自动显示滚动条。
+:::demo
+```jsx
+import { useState } from 'react';
+import { Modal, Button } from '@apron-design/react';
+
+export default function LongContentModal() {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <>
+      <Button onClick={() => setOpen(true)}>长内容对话框</Button>
+      <Modal
+        open={open}
+        title="长内容对话框"
+        onClose={() => setOpen(false)}
+        footer={<Button onClick={() => setOpen(false)}>关闭</Button>}
+      >
+        {Array.from({ length: 20 }, (_, i) => (
+          <p key={i}>这是第 {i + 1} 段内容。Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        ))}
+      </Modal>
+    </>
+  );
+}
+```
+:::
+
+### 确认对话框
+
+用于确认危险操作的对话框，通常会将确认按钮设置为危险样式。
+:::demo
+```jsx
+import { useState } from 'react';
+import { Modal, Button } from '@apron-design/react';
+
+export default function ConfirmModal() {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <>
+      <Button onClick={() => setOpen(true)}>确认对话框</Button>
+      <Modal
+        open={open}
+        title="确认删除"
+        width={400}
+        onClose={() => setOpen(false)}
+        onOk={() => {
+          console.log('Confirmed!');
+          setOpen(false);
+        }}
+        okText="确认删除"
+        okButtonProps={{ danger: true }}
+      >
+        <p>确定要删除这条记录吗？此操作不可撤销。</p>
+      </Modal>
+    </>
+  );
+}
+```
+:::
+
+### 自定义按钮文字和变种
+
+可以通过 `okText`、`cancelText` 和按钮属性来自定义按钮的文字和样式。
+:::demo
+```jsx
+import { useState } from 'react';
+import { Modal, Button } from '@apron-design/react';
+
+export default function CustomButtonsModal() {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <>
+      <Button onClick={() => setOpen(true)}>自定义按钮</Button>
+      <Modal
+        open={open}
+        title="自定义按钮文字和变种"
+        onClose={() => setOpen(false)}
+        onOk={() => {
+          console.log('提交');
+          setOpen(false);
+        }}
+        okText="提交"
+        cancelText="返回"
+        okButtonProps={{ variant: 'secondary' }}
+        cancelButtonProps={{ variant: 'text' }}
+      >
+        <p>确认按钮使用 secondary 变种，取消按钮使用 text 变种。</p>
+      </Modal>
+    </>
+  );
+}
+```
+:::
+
+### 只有确认按钮
+
+通过设置 `showCancel` 为 `false` 来只显示确认按钮。
+:::demo
+```jsx
+import { useState } from 'react';
+import { Modal, Button } from '@apron-design/react';
+
+export default function WithoutCancelModal() {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <>
+      <Button onClick={() => setOpen(true)}>只有确认按钮</Button>
+      <Modal
+        open={open}
+        title="提示"
+        onClose={() => setOpen(false)}
+        onOk={() => setOpen(false)}
+        showCancel={false}
+        okText="知道了"
+      >
+        <p>这个对话框只有一个确认按钮。</p>
+      </Modal>
+    </>
+  );
+}
+```
+:::
+
+### 表单对话框
+
+在对话框中嵌入表单以收集用户输入。
+:::demo
+```jsx
+import { useState } from 'react';
+import { Modal, Button } from '@apron-design/react';
+
+export default function FormModal() {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <>
+      <Button onClick={() => setOpen(true)}>表单对话框</Button>
+      <Modal
+        open={open}
+        title="新建用户"
+        onClose={() => setOpen(false)}
+        footer={
+          <>
+            <Button onClick={() => setOpen(false)}>取消</Button>
+            <Button onClick={() => setOpen(false)}>提交</Button>
+          </>
+        }
+      >
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
+          <div>
+            <label style={{ display: 'block', marginBottom: '8px', fontWeight: 500 }}>
+              用户名
+            </label>
+            <input
+              type="text"
+              style={{
+                width: '100%',
+                padding: '8px 12px',
+                border: '1px solid #e0e0e0',
+                borderRadius: '8px',
+                boxSizing: 'border-box',
+              }}
+              placeholder="请输入用户名"
+            />
+          </div>
+          <div>
+            <label style={{ display: 'block', marginBottom: '8px', fontWeight: 500 }}>
+              邮箱
+            </label>
+            <input
+              type="email"
+              style={{
+                width: '100%',
+                padding: '8px 12px',
+                border: '1px solid #e0e0e0',
+                borderRadius: '8px',
+                boxSizing: 'border-box',
+              }}
+              placeholder="请输入邮箱"
+            />
+          </div>
+        </div>
+      </Modal>
+    </>
+  );
+}
+```
+:::
+
+### 自定义底部
+
+通过 `footer` 属性来自定义底部内容。
+:::demo
+```jsx
+import { useState } from 'react';
+import { Modal, Button } from '@apron-design/react';
+
+export default function CustomFooterModal() {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <>
+      <Button onClick={() => setOpen(true)}>自定义底部</Button>
+      <Modal
+        open={open}
+        title="自定义底部"
+        onClose={() => setOpen(false)}
+        footer={
+          <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
+            <Button onClick={() => console.log('帮助')}>帮助</Button>
+            <div style={{ display: 'flex', gap: '8px' }}>
+              <Button onClick={() => setOpen(false)}>取消</Button>
+              <Button onClick={() => setOpen(false)}>确定</Button>
+            </div>
+          </div>
+        }
+      >
+        <p>这个对话框有自定义的底部布局。</p>
+      </Modal>
+    </>
+  );
+}
+```
+:::
+
+### 深色模式
+
+在深色模式下，对话框会自动适应主题颜色。
+
+```jsx
+import { useState } from 'react';
+import { Modal, Button } from '@apron-design/react';
+
+export default function DarkModeModal() {
+  const [open, setOpen] = useState(false);
+
+  return (
+    <div data-theme="dark" style={{ padding: '32px', backgroundColor: '#18181b', borderRadius: '12px' }}>
+      <Button onClick={() => setOpen(true)}>Dark Mode Modal</Button>
+      <Modal
+        open={open}
+        title="深色模式"
+        onClose={() => setOpen(false)}
+        footer={
+          <>
+            <Button onClick={() => setOpen(false)}>取消</Button>
+            <Button onClick={() => setOpen(false)}>确定</Button>
+          </>
+        }
+      >
+        <p>这是深色模式下的对话框。</p>
+      </Modal>
+    </div>
+  );
+}
+```
+:::
+
+## API
+
+### Modal Props
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| open | 是否显示对话框 | boolean | `false` |
+| title | 标题 | ReactNode | - |
+| closable | 是否显示关闭按钮 | boolean | `true` |
+| closeByOverlay | 点击蒙层是否可以关闭 | boolean | `true` |
+| onClose | 关闭时的回调 | `() => void` | - |
+| onOk | 点击确认按钮的回调 | `() => void` | - |
+| width | 对话框宽度 | number \| string | `520` |
+| footer | 自定义 footer，设置为 null 则不显示 | ReactNode \| null | - |
+| showFooter | 是否显示 footer | boolean | `true` |
+| okText | 确认按钮文字 | string | `'确定'` |
+| cancelText | 取消按钮文字 | string | `'取消'` |
+| okButtonProps | 确认按钮属性 | [ButtonProps](./button) | - |
+| cancelButtonProps | 取消按钮属性 | [ButtonProps](./button) | - |
+| showCancel | 是否显示取消按钮 | boolean | `true` |
+| children | 子元素（正文内容） | ReactNode | - |
+| className | 自定义类名 | string | - |
+| centered | 是否居中显示 | boolean | `true` |
+| afterOpenChange | 打开/关闭动画完成后的回调 | `(open: boolean) => void` | - |
+
+## 注意事项
+
+1. 对话框打开时会阻止页面滚动
+2. 按 ESC 键可以关闭对话框（除非设置了 `closable={false}`）
+3. 点击蒙层可以关闭对话框（除非设置了 `closeByOverlay={false}`）
+4. 对话框会在页面 body 上创建 Portal，确保层级高于其他元素5:["$","$L13",null,{"navigation":[{"title":"","items":[{"label":"开始使用","href":"/react/getting-started"}]},{"title":"通用","items":[{"label":"按钮 Button","href":"/react/button"},{"label":"图标 Icons","href":"/react/icon"},{"label":"链接 Link","href":"/react/link"}]},{"title":"布局","items":[{"label":"分割线 Divider","href":"/react/divider"},{"label":"栅格 Grid","href":"/react/grid"},{"label":"间距 Space","href":"/react/space"}]},{"title":"数据展示","items":[{"label":"头像 Avatar","href":"/react/avatar"},{"label":"徽章 Badge","href":"/react/badge"},{"label":"卡片 Card","href":"/react/card"},{"label":"折叠面板 Collapse","href":"/react/collapse"},{"label":"空状态 Empty","href":"/react/empty"},{"label":"图片 Image","href":"/react/image"},{"label":"气泡 Popover","href":"/react/popover"},{"label":"标签页 Tabs","href":"/react/tabs"},{"label":"标签 Tag","href":"/react/tag"},{"label":"时间线 Timeline","href":"/react/timeline"},{"label":"工具提示 Tooltip","href":"/react/tooltip"}]},{"title":"机器码","items":[{"label":"条形码 Barcode","href":"/react/barcode"},{"label":"二维码 2D Barcode","href":"/react/2d-barcode"}]},{"title":"表单","items":[{"label":"表单 Form","href":"/react/form"},{"label":"级联选择器 Cascader","href":"/react/cascader"},{"label":"复选框 Checkbox","href":"/react/checkbox"},{"label":"日期选择器 DatePicker","href":"/react/date-picker"},{"label":"输入框 Input","href":"/react/input"},{"label":"一次性密码输入框 Input OTP","href":"/react/input-otp"},{"label":"单选框 Radio","href":"/react/radio"},{"label":"评分 Rate","href":"/react/rate"},{"label":"选择器 Select","href":"/react/select"},{"label":"开关 Switch","href":"/react/switch"}]},{"title":"反馈","items":[{"label":"警告 Alert","href":"/react/alert"},{"label":"抽屉 Drawer","href":"/react/drawer"},{"label":"消息提示 Message","href":"/react/message"},{"label":"模态框 Modal","href":"/react/modal"},{"label":"气泡确认框 Popconfirm","href":"/react/popconfirm"},{"label":"响应式弹窗 Responsive Modal","href":"/react/responsive-modal"},{"label":"加载中 Spin","href":"/react/spin"},{"label":"骨架屏 Skeleton","href":"/react/skeleton"}]},{"title":"导航","items":[{"label":"步骤 Steps","href":"/react/steps"}]},{"title":"媒体","items":[{"label":"视频 Video","href":"/react/video"},{"label":"音频 Audio","href":"/react/audio"}]}],"children":["$","$L14",null,{"content":"$15"}]}]
+10:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+16:I[27201,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"IconMark"]
+12:[["$","title","0",{"children":"Apron Design · 秩序之下 · 想象之上"}],["$","meta","1",{"name":"description","content":"Apron Design 是一套完全开源的 C 端组件库方案，支持 React、Vue3 和微信小程序多端开发。提供丰富的 UI 组件、优雅的设计系统和完善的开发文档，助力开发者快速构建高质量的用户界面。秩序之下，想象之上，解构复杂，聚合光芒。"}],["$","meta","2",{"name":"keywords","content":"组件库,React组件库,Vue组件库,Vue3组件库,微信小程序,小程序,UI组件,开源组件库,前端组件,设计系统,Apron Design,C端组件,跨端开发,用户界面"}],["$","link","3",{"rel":"shortcut icon","href":"/logo.png"}],["$","link","4",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","5",{"rel":"icon","href":"/facicon.ico","sizes":"32x32","type":"image/x-icon"}],["$","link","6",{"rel":"icon","href":"/facicon.ico","sizes":"16x16","type":"image/x-icon"}],["$","link","7",{"rel":"apple-touch-icon","href":"/logo.png"}],["$","$L16","8",{}]]
+e:null

@@ -1,0 +1,488 @@
+1:"$Sreact.fragment"
+2:I[69729,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js"],"ClientProviders"]
+3:I[39756,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"default"]
+4:I[37457,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"default"]
+c:I[68027,[],"default"]
+:HL["/_next/static/chunks/2473c16c0c2f6b5f.css","style"]
+:HL["/_next/static/chunks/c41c0ed4a8f4b053.css","style"]
+:HL["/_next/static/chunks/34edf2a1acad8c83.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/chunks/a00c7c4881320090.css","style"]
+:HL["/_next/static/chunks/4525e31c425ccb41.css","style"]
+0:{"P":null,"b":"w_x0zs56xdhTQoFoaga-4","c":["","vue-next","modal",""],"q":"","i":false,"f":[[["",{"children":["vue-next",{"children":[["alias","modal","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2473c16c0c2f6b5f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/c41c0ed4a8f4b053.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/34edf2a1acad8c83.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/4412c383cc10a990.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/1b2b33a1e6fb0322.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/x-icon","href":"/facicon.ico"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function() {\n                try {\n                  const stored = localStorage.getItem(\"theme\");\n                  const prefersDark = window.matchMedia(\"(prefers-color-scheme: dark)\").matches;\n                  const shouldBeDark = stored === \"dark\" || (!stored && prefersDark);\n                  const themeValue = shouldBeDark ? \"dark\" : \"light\";\n                  const bgColor = shouldBeDark ? \"#000000\" : \"#FFFFFF\";\n                  document.documentElement.setAttribute(\"data-prefers-color\", themeValue);\n                  document.documentElement.style.backgroundColor = bgColor;\n                  if (document.body) {\n                    document.body.style.backgroundColor = bgColor;\n                  }\n                } catch (e) {\n                  document.documentElement.setAttribute(\"data-prefers-color\", \"light\");\n                  document.documentElement.style.backgroundColor = \"#FFFFFF\";\n                }\n              })();\n            "}}]]}],["$","body",null,{"className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased","children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/a00c7c4881320090.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/4525e31c425ccb41.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$L6","$L7","$L8","$L9"],"$La"]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$Lb",false]],"m":"$undefined","G":["$c",[]],"S":true}
+d:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"OutletBoundary"]
+e:"$Sreact.suspense"
+10:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"ViewportBoundary"]
+12:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"MetadataBoundary"]
+6:["$","script","script-0",{"src":"/_next/static/chunks/4358194f07475c5a.js","async":true,"nonce":"$undefined"}]
+7:["$","script","script-1",{"src":"/_next/static/chunks/fd93425b9412d07f.js","async":true,"nonce":"$undefined"}]
+8:["$","script","script-2",{"src":"/_next/static/chunks/c1f546f244e17583.js","async":true,"nonce":"$undefined"}]
+9:["$","script","script-3",{"src":"/_next/static/chunks/fb66370eb5f2594d.js","async":true,"nonce":"$undefined"}]
+a:["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]
+b:["$","$1","h",{"children":[null,["$","$L10",null,{"children":"$@11"}],["$","div",null,{"hidden":true,"children":["$","$L12",null,{"children":["$","$e",null,{"name":"Next.Metadata","children":"$@13"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+14:I[80758,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/fd93425b9412d07f.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"Documents"]
+15:I[90186,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/fd93425b9412d07f.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"MarkdownRenderer"]
+16:T295c,# 对话框 Modal
+
+模态对话框用于显示重要的信息或请求用户输入。它会中断用户的当前操作，直到用户与对话框进行交互。
+
+## 何时使用
+
+- 需要用户确认某些操作时
+- 显示重要信息时
+- 收集用户输入时
+- 展示详细内容时
+
+## 示例
+
+### 基础用法
+
+最简单的对话框，包含标题、内容和默认的操作按钮。
+:::demo
+```vue
+<template>
+  <div>
+    <ad-button @click="open = true">打开对话框</ad-button>
+    <ad-modal
+      :open="open"
+      title="基础对话框"
+      @close="open = false"
+      @ok="handleOk"
+    >
+      <p>这是对话框的内容。</p>
+      <p>点击蒙层或按 ESC 键可以关闭对话框。</p>
+    </ad-modal>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const open = ref(false);
+
+const handleOk = () => {
+  console.log('确认');
+  open.value = false;
+};
+</script>
+```
+:::
+
+### 无标题对话框
+
+可以通过省略 `title` 属性来创建无标题的对话框。
+:::demo
+```vue
+<template>
+  <div>
+    <ad-button @click="open = true">无标题对话框</ad-button>
+    <ad-modal
+      :open="open"
+      @close="open = false"
+      @ok="open = false"
+      :show-cancel="false"
+      ok-text="关闭"
+    >
+      <p>这是一个没有标题的对话框。</p>
+    </ad-modal>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const open = ref(false);
+</script>
+```
+:::
+
+### 无底部对话框
+
+通过设置 `show-footer` 为 `false` 来隐藏底部操作区域。
+:::demo
+```vue
+<template>
+  <div>
+    <ad-button @click="open = true">无底部对话框</ad-button>
+    <ad-modal
+      :open="open"
+      title="无底部对话框"
+      @close="open = false"
+      :show-footer="false"
+    >
+      <p>这是一个没有底部的对话框。</p>
+      <p>你可以通过关闭按钮或点击蒙层来关闭它。</p>
+    </ad-modal>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const open = ref(false);
+</script>
+```
+:::
+
+### 禁止点击蒙层关闭
+
+通过设置 `close-by-overlay` 为 `false` 来禁止用户通过点击蒙层关闭对话框。
+:::demo
+```vue
+<template>
+  <div>
+    <ad-button @click="open = true">禁止点击蒙层关闭</ad-button>
+    <ad-modal
+      :open="open"
+      title="禁止点击蒙层关闭"
+      :close-by-overlay="false"
+      @close="open = false"
+      @ok="open = false"
+      :show-cancel="false"
+      ok-text="知道了"
+    >
+      <p>这个对话框不能通过点击蒙层来关闭。</p>
+      <p>请点击按钮或关闭图标来关闭。</p>
+    </ad-modal>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const open = ref(false);
+</script>
+```
+:::
+
+### 不可关闭对话框
+
+通过设置 `closable` 和 `close-by-overlay` 为 `false` 来创建不可关闭的对话框。
+:::demo
+```vue
+<template>
+  <div>
+    <ad-button @click="open = true">不可关闭对话框</ad-button>
+    <ad-modal
+      :open="open"
+      title="重要提示"
+      :closable="false"
+      :close-by-overlay="false"
+      @close="open = false"
+    >
+      <template #footer>
+        <ad-button @click="open = false">我已阅读并同意</ad-button>
+      </template>
+      <p>这是一条重要信息，你必须阅读后才能关闭。</p>
+      <p>没有关闭按钮，也不能点击蒙层关闭。</p>
+    </ad-modal>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const open = ref(false);
+</script>
+```
+:::
+
+### 自定义宽度
+
+通过 `width` 属性来自定义对话框的宽度。
+:::demo
+```vue
+<template>
+  <div>
+    <ad-button @click="open = true">自定义宽度（800px）</ad-button>
+    <ad-modal
+      :open="open"
+      title="宽对话框"
+      :width="800"
+      @close="open = false"
+    >
+      <template #footer>
+        <ad-button @click="open = false">关闭</ad-button>
+      </template>
+      <p>这是一个宽度为 800px 的对话框。</p>
+    </ad-modal>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const open = ref(false);
+</script>
+```
+:::
+
+### 长内容对话框
+
+当内容较长时，对话框会自动显示滚动条。
+:::demo
+```vue
+<template>
+  <div>
+    <ad-button @click="open = true">长内容对话框</ad-button>
+    <ad-modal
+      :open="open"
+      title="长内容对话框"
+      @close="open = false"
+    >
+      <template #footer>
+        <ad-button @click="open = false">关闭</ad-button>
+      </template>
+      <div v-for="i in 20" :key="i">
+        <p>这是第 {{ i }} 段内容。Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </ad-modal>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const open = ref(false);
+</script>
+```
+:::
+
+### 确认对话框
+
+用于确认危险操作的对话框，通常会将确认按钮设置为危险样式。
+:::demo
+```vue
+<template>
+  <div>
+    <ad-button @click="open = true">确认对话框</ad-button>
+    <ad-modal
+      :open="open"
+      title="确认删除"
+      :width="400"
+      @close="open = false"
+      @ok="handleOk"
+      ok-text="确认删除"
+      :ok-button-props="{ danger: true }"
+    >
+      <p>确定要删除这条记录吗？此操作不可撤销。</p>
+    </ad-modal>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const open = ref(false);
+
+const handleOk = () => {
+  console.log('Confirmed!');
+  open.value = false;
+};
+</script>
+```
+:::
+
+### 自定义按钮文字和变种
+
+可以通过 `ok-text`、`cancel-text` 和按钮属性来自定义按钮的文字和样式。
+:::demo
+```vue
+<template>
+  <div>
+    <ad-button @click="open = true">自定义按钮</ad-button>
+    <ad-modal
+      :open="open"
+      title="自定义按钮文字和变种"
+      @close="open = false"
+      @ok="handleOk"
+      ok-text="提交"
+      cancel-text="返回"
+      :ok-button-props="{ variant: 'secondary' }"
+      :cancel-button-props="{ variant: 'text' }"
+    >
+      <p>确认按钮使用 secondary 变种，取消按钮使用 text 变种。</p>
+    </ad-modal>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const open = ref(false);
+
+const handleOk = () => {
+  console.log('提交');
+  open.value = false;
+};
+</script>
+```
+:::
+
+### 只有确认按钮
+
+通过设置 `show-cancel` 为 `false` 来只显示确认按钮。
+:::demo
+```vue
+<template>
+  <div>
+    <ad-button @click="open = true">只有确认按钮</ad-button>
+    <ad-modal
+      :open="open"
+      title="提示"
+      @close="open = false"
+      @ok="open = false"
+      :show-cancel="false"
+      ok-text="知道了"
+    >
+      <p>这个对话框只有一个确认按钮。</p>
+    </ad-modal>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const open = ref(false);
+</script>
+```
+:::
+
+### 表单对话框
+
+在对话框中嵌入表单以收集用户输入。
+:::demo
+```vue
+<template>
+  <div>
+    <ad-button @click="open = true">表单对话框</ad-button>
+    <ad-modal
+      :open="open"
+      title="新建用户"
+      @close="open = false"
+    >
+      <template #footer>
+        <ad-button @click="open = false">取消</ad-button>
+        <ad-button @click="open = false">提交</ad-button>
+      </template>
+      <div style="display: flex; flex-direction: column; gap: 16px;">
+        <div>
+          <label style="display: block; margin-bottom: 8px; font-weight: 500;">
+            用户名
+          </label>
+          <input
+            type="text"
+            style="
+              width: 100%;
+              padding: 8px 12px;
+              border: 1px solid #e0e0e0;
+              border-radius: 8px;
+              box-sizing: border-box;
+            "
+            placeholder="请输入用户名"
+          />
+        </div>
+        <div>
+          <label style="display: block; margin-bottom: 8px; font-weight: 500;">
+            邮箱
+          </label>
+          <input
+            type="email"
+            style="
+              width: 100%;
+              padding: 8px 12px;
+              border: 1px solid #e0e0e0;
+              border-radius: 8px;
+              box-sizing: border-box;
+            "
+            placeholder="请输入邮箱"
+          />
+        </div>
+      </div>
+    </ad-modal>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const open = ref(false);
+</script>
+```
+:::
+
+### 自定义底部
+
+通过 `footer` 插槽来自定义底部内容。
+:::demo
+```vue
+<template>
+  <div>
+    <ad-button @click="open = true">自定义底部</ad-button>
+    <ad-modal
+      :open="open"
+      title="自定义底部"
+      @close="open = false"
+    >
+      <template #footer>
+        <div style="display: flex; justify-content: space-between; width: 100%;">
+          <ad-button @click="console.log('帮助')">帮助</ad-button>
+          <div style="display: flex; gap: 8px;">
+            <ad-button @click="open = false">取消</ad-button>
+            <ad-button @click="open = false">确定</ad-button>
+          </div>
+        </div>
+      </template>
+      <p>这个对话框有自定义的底部布局。</p>
+    </ad-modal>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const open = ref(false);
+</script>
+```
+:::
+
+## API
+
+### ad-modal
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| open | 是否显示对话框 | boolean | `false` |
+| title | 标题 | string | - |
+| closable | 是否显示关闭按钮 | boolean | `true` |
+| close-by-overlay | 点击蒙层是否可以关闭 | boolean | `true` |
+| width | 对话框宽度 | number \| string | `520` |
+| show-footer | 是否显示 footer | boolean | `true` |
+| ok-text | 确认按钮文字 | string | `'确定'` |
+| cancel-text | 取消按钮文字 | string | `'取消'` |
+| show-cancel | 是否显示取消按钮 | boolean | `true` |
+| centered | 是否居中显示 | boolean | `true` |
+| footer | 自定义 footer，设置为 null 则不显示 | slot | - |
+| ok-button-props | 确认按钮属性 | [ButtonProps](./button) | - |
+| cancel-button-props | 取消按钮属性 | [ButtonProps](./button) | - |
+| class-name | 自定义类名 | string | - |
+
+### 事件
+
+| 事件名 | 说明 | 回调参数 |
+| --- | --- | --- |
+| close | 关闭时的回调 | `() => void` |
+| ok | 点击确认按钮的回调 | `() => void` |
+| after-open-change | 打开/关闭动画完成后的回调 | `(open: boolean) => void` |
+
+## 注意事项
+
+1. 对话框打开时会阻止页面滚动
+2. 按 ESC 键可以关闭对话框（除非设置了 `:closable="false"`）
+3. 点击蒙层可以关闭对话框（除非设置了 `:close-by-overlay="false"`）
+4. 对话框会在页面 body 上创建 Portal，确保层级高于其他元素5:["$","$L14",null,{"navigation":[{"title":"","items":[{"label":"开始使用","href":"/vue-next/getting-started"}]},{"title":"通用","items":[{"label":"按钮 Button","href":"/vue-next/button"},{"label":"图标 Icons","href":"/vue-next/icons"},{"label":"链接 Link","href":"/vue-next/link"}]},{"title":"布局","items":[{"label":"分割线 Divider","href":"/vue-next/divider"},{"label":"栅格 Grid","href":"/vue-next/grid"},{"label":"间距 Space","href":"/vue-next/space"}]},{"title":"数据展示","items":[{"label":"头像 Avatar","href":"/vue-next/avatar"},{"label":"徽章 Badge","href":"/vue-next/badge"},{"label":"卡片 Card","href":"/vue-next/card"},{"label":"折叠面板 Collapse","href":"/vue-next/collapse"},{"label":"空状态 Empty","href":"/vue-next/empty"},{"label":"图片 Image","href":"/vue-next/image"},{"label":"气泡 Popover","href":"/vue-next/popover"},{"label":"标签页 Tabs","href":"/vue-next/tabs"},{"label":"标签 Tag","href":"/vue-next/tag"},{"label":"时间线 Timeline","href":"/vue-next/timeline"},{"label":"工具提示 Tooltip","href":"/vue-next/tooltip"}]},{"title":"机器码","items":[{"label":"条形码 Barcode","href":"/vue-next/barcode"},{"label":"二维码 2D Barcode","href":"/vue-next/2d-barcode"}]},{"title":"表单","items":[{"label":"表单 Form","href":"/vue-next/form"},{"label":"级联选择器 Cascader","href":"/vue-next/cascader"},{"label":"复选框 Checkbox","href":"/vue-next/checkbox"},{"label":"日期选择器 DatePicker","href":"/vue-next/date-picker"},{"label":"输入框 Input","href":"/vue-next/input"},{"label":"一次性密码输入框 Input OTP","href":"/vue-next/input-otp"},{"label":"单选框 Radio","href":"/vue-next/radio"},{"label":"评分 Rate","href":"/vue-next/rate"},{"label":"选择器 Select","href":"/vue-next/select"},{"label":"开关 Switch","href":"/vue-next/switch"}]},{"title":"反馈","items":[{"label":"警告 Alert","href":"/vue-next/alert"},{"label":"抽屉 Drawer","href":"/vue-next/drawer"},{"label":"消息提示 Message","href":"/vue-next/message"},{"label":"模态框 Modal","href":"/vue-next/modal"},{"label":"气泡确认框 Popconfirm","href":"/vue-next/popconfirm"},{"label":"响应式弹窗 Responsive Modal","href":"/vue-next/responsive-modal"},{"label":"加载中 Spin","href":"/vue-next/spin"},{"label":"骨架屏 Skeleton","href":"/vue-next/skeleton"}]},{"title":"导航","items":[{"label":"步骤 Steps","href":"/vue-next/steps"}]},{"title":"媒体","items":[{"label":"视频 Video","href":"/vue-next/video"},{"label":"音频 Audio","href":"/vue-next/audio"}]}],"children":["$","$L15",null,{"content":"$16"}]}]
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+17:I[27201,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"IconMark"]
+13:[["$","title","0",{"children":"Apron Design · 秩序之下 · 想象之上"}],["$","meta","1",{"name":"description","content":"Apron Design 是一套完全开源的 C 端组件库方案，支持 React、Vue3 和微信小程序多端开发。提供丰富的 UI 组件、优雅的设计系统和完善的开发文档，助力开发者快速构建高质量的用户界面。秩序之下，想象之上，解构复杂，聚合光芒。"}],["$","meta","2",{"name":"keywords","content":"组件库,React组件库,Vue组件库,Vue3组件库,微信小程序,小程序,UI组件,开源组件库,前端组件,设计系统,Apron Design,C端组件,跨端开发,用户界面"}],["$","link","3",{"rel":"shortcut icon","href":"/logo.png"}],["$","link","4",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","5",{"rel":"icon","href":"/facicon.ico","sizes":"32x32","type":"image/x-icon"}],["$","link","6",{"rel":"icon","href":"/facicon.ico","sizes":"16x16","type":"image/x-icon"}],["$","link","7",{"rel":"apple-touch-icon","href":"/logo.png"}],["$","$L17","8",{}]]
+f:null

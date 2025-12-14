@@ -1,10 +1,10 @@
 1:"$Sreact.fragment"
-2:I[80758,["/_next/static/chunks/295d483fd0fe7058.js","/_next/static/chunks/fe93460109729919.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/9411384d87935784.js","/_next/static/chunks/77d8d9e11e296d58.js"],"Documents"]
-3:I[90186,["/_next/static/chunks/295d483fd0fe7058.js","/_next/static/chunks/fe93460109729919.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/9411384d87935784.js","/_next/static/chunks/77d8d9e11e296d58.js"],"MarkdownRenderer"]
-5:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"OutletBoundary"]
+2:I[80758,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/fd93425b9412d07f.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"Documents"]
+3:I[90186,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/fd93425b9412d07f.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"MarkdownRenderer"]
+5:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"OutletBoundary"]
 6:"$Sreact.suspense"
-:HL["/_next/static/chunks/27d157f2e01e213f.css","style"]
-:HL["/_next/static/chunks/d4eba06d3fc69c2c.css","style"]
+:HL["/_next/static/chunks/a00c7c4881320090.css","style"]
+:HL["/_next/static/chunks/4525e31c425ccb41.css","style"]
 4:T5a9,# 版本说明
 
 Apron Design 版本号遵循 Semver 规范，但略有区别：
@@ -59,5 +59,5 @@ Apron Design 版本号遵循 Semver 规范，但略有区别：
 
 * 26：大版本号，跟随年份走，例子 26 表示 2026 年发布；
 * 4：中版本号，有组件更新、功能发布时更新，例子是第 26 年第 5 个中版本；
-* 13：小版本号：各端可能略有差异，主要是用来修复现有功能，例子是第 13 个小版本。0:{"buildId":"tH6OUC4Sz0vszgR2qMeO_","rsc":["$","$1","c",{"children":[["$","$L2",null,{"navigation":[{"title":"使用指南","items":[{"label":"快速上手","href":"/guide/quick-start"},{"label":"安装指南","href":"/guide/installation"},{"label":"深色模式","href":"/guide/dark-mode"},{"label":"更新日志","href":"/guide/changelog"},{"label":"版本说明","href":"/guide/versions"}]},{"title":"解答疑惑","items":[{"label":"常见问题","href":"/guide/faq"},{"label":"反馈与建议","href":"/guide/feedback"}]}],"children":["$","$L3",null,{"content":"$4"}]}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/27d157f2e01e213f.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d4eba06d3fc69c2c.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/ff1a16fafef87110.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/9411384d87935784.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/77d8d9e11e296d58.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+* 13：小版本号：各端可能略有差异，主要是用来修复现有功能，例子是第 13 个小版本。0:{"buildId":"w_x0zs56xdhTQoFoaga-4","rsc":["$","$1","c",{"children":[["$","$L2",null,{"navigation":[{"title":"使用指南","items":[{"label":"快速上手","href":"/guide/quick-start"},{"label":"安装指南","href":"/guide/installation"},{"label":"深色模式","href":"/guide/dark-mode"},{"label":"更新日志","href":"/guide/changelog"},{"label":"版本说明","href":"/guide/versions"}]},{"title":"解答疑惑","items":[{"label":"常见问题","href":"/guide/faq"},{"label":"反馈与建议","href":"/guide/feedback"}]}],"children":["$","$L3",null,{"content":"$4"}]}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/a00c7c4881320090.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/4525e31c425ccb41.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/4358194f07475c5a.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/fd93425b9412d07f.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/c1f546f244e17583.js","async":true}],["$","script","script-3",{"src":"/_next/static/chunks/fb66370eb5f2594d.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
 7:null

@@ -1,0 +1,418 @@
+1:"$Sreact.fragment"
+2:I[69729,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js"],"ClientProviders"]
+3:I[39756,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"default"]
+4:I[37457,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"default"]
+c:I[68027,[],"default"]
+:HL["/_next/static/chunks/2473c16c0c2f6b5f.css","style"]
+:HL["/_next/static/chunks/c41c0ed4a8f4b053.css","style"]
+:HL["/_next/static/chunks/34edf2a1acad8c83.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/chunks/a00c7c4881320090.css","style"]
+:HL["/_next/static/chunks/4525e31c425ccb41.css","style"]
+0:{"P":null,"b":"w_x0zs56xdhTQoFoaga-4","c":["","vue-next","rate",""],"q":"","i":false,"f":[[["",{"children":["vue-next",{"children":[["alias","rate","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2473c16c0c2f6b5f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/c41c0ed4a8f4b053.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/34edf2a1acad8c83.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/4412c383cc10a990.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/1b2b33a1e6fb0322.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/x-icon","href":"/facicon.ico"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function() {\n                try {\n                  const stored = localStorage.getItem(\"theme\");\n                  const prefersDark = window.matchMedia(\"(prefers-color-scheme: dark)\").matches;\n                  const shouldBeDark = stored === \"dark\" || (!stored && prefersDark);\n                  const themeValue = shouldBeDark ? \"dark\" : \"light\";\n                  const bgColor = shouldBeDark ? \"#000000\" : \"#FFFFFF\";\n                  document.documentElement.setAttribute(\"data-prefers-color\", themeValue);\n                  document.documentElement.style.backgroundColor = bgColor;\n                  if (document.body) {\n                    document.body.style.backgroundColor = bgColor;\n                  }\n                } catch (e) {\n                  document.documentElement.setAttribute(\"data-prefers-color\", \"light\");\n                  document.documentElement.style.backgroundColor = \"#FFFFFF\";\n                }\n              })();\n            "}}]]}],["$","body",null,{"className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased","children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/a00c7c4881320090.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/4525e31c425ccb41.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$L6","$L7","$L8","$L9"],"$La"]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$Lb",false]],"m":"$undefined","G":["$c",[]],"S":true}
+d:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"OutletBoundary"]
+e:"$Sreact.suspense"
+10:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"ViewportBoundary"]
+12:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"MetadataBoundary"]
+6:["$","script","script-0",{"src":"/_next/static/chunks/4358194f07475c5a.js","async":true,"nonce":"$undefined"}]
+7:["$","script","script-1",{"src":"/_next/static/chunks/fd93425b9412d07f.js","async":true,"nonce":"$undefined"}]
+8:["$","script","script-2",{"src":"/_next/static/chunks/c1f546f244e17583.js","async":true,"nonce":"$undefined"}]
+9:["$","script","script-3",{"src":"/_next/static/chunks/fb66370eb5f2594d.js","async":true,"nonce":"$undefined"}]
+a:["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]
+b:["$","$1","h",{"children":[null,["$","$L10",null,{"children":"$@11"}],["$","div",null,{"hidden":true,"children":["$","$L12",null,{"children":["$","$e",null,{"name":"Next.Metadata","children":"$@13"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+14:I[80758,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/fd93425b9412d07f.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"Documents"]
+15:I[90186,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/fd93425b9412d07f.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"MarkdownRenderer"]
+16:T22ff,# 评分 Rate
+
+评分组件用于对事物进行评级操作，或展示事物的评级。
+
+## 何时使用
+
+- 需要对事物进行评级时
+- 展示事物的平均评分时
+- 收集用户反馈时
+
+## 示例
+
+### 基础用法
+
+最简单的评分组件使用方式。
+:::demo
+```vue
+<template>
+  <ad-rate :default-value="0" />
+</template>
+```
+:::
+
+### 展示模式
+
+在展示模式下，评分组件仅用于显示评分，不支持用户交互。
+:::demo
+```vue
+<template>
+  <div style="display: flex; flex-direction: column; gap: 24px;">
+    <div>
+      <h4 style="margin: 0 0 12px 0; color: #393939;">Empty (0 stars)</h4>
+      <ad-rate :default-value="0" />
+    </div>
+    <div>
+      <h4 style="margin: 0 0 12px 0; color: #393939;">Full (5 stars)</h4>
+      <ad-rate :default-value="5" />
+    </div>
+    <div>
+      <h4 style="margin: 0 0 12px 0; color: #393939;">Partial (3.7 stars)</h4>
+      <ad-rate :default-value="3.7" show-value />
+    </div>
+  </div>
+</template>
+```
+:::
+
+### 展示模式示例
+
+展示不同评分值的效果。
+:::demo
+```vue
+<template>
+  <div style="display: flex; gap: 48px;">
+    <ad-rate :default-value="0" />
+    <ad-rate :default-value="5" />
+    <ad-rate :default-value="3.7" />
+  </div>
+</template>
+```
+:::
+
+### 带小数的展示模式
+
+展示带有小数的评分值。
+:::demo
+```vue
+<template>
+  <div style="display: flex; flex-direction: column; gap: 16px;">
+    <ad-rate :default-value="2.3" show-value />
+    <ad-rate :default-value="3.5" show-value />
+    <ad-rate :default-value="4.2" show-value />
+    <ad-rate :default-value="3.7" show-value />
+  </div>
+</template>
+```
+:::
+
+### 设置模式
+
+在设置模式下，用户可以点击星星来设置评分。
+:::demo
+```vue
+<template>
+  <div style="display: flex; flex-direction: column; gap: 24px;">
+    <div>
+      <h4 style="margin: 0 0 12px 0; color: #393939;">
+        Step: 1 (整星)
+      </h4>
+      <ad-rate
+        :value="Math.round(value)"
+        allow-control
+        @change="setValue"
+        show-value
+      />
+    </div>
+    <div>
+      <h4 style="margin: 0 0 12px 0; color: #393939;">
+        Step: 0.5 (半星)
+      </h4>
+      <ad-rate
+        :value="value"
+        allow-control
+        allow-half
+        @change="setValue"
+        show-value
+      />
+    </div>
+    <p style="margin: 0; color: #666;">
+      Current Value: {{ value }}
+    </p>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const value = ref(2.5);
+const setValue = (val) => {
+  value.value = val;
+};
+</script>
+```
+:::
+
+### 整星设置模式
+
+只允许选择整星的评分组件。
+:::demo
+```vue
+<template>
+  <div>
+    <ad-rate
+      :value="value"
+      allow-control
+      @change="setValue"
+      show-value
+    />
+    <p style="margin: 12px 0 0 0; color: #666;">
+      Selected: {{ value }} stars
+    </p>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const value = ref(3);
+const setValue = (val) => {
+  value.value = val;
+};
+</script>
+```
+:::
+
+### 半星设置模式
+
+允许选择半星的评分组件。
+:::demo
+```vue
+<template>
+  <div>
+    <ad-rate
+      :value="value"
+      allow-control
+      allow-half
+      @change="setValue"
+      show-value
+    />
+    <p style="margin: 12px 0 0 0; color: #666;">
+      Selected: {{ value }} stars
+    </p>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const value = ref(3.5);
+const setValue = (val) => {
+  value.value = val;
+};
+</script>
+```
+:::
+
+### 非受控模式
+
+使用 `default-value` 属性设置默认值的非受控模式。
+:::demo
+```vue
+<template>
+  <div style="display: flex; flex-direction: column; gap: 24px;">
+    <div>
+      <h4 style="margin: 0 0 12px 0; color: #393939;">
+        非受控模式（使用 default-value）
+      </h4>
+      <ad-rate
+        :default-value="3"
+        allow-control
+        @change="(val) => console.log('Selected:', val)"
+        show-value
+      />
+    </div>
+    <div>
+      <h4 style="margin: 0 0 12px 0; color: #393939;">
+        非受控模式（半星）
+      </h4>
+      <ad-rate
+        :default-value="2.5"
+        allow-control
+        allow-half
+        @change="(val) => console.log('Selected:', val)"
+        show-value
+      />
+    </div>
+  </div>
+</template>
+```
+:::
+
+### 禁用状态
+
+通过 `disabled` 属性禁用评分组件。
+:::demo
+```vue
+<template>
+  <div style="display: flex; flex-direction: column; gap: 16px;">
+    <ad-rate :default-value="3" allow-control disabled show-value />
+    <ad-rate :default-value="4.5" allow-control allow-half disabled show-value />
+  </div>
+</template>
+```
+:::
+
+### 不同星星数量
+
+通过 `count` 属性设置星星的总数。
+:::demo
+```vue
+<template>
+  <div style="display: flex; flex-direction: column; gap: 16px;">
+    <div>
+      <span style="color: #666; margin-right: 12px;">3 stars:</span>
+      <ad-rate :default-value="2" :count="3" show-value />
+    </div>
+    <div>
+      <span style="color: #666; margin-right: 12px;">5 stars:</span>
+      <ad-rate :default-value="3.5" :count="5" show-value />
+    </div>
+    <div>
+      <span style="color: #666; margin-right: 12px;">10 stars:</span>
+      <ad-rate :default-value="7" :count="10" show-value />
+    </div>
+  </div>
+</template>
+```
+:::
+
+### 交互式示例
+
+完整的交互式评分组件示例。
+:::demo
+```vue
+<template>
+  <div style="display: flex; flex-direction: column; gap: 16px;">
+    <h4 style="margin: 0; color: #393939;">Click to rate:</h4>
+    <ad-rate
+      :value="value"
+      allow-control
+      allow-half
+      @change="setValue"
+      show-value
+    />
+    <div style="display: flex; gap: 8px;">
+      <button @click="() => setValue(0)">Reset</button>
+      <button @click="() => setValue(5)">Max</button>
+    </div>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const value = ref(0);
+const setValue = (val) => {
+  value.value = val;
+};
+</script>
+```
+:::
+
+### 所有状态概览
+
+展示评分组件的所有可能状态。
+:::demo
+```vue
+<template>
+  <div style="display: flex; flex-direction: column; gap: 32px;">
+    <div>
+      <h4 style="margin: 0 0 12px 0; color: #393939;">展示模式</h4>
+      <div style="display: flex; gap: 48px;">
+        <ad-rate :default-value="0" />
+        <ad-rate :default-value="5" />
+        <ad-rate :default-value="3.7" show-value />
+      </div>
+    </div>
+
+    <div>
+      <h4 style="margin: 0 0 12px 0; color: #393939;">设置模式（整星）</h4>
+      <ad-rate :default-value="2" allow-control show-value />
+    </div>
+
+    <div>
+      <h4 style="margin: 0 0 12px 0; color: #393939;">设置模式（半星）</h4>
+      <ad-rate :default-value="3.5" allow-control allow-half show-value />
+    </div>
+  </div>
+</template>
+```
+:::
+
+### 暗色模式
+
+评分组件在暗色模式下会自动适配主题颜色。
+:::demo
+```vue
+<template>
+  <div
+    data-theme="dark"
+    style="
+      padding: 32px;
+      background-color: #18181b;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    "
+  >
+    <div>
+      <h4 style="margin: 0 0 12px 0; color: #a1a1aa;">Display Mode</h4>
+      <div style="display: flex; gap: 32px;">
+        <ad-rate :default-value="0" />
+        <ad-rate :default-value="5" />
+        <ad-rate :default-value="3.7" show-value />
+      </div>
+    </div>
+
+    <div>
+      <h4 style="margin: 0 0 12px 0; color: #a1a1aa;">Control Mode</h4>
+      <ad-rate :default-value="3" allow-control show-value />
+    </div>
+
+    <div>
+      <h4 style="margin: 0 0 12px 0; color: #a1a1aa;">Disabled</h4>
+      <ad-rate :default-value="4" allow-control disabled show-value />
+    </div>
+  </div>
+</template>
+```
+:::
+
+## API
+
+### ad-rate
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| value | 当前值（受控模式） | number | - |
+| default-value | 默认值（非受控模式） | number | `0` |
+| count | 星星总数 | number | `5` |
+| allow-control | 是否允许交互（设置模式） | boolean | `false` |
+| allow-half | 是否允许半星（仅设置模式有效） | boolean | `false` |
+| disabled | 是否禁用 | boolean | `false` |
+| show-value | 是否显示数值 | boolean | `false` |
+| @change | 值改变时的回调 | `(value: number) => void` | - |
+| class-name | 自定义类名 | string | - |
+
+## 注意事项
+
+1. 在展示模式下（`allow-control=false`），评分组件仅用于显示评分，不支持用户交互
+2. 在设置模式下（`allow-control=true`），用户可以点击星星来设置评分
+3. 通过 `allow-half` 属性可以控制是否允许选择半星
+4. 通过 `count` 属性可以设置星星的总数
+5. 在受控模式下，需要同时提供 `value` 和 `@change` 属性
+6. 在非受控模式下，可以使用 `default-value` 设置默认值
+7. 通过 `show-value` 属性可以显示当前评分值
+8. 评分组件会根据主题自动适配颜色，在暗色模式下会有不同的视觉效果
+9. 当鼠标悬停在星星上时，会预览即将设置的评分值5:["$","$L14",null,{"navigation":[{"title":"","items":[{"label":"开始使用","href":"/vue-next/getting-started"}]},{"title":"通用","items":[{"label":"按钮 Button","href":"/vue-next/button"},{"label":"图标 Icons","href":"/vue-next/icons"},{"label":"链接 Link","href":"/vue-next/link"}]},{"title":"布局","items":[{"label":"分割线 Divider","href":"/vue-next/divider"},{"label":"栅格 Grid","href":"/vue-next/grid"},{"label":"间距 Space","href":"/vue-next/space"}]},{"title":"数据展示","items":[{"label":"头像 Avatar","href":"/vue-next/avatar"},{"label":"徽章 Badge","href":"/vue-next/badge"},{"label":"卡片 Card","href":"/vue-next/card"},{"label":"折叠面板 Collapse","href":"/vue-next/collapse"},{"label":"空状态 Empty","href":"/vue-next/empty"},{"label":"图片 Image","href":"/vue-next/image"},{"label":"气泡 Popover","href":"/vue-next/popover"},{"label":"标签页 Tabs","href":"/vue-next/tabs"},{"label":"标签 Tag","href":"/vue-next/tag"},{"label":"时间线 Timeline","href":"/vue-next/timeline"},{"label":"工具提示 Tooltip","href":"/vue-next/tooltip"}]},{"title":"机器码","items":[{"label":"条形码 Barcode","href":"/vue-next/barcode"},{"label":"二维码 2D Barcode","href":"/vue-next/2d-barcode"}]},{"title":"表单","items":[{"label":"表单 Form","href":"/vue-next/form"},{"label":"级联选择器 Cascader","href":"/vue-next/cascader"},{"label":"复选框 Checkbox","href":"/vue-next/checkbox"},{"label":"日期选择器 DatePicker","href":"/vue-next/date-picker"},{"label":"输入框 Input","href":"/vue-next/input"},{"label":"一次性密码输入框 Input OTP","href":"/vue-next/input-otp"},{"label":"单选框 Radio","href":"/vue-next/radio"},{"label":"评分 Rate","href":"/vue-next/rate"},{"label":"选择器 Select","href":"/vue-next/select"},{"label":"开关 Switch","href":"/vue-next/switch"}]},{"title":"反馈","items":[{"label":"警告 Alert","href":"/vue-next/alert"},{"label":"抽屉 Drawer","href":"/vue-next/drawer"},{"label":"消息提示 Message","href":"/vue-next/message"},{"label":"模态框 Modal","href":"/vue-next/modal"},{"label":"气泡确认框 Popconfirm","href":"/vue-next/popconfirm"},{"label":"响应式弹窗 Responsive Modal","href":"/vue-next/responsive-modal"},{"label":"加载中 Spin","href":"/vue-next/spin"},{"label":"骨架屏 Skeleton","href":"/vue-next/skeleton"}]},{"title":"导航","items":[{"label":"步骤 Steps","href":"/vue-next/steps"}]},{"title":"媒体","items":[{"label":"视频 Video","href":"/vue-next/video"},{"label":"音频 Audio","href":"/vue-next/audio"}]}],"children":["$","$L15",null,{"content":"$16"}]}]
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+17:I[27201,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"IconMark"]
+13:[["$","title","0",{"children":"Apron Design · 秩序之下 · 想象之上"}],["$","meta","1",{"name":"description","content":"Apron Design 是一套完全开源的 C 端组件库方案，支持 React、Vue3 和微信小程序多端开发。提供丰富的 UI 组件、优雅的设计系统和完善的开发文档，助力开发者快速构建高质量的用户界面。秩序之下，想象之上，解构复杂，聚合光芒。"}],["$","meta","2",{"name":"keywords","content":"组件库,React组件库,Vue组件库,Vue3组件库,微信小程序,小程序,UI组件,开源组件库,前端组件,设计系统,Apron Design,C端组件,跨端开发,用户界面"}],["$","link","3",{"rel":"shortcut icon","href":"/logo.png"}],["$","link","4",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","5",{"rel":"icon","href":"/facicon.ico","sizes":"32x32","type":"image/x-icon"}],["$","link","6",{"rel":"icon","href":"/facicon.ico","sizes":"16x16","type":"image/x-icon"}],["$","link","7",{"rel":"apple-touch-icon","href":"/logo.png"}],["$","$L17","8",{}]]
+f:null

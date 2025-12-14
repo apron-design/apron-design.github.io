@@ -1,10 +1,10 @@
 1:"$Sreact.fragment"
-2:I[80758,["/_next/static/chunks/295d483fd0fe7058.js","/_next/static/chunks/fe93460109729919.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/9411384d87935784.js","/_next/static/chunks/77d8d9e11e296d58.js"],"Documents"]
-3:I[90186,["/_next/static/chunks/295d483fd0fe7058.js","/_next/static/chunks/fe93460109729919.js","/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/9411384d87935784.js","/_next/static/chunks/77d8d9e11e296d58.js"],"MarkdownRenderer"]
-5:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/c81db6e24f0cfdeb.js"],"OutletBoundary"]
+2:I[80758,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/fd93425b9412d07f.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"Documents"]
+3:I[90186,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/fd93425b9412d07f.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"MarkdownRenderer"]
+6:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
-:HL["/_next/static/chunks/27d157f2e01e213f.css","style"]
-:HL["/_next/static/chunks/d4eba06d3fc69c2c.css","style"]
+:HL["/_next/static/chunks/a00c7c4881320090.css","style"]
+:HL["/_next/static/chunks/4525e31c425ccb41.css","style"]
 4:T17ec,# 设计原则
 
 Apron Design 的名字就是他的设计原则：
@@ -155,6 +155,6 @@ Apron Design 的名字就是他的设计原则：
 ---
 
 通过遵循这五大设计原则，Apron Design 致力于创造简洁、温和、包容的用户界面，让每一次交互都成为愉悦的体验。
-0:{"buildId":"tH6OUC4Sz0vszgR2qMeO_","rsc":["$","$1","c",{"children":[["$","$L2",null,{"navigation":[{"title":"设计系统","items":[{"label":"设计规范","href":"/design/specifications"},{"label":"设计原则","href":"/design/principles"},{"label":"标准色","href":"/design/color"}]}],"children":["$","$L3",null,{"content":"$4"}]}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/27d157f2e01e213f.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/d4eba06d3fc69c2c.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/ff1a16fafef87110.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/9411384d87935784.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/77d8d9e11e296d58.js","async":true}]],["$","$L5",null,{"children":"$L6"}]]}],"loading":null,"isPartial":false}
-6:["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]
+0:{"buildId":"w_x0zs56xdhTQoFoaga-4","rsc":["$","$1","c",{"children":[["$","$L2",null,{"navigation":[{"title":"设计系统","items":[{"label":"设计原则","href":"/design/principles"},{"label":"标准色","href":"/design/color"}]}],"children":["$","$L3",null,{"content":"$4"}]}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/a00c7c4881320090.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/4525e31c425ccb41.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/4358194f07475c5a.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/fd93425b9412d07f.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/c1f546f244e17583.js","async":true}],["$","script","script-3",{"src":"/_next/static/chunks/fb66370eb5f2594d.js","async":true}]],"$L5"]}],"loading":null,"isPartial":false}
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null

@@ -1,0 +1,216 @@
+1:"$Sreact.fragment"
+2:I[80758,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/fd93425b9412d07f.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"Documents"]
+3:I[90186,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/fd93425b9412d07f.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"MarkdownRenderer"]
+c:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"OutletBoundary"]
+d:"$Sreact.suspense"
+:HL["/_next/static/chunks/a00c7c4881320090.css","style"]
+:HL["/_next/static/chunks/4525e31c425ccb41.css","style"]
+4:T130d,# 按钮 Button
+
+按钮用于开始一个即时操作。
+
+## 何时使用
+
+标记了一个（或封装一组）操作命令，响应用户点击行为，触发相应的业务逻辑。
+
+## 代码演示
+
+### 基本用法
+
+基础的按钮用法。
+
+:::demo
+```vue
+<template>
+  <AdButton>Button</AdButton>
+</template>
+```
+:::
+
+### 按钮类型
+
+按钮有五种类型：主按钮、次按钮、默认按钮、文字按钮和链接按钮。
+
+:::demo
+```vue
+<template>
+  <ad-space>
+    <ad-button variant="primary">Primary</ad-button>
+    <ad-button variant="secondary">Secondary</ad-button>
+    <ad-button variant="default">Default</ad-button>
+    <ad-button variant="text">Text</ad-button>
+    <ad-button variant="link">Link</ad-button>
+  </ad-space>
+</template>
+```
+:::
+
+### 按钮尺寸
+
+按钮有两种尺寸：中号（40px）和小号（30px）。
+
+:::demo
+```vue
+<template>
+  <ad-space>
+    <ad-button size="md" variant="primary">Medium (40px)</ad-button>
+    <ad-button size="sm" variant="primary">Small (30px)</ad-button>
+  </ad-space>
+</template>
+```
+:::
+
+### 虚线边框
+
+通过 `dashed` 属性设置按钮边框为虚线样式。
+
+:::demo
+```vue
+<template>
+  <div style="display: flex; gap: 12px; align-items: center;">
+    <ad-button variant="primary" dashed>Primary Dashed</ad-button>
+    <ad-button variant="secondary" dashed>Secondary Dashed</ad-button>
+    <ad-button variant="default" dashed>Default Dashed</ad-button>
+  </div>
+</template>
+```
+:::
+
+### 危险按钮
+
+通过 `danger` 属性设置危险按钮样式，可与其他属性组合使用。
+
+:::demo
+```vue
+<template>
+  <div style="display: flex; gap: 12px; align-items: center;">
+    <ad-button variant="primary" danger>Primary Danger</ad-button>
+    <ad-button variant="secondary" danger>Secondary Danger</ad-button>
+    <ad-button variant="default" danger>Default Danger</ad-button>
+    <ad-button variant="text" danger>Text Danger</ad-button>
+    <ad-button variant="link" danger>Link Danger</ad-button>
+  </div>
+</template>
+```
+:::
+
+### 危险虚线按钮
+
+危险样式与虚线样式的组合。
+
+:::demo
+```vue
+<template>
+  <div style="display: flex; gap: 12px; align-items: center;">
+    <ad-button variant="primary" danger dashed>Primary</ad-button>
+    <ad-button variant="secondary" danger dashed>Secondary</ad-button>
+    <ad-button variant="default" danger dashed>Default</ad-button>
+  </div>
+</template>
+```
+:::
+
+### 加载中状态
+
+通过 `loading` 属性设置按钮为加载中状态。
+
+:::demo
+```vue
+<template>
+  <ad-button loading>Loading...</ad-button>
+</template>
+```
+:::
+
+### 块级按钮
+
+通过 `block` 属性将按钮宽度调整为其父容器宽度。
+
+:::demo
+```vue
+<template>
+  <div style="width: 300px;">
+    <ad-button block>Block Button</ad-button>
+  </div>
+</template>
+```
+:::
+
+### 禁用状态
+
+通过 `disabled` 属性禁用按钮。
+
+:::demo
+```vue
+<template>
+  <div style="display: flex; gap: 12px; align-items: center;">
+    <ad-button variant="primary" disabled>Primary</ad-button>
+    <ad-button variant="secondary" disabled>Secondary</ad-button>
+    <ad-button variant="default" disabled>Default</ad-button>
+    <ad-button variant="text" disabled>Text</ad-button>
+    <ad-button variant="link" disabled>Link</ad-button>
+  </div>
+</template>
+```
+:::
+
+### 带图标按钮
+
+通过 `iconLeft` 和 `iconRight` 属性添加图标。
+:::demo
+```vue
+<template>
+  <div style="display: flex; gap: 12px; align-items: center;">
+    <ad-button :iconLeft="SearchIcon">Search</ad-button>
+    <ad-button :iconRight="ArrowIcon">Next</ad-button>
+    <ad-button :iconLeft="SearchIcon" :iconRight="ArrowIcon">
+      Both Icons
+    </ad-button>
+  </div>
+</template>
+
+<script setup>
+const SearchIcon = () => ({
+  template: `
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="11" cy="11" r="8" />
+      <path d="m21 21-4.35-4.35" />
+    </svg>
+  `
+});
+
+const ArrowIcon = () => ({
+  template: `
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M5 12h14M12 5l7 7-7 7" />
+    </svg>
+  `
+});
+</script>
+```
+:::
+
+## API
+
+通过设置 ad-button 的属性来产生不同的按钮样式。
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| variant | 设置按钮类型 | `primary` \| `secondary` \| `default` \| `text` \| `link` | `primary` |
+| size | 设置按钮大小 | `md` \| `sm` | `md` |
+| dashed | 设置按钮边框为虚线 | boolean | false |
+| danger | 设置危险按钮 | boolean | false |
+| loading | 设置按钮载入状态 | boolean | false |
+| block | 将按钮宽度调整为其父宽度的选项 | boolean | false |
+| disabled | 按钮失效状态 | boolean | false |
+| iconLeft | 左侧图标 | VNode | - |
+| iconRight | 右侧图标 | VNode | - |
+| onClick | 点击按钮时的回调 | (event) => void | - |0:{"buildId":"w_x0zs56xdhTQoFoaga-4","rsc":["$","$1","c",{"children":[["$","$L2",null,{"navigation":[{"title":"","items":[{"label":"开始使用","href":"/vue-next/getting-started"}]},{"title":"通用","items":[{"label":"按钮 Button","href":"/vue-next/button"},{"label":"图标 Icons","href":"/vue-next/icons"},{"label":"链接 Link","href":"/vue-next/link"}]},{"title":"布局","items":[{"label":"分割线 Divider","href":"/vue-next/divider"},{"label":"栅格 Grid","href":"/vue-next/grid"},{"label":"间距 Space","href":"/vue-next/space"}]},{"title":"数据展示","items":[{"label":"头像 Avatar","href":"/vue-next/avatar"},{"label":"徽章 Badge","href":"/vue-next/badge"},{"label":"卡片 Card","href":"/vue-next/card"},{"label":"折叠面板 Collapse","href":"/vue-next/collapse"},{"label":"空状态 Empty","href":"/vue-next/empty"},{"label":"图片 Image","href":"/vue-next/image"},{"label":"气泡 Popover","href":"/vue-next/popover"},{"label":"标签页 Tabs","href":"/vue-next/tabs"},{"label":"标签 Tag","href":"/vue-next/tag"},{"label":"时间线 Timeline","href":"/vue-next/timeline"},{"label":"工具提示 Tooltip","href":"/vue-next/tooltip"}]},{"title":"机器码","items":[{"label":"条形码 Barcode","href":"/vue-next/barcode"},{"label":"二维码 2D Barcode","href":"/vue-next/2d-barcode"}]},{"title":"表单","items":[{"label":"表单 Form","href":"/vue-next/form"},{"label":"级联选择器 Cascader","href":"/vue-next/cascader"},{"label":"复选框 Checkbox","href":"/vue-next/checkbox"},{"label":"日期选择器 DatePicker","href":"/vue-next/date-picker"},{"label":"输入框 Input","href":"/vue-next/input"},{"label":"一次性密码输入框 Input OTP","href":"/vue-next/input-otp"},{"label":"单选框 Radio","href":"/vue-next/radio"},{"label":"评分 Rate","href":"/vue-next/rate"},{"label":"选择器 Select","href":"/vue-next/select"},{"label":"开关 Switch","href":"/vue-next/switch"}]},{"title":"反馈","items":[{"label":"警告 Alert","href":"/vue-next/alert"},{"label":"抽屉 Drawer","href":"/vue-next/drawer"},{"label":"消息提示 Message","href":"/vue-next/message"},{"label":"模态框 Modal","href":"/vue-next/modal"},{"label":"气泡确认框 Popconfirm","href":"/vue-next/popconfirm"},{"label":"响应式弹窗 Responsive Modal","href":"/vue-next/responsive-modal"},{"label":"加载中 Spin","href":"/vue-next/spin"},{"label":"骨架屏 Skeleton","href":"/vue-next/skeleton"}]},{"title":"导航","items":[{"label":"步骤 Steps","href":"/vue-next/steps"}]},{"title":"媒体","items":[{"label":"视频 Video","href":"/vue-next/video"},{"label":"音频 Audio","href":"/vue-next/audio"}]}],"children":["$","$L3",null,{"content":"$4"}]}],["$L5","$L6","$L7","$L8","$L9","$La"],"$Lb"]}],"loading":null,"isPartial":false}
+5:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/a00c7c4881320090.css","precedence":"next"}]
+6:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/4525e31c425ccb41.css","precedence":"next"}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/4358194f07475c5a.js","async":true}]
+8:["$","script","script-1",{"src":"/_next/static/chunks/fd93425b9412d07f.js","async":true}]
+9:["$","script","script-2",{"src":"/_next/static/chunks/c1f546f244e17583.js","async":true}]
+a:["$","script","script-3",{"src":"/_next/static/chunks/fb66370eb5f2594d.js","async":true}]
+b:["$","$Lc",null,{"children":["$","$d",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]
+e:null

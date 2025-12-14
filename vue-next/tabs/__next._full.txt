@@ -1,0 +1,291 @@
+1:"$Sreact.fragment"
+2:I[69729,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js"],"ClientProviders"]
+3:I[39756,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"default"]
+4:I[37457,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"default"]
+c:I[68027,[],"default"]
+:HL["/_next/static/chunks/2473c16c0c2f6b5f.css","style"]
+:HL["/_next/static/chunks/c41c0ed4a8f4b053.css","style"]
+:HL["/_next/static/chunks/34edf2a1acad8c83.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/chunks/a00c7c4881320090.css","style"]
+:HL["/_next/static/chunks/4525e31c425ccb41.css","style"]
+0:{"P":null,"b":"w_x0zs56xdhTQoFoaga-4","c":["","vue-next","tabs",""],"q":"","i":false,"f":[[["",{"children":["vue-next",{"children":[["alias","tabs","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2473c16c0c2f6b5f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/c41c0ed4a8f4b053.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/34edf2a1acad8c83.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/4412c383cc10a990.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/1b2b33a1e6fb0322.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/x-icon","href":"/facicon.ico"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function() {\n                try {\n                  const stored = localStorage.getItem(\"theme\");\n                  const prefersDark = window.matchMedia(\"(prefers-color-scheme: dark)\").matches;\n                  const shouldBeDark = stored === \"dark\" || (!stored && prefersDark);\n                  const themeValue = shouldBeDark ? \"dark\" : \"light\";\n                  const bgColor = shouldBeDark ? \"#000000\" : \"#FFFFFF\";\n                  document.documentElement.setAttribute(\"data-prefers-color\", themeValue);\n                  document.documentElement.style.backgroundColor = bgColor;\n                  if (document.body) {\n                    document.body.style.backgroundColor = bgColor;\n                  }\n                } catch (e) {\n                  document.documentElement.setAttribute(\"data-prefers-color\", \"light\");\n                  document.documentElement.style.backgroundColor = \"#FFFFFF\";\n                }\n              })();\n            "}}]]}],["$","body",null,{"className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased","children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/a00c7c4881320090.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/4525e31c425ccb41.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$L6","$L7","$L8","$L9"],"$La"]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$Lb",false]],"m":"$undefined","G":["$c",[]],"S":true}
+d:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"OutletBoundary"]
+e:"$Sreact.suspense"
+10:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"ViewportBoundary"]
+12:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"MetadataBoundary"]
+6:["$","script","script-0",{"src":"/_next/static/chunks/4358194f07475c5a.js","async":true,"nonce":"$undefined"}]
+7:["$","script","script-1",{"src":"/_next/static/chunks/fd93425b9412d07f.js","async":true,"nonce":"$undefined"}]
+8:["$","script","script-2",{"src":"/_next/static/chunks/c1f546f244e17583.js","async":true,"nonce":"$undefined"}]
+9:["$","script","script-3",{"src":"/_next/static/chunks/fb66370eb5f2594d.js","async":true,"nonce":"$undefined"}]
+a:["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]
+b:["$","$1","h",{"children":[null,["$","$L10",null,{"children":"$@11"}],["$","div",null,{"hidden":true,"children":["$","$L12",null,{"children":["$","$e",null,{"name":"Next.Metadata","children":"$@13"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+14:I[80758,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/fd93425b9412d07f.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"Documents"]
+15:I[90186,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/fd93425b9412d07f.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"MarkdownRenderer"]
+16:T1c9a,# 标签页 Tabs
+
+Tabs 组件用于组织和展示不同类别的内容，允许用户在不同的视图之间进行切换。
+
+## 基础用法
+
+Tabs 组件由四个部分组成：
+- `ad-tabs`: 容器组件
+- `ad-tab-list`: 标签列表容器
+- `ad-tab`: 单个标签项
+- `ad-tab-panel`: 标签对应的内容面板
+:::demo
+```vue
+<template>
+  <ad-tabs default-active-key="1">
+    <ad-tab-list>
+      <ad-tab tab-key="1">标签一</ad-tab>
+      <ad-tab tab-key="2">标签二</ad-tab>
+      <ad-tab tab-key="3">标签三</ad-tab>
+    </ad-tab-list>
+    <ad-tab-panel tab-key="1">
+      这是标签一的内容区域。Tab 组件可以用于组织和展示不同类别的信息。
+    </ad-tab-panel>
+    <ad-tab-panel tab-key="2">
+      这是标签二的内容区域。点击不同的标签可以切换显示不同的内容。
+    </ad-tab-panel>
+    <ad-tab-panel tab-key="3">
+      这是标签三的内容区域。每个 ad-tab-panel 对应一个 ad-tab。
+    </ad-tab-panel>
+  </ad-tabs>
+</template>
+```
+:::
+
+## 胶囊模式
+
+通过设置 `capsule` 属性，可以启用胶囊样式的标签页，这种样式更加紧凑且具有视觉焦点。
+:::demo
+```vue
+<template>
+  <ad-tabs default-active-key="1" capsule>
+    <ad-tab-list>
+      <ad-tab tab-key="1">标签一</ad-tab>
+      <ad-tab tab-key="2">标签二</ad-tab>
+      <ad-tab tab-key="3">标签三</ad-tab>
+    </ad-tab-list>
+    <ad-tab-panel tab-key="1">
+      胶囊模式的标签一内容。选中的标签有圆角背景。
+    </ad-tab-panel>
+    <ad-tab-panel tab-key="2">
+      胶囊模式的标签二内容。
+    </ad-tab-panel>
+    <ad-tab-panel tab-key="3">
+      胶囊模式的标签三内容。
+    </ad-tab-panel>
+  </ad-tabs>
+</template>
+```
+:::
+
+## 带额外操作
+
+可以通过 `extra` 插槽在标签栏右侧添加额外的操作元素。
+:::demo
+```vue
+<template>
+  <ad-tabs default-active-key="1">
+    <template #extra>
+      <ad-button size="sm">操作按钮</ad-button>
+    </template>
+    <ad-tab-list>
+      <ad-tab tab-key="1">标签一</ad-tab>
+      <ad-tab tab-key="2">标签二</ad-tab>
+      <ad-tab tab-key="3">标签三</ad-tab>
+    </ad-tab-list>
+    <ad-tab-panel tab-key="1">
+      右侧有额外操作按钮的 Tab 组件。
+    </ad-tab-panel>
+    <ad-tab-panel tab-key="2">
+      标签二内容。
+    </ad-tab-panel>
+    <ad-tab-panel tab-key="3">
+      标签三内容。
+    </ad-tab-panel>
+  </ad-tabs>
+</template>
+```
+:::
+
+## 要禁用状态
+
+通过给 `ad-tab` 组件设置 `disabled` 属性来禁用某个标签。
+:::demo
+```vue
+<template>
+  <ad-tabs default-active-key="1">
+    <ad-tab-list>
+      <ad-tab tab-key="1">可用</ad-tab>
+      <ad-tab tab-key="2" disabled>禁用</ad-tab>
+      <ad-tab tab-key="3">可用</ad-tab>
+    </ad-tab-list>
+    <ad-tab-panel tab-key="1">
+      标签一内容。标签二被禁用，无法点击。
+    </ad-tab-panel>
+    <ad-tab-panel tab-key="2">
+      标签二内容（无法访问）。
+    </ad-tab-panel>
+    <ad-tab-panel tab-key="3">
+      标签三内容。
+    </ad-tab-panel>
+  </ad-tabs>
+</template>
+```
+:::
+
+## 使用场景
+
+### 用户资料页
+
+Tabs 组件常用于用户资料页，用来组织不同类型的信息。
+:::demo
+```vue
+<template>
+  <ad-tabs default-active-key="info">
+    <ad-tab-list>
+      <ad-tab tab-key="info">基本信息</ad-tab>
+      <ad-tab tab-key="security">安全设置</ad-tab>
+      <ad-tab tab-key="notification">通知设置</ad-tab>
+    </ad-tab-list>
+    <ad-tab-panel tab-key="info">
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <div><strong>用户名：</strong>admin</div>
+        <div><strong>邮箱：</strong>admin@example.com</div>
+        <div><strong>注册时间：</strong>2024-01-01</div>
+      </div>
+    </ad-tab-panel>
+    <ad-tab-panel tab-key="security">
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <div><strong>密码：</strong>******** <ad-button variant="link" size="sm">修改</ad-button></div>
+        <div><strong>两步验证：</strong>已开启</div>
+      </div>
+    </ad-tab-panel>
+    <ad-tab-panel tab-key="notification">
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <div><strong>邮件通知：</strong>开启</div>
+        <div><strong>短信通知：</strong>关闭</div>
+      </div>
+    </ad-tab-panel>
+  </ad-tabs>
+</template>
+```
+:::
+
+### 筛选标签
+
+在数据列表页面中，Tabs 组件也可以作为筛选条件使用。
+:::demo
+```vue
+<template>
+  <ad-tabs default-active-key="all" capsule>
+    <template #extra>
+      <span style="color: #71717a; font-size: 14px;">共 128 条</span>
+    </template>
+    <ad-tab-list>
+      <ad-tab tab-key="all">全部</ad-tab>
+      <ad-tab tab-key="pending">待审核 (12)</ad-tab>
+      <ad-tab tab-key="approved">已通过</ad-tab>
+      <ad-tab tab-key="rejected">已拒绝</ad-tab>
+    </ad-tab-list>
+    <ad-tab-panel tab-key="all">
+      显示所有数据...
+    </ad-tab-panel>
+    <ad-tab-panel tab-key="pending">
+      显示待审核数据...
+    </ad-tab-panel>
+    <ad-tab-panel tab-key="approved">
+      显示已通过数据...
+    </ad-tab-panel>
+    <ad-tab-panel tab-key="rejected">
+      显示已拒绝数据...
+    </ad-tab-panel>
+  </ad-tabs>
+</template>
+```
+:::
+
+## 暗色模式
+
+Tabs 组件支持暗色模式，在暗色主题下会自动应用合适的样式。
+:::demo
+```vue
+<template>
+  <div
+    data-theme="dark"
+    style="
+      padding: 32px;
+      background-color: #18181b;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    "
+  >
+    <div>
+      <h4 style="margin: 0 0 16px 0; color: #a1a1aa;">默认模式</h4>
+      <ad-tabs default-active-key="1">
+        <ad-tab-list>
+          <ad-tab tab-key="1">标签一</ad-tab>
+          <ad-tab tab-key="2">标签二</ad-tab>
+        </ad-tab-list>
+        <ad-tab-panel tab-key="1">
+          默认模式下的标签页内容。
+        </ad-tab-panel>
+        <ad-tab-panel tab-key="2">
+          默认模式下的标签页内容。
+        </ad-tab-panel>
+      </ad-tabs>
+    </div>
+    
+    <div>
+      <h4 style="margin: 0 0 16px 0; color: #a1a1aa;">胶囊模式</h4>
+      <ad-tabs default-active-key="1" capsule>
+        <ad-tab-list>
+          <ad-tab tab-key="1">标签一</ad-tab>
+          <ad-tab tab-key="2">标签二</ad-tab>
+        </ad-tab-list>
+        <ad-tab-panel tab-key="1">
+          胶囊模式下的标签页内容。
+        </ad-tab-panel>
+        <ad-tab-panel tab-key="2">
+          胶囊模式下的标签页内容。
+        </ad-tab-panel>
+      </ad-tabs>
+    </div>
+  </div>
+</template>
+```
+:::
+
+## API
+
+### ad-tabs
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| activeKey | 当前激活的标签页 | string | - |
+| defaultActiveKey | 默认激活的标签页 | string | - |
+| capsule | 是否启用胶囊模式 | boolean | false |
+| onChange | 切换标签页时的回调函数 | function(activeKey) | - |
+
+### ad-tab
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| tabKey | 标签页的唯一标识 | string | - |
+| disabled | 是否禁用标签页 | boolean | false |
+
+### ad-tab-panel
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| tabKey | 对应标签页的唯一标识 | string | - |5:["$","$L14",null,{"navigation":[{"title":"","items":[{"label":"开始使用","href":"/vue-next/getting-started"}]},{"title":"通用","items":[{"label":"按钮 Button","href":"/vue-next/button"},{"label":"图标 Icons","href":"/vue-next/icons"},{"label":"链接 Link","href":"/vue-next/link"}]},{"title":"布局","items":[{"label":"分割线 Divider","href":"/vue-next/divider"},{"label":"栅格 Grid","href":"/vue-next/grid"},{"label":"间距 Space","href":"/vue-next/space"}]},{"title":"数据展示","items":[{"label":"头像 Avatar","href":"/vue-next/avatar"},{"label":"徽章 Badge","href":"/vue-next/badge"},{"label":"卡片 Card","href":"/vue-next/card"},{"label":"折叠面板 Collapse","href":"/vue-next/collapse"},{"label":"空状态 Empty","href":"/vue-next/empty"},{"label":"图片 Image","href":"/vue-next/image"},{"label":"气泡 Popover","href":"/vue-next/popover"},{"label":"标签页 Tabs","href":"/vue-next/tabs"},{"label":"标签 Tag","href":"/vue-next/tag"},{"label":"时间线 Timeline","href":"/vue-next/timeline"},{"label":"工具提示 Tooltip","href":"/vue-next/tooltip"}]},{"title":"机器码","items":[{"label":"条形码 Barcode","href":"/vue-next/barcode"},{"label":"二维码 2D Barcode","href":"/vue-next/2d-barcode"}]},{"title":"表单","items":[{"label":"表单 Form","href":"/vue-next/form"},{"label":"级联选择器 Cascader","href":"/vue-next/cascader"},{"label":"复选框 Checkbox","href":"/vue-next/checkbox"},{"label":"日期选择器 DatePicker","href":"/vue-next/date-picker"},{"label":"输入框 Input","href":"/vue-next/input"},{"label":"一次性密码输入框 Input OTP","href":"/vue-next/input-otp"},{"label":"单选框 Radio","href":"/vue-next/radio"},{"label":"评分 Rate","href":"/vue-next/rate"},{"label":"选择器 Select","href":"/vue-next/select"},{"label":"开关 Switch","href":"/vue-next/switch"}]},{"title":"反馈","items":[{"label":"警告 Alert","href":"/vue-next/alert"},{"label":"抽屉 Drawer","href":"/vue-next/drawer"},{"label":"消息提示 Message","href":"/vue-next/message"},{"label":"模态框 Modal","href":"/vue-next/modal"},{"label":"气泡确认框 Popconfirm","href":"/vue-next/popconfirm"},{"label":"响应式弹窗 Responsive Modal","href":"/vue-next/responsive-modal"},{"label":"加载中 Spin","href":"/vue-next/spin"},{"label":"骨架屏 Skeleton","href":"/vue-next/skeleton"}]},{"title":"导航","items":[{"label":"步骤 Steps","href":"/vue-next/steps"}]},{"title":"媒体","items":[{"label":"视频 Video","href":"/vue-next/video"},{"label":"音频 Audio","href":"/vue-next/audio"}]}],"children":["$","$L15",null,{"content":"$16"}]}]
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+17:I[27201,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"IconMark"]
+13:[["$","title","0",{"children":"Apron Design · 秩序之下 · 想象之上"}],["$","meta","1",{"name":"description","content":"Apron Design 是一套完全开源的 C 端组件库方案，支持 React、Vue3 和微信小程序多端开发。提供丰富的 UI 组件、优雅的设计系统和完善的开发文档，助力开发者快速构建高质量的用户界面。秩序之下，想象之上，解构复杂，聚合光芒。"}],["$","meta","2",{"name":"keywords","content":"组件库,React组件库,Vue组件库,Vue3组件库,微信小程序,小程序,UI组件,开源组件库,前端组件,设计系统,Apron Design,C端组件,跨端开发,用户界面"}],["$","link","3",{"rel":"shortcut icon","href":"/logo.png"}],["$","link","4",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","5",{"rel":"icon","href":"/facicon.ico","sizes":"32x32","type":"image/x-icon"}],["$","link","6",{"rel":"icon","href":"/facicon.ico","sizes":"16x16","type":"image/x-icon"}],["$","link","7",{"rel":"apple-touch-icon","href":"/logo.png"}],["$","$L17","8",{}]]
+f:null

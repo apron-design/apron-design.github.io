@@ -1,0 +1,308 @@
+1:"$Sreact.fragment"
+2:I[69729,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js"],"ClientProviders"]
+3:I[39756,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"default"]
+4:I[37457,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"default"]
+d:I[68027,[],"default"]
+:HL["/_next/static/chunks/2473c16c0c2f6b5f.css","style"]
+:HL["/_next/static/chunks/c41c0ed4a8f4b053.css","style"]
+:HL["/_next/static/chunks/34edf2a1acad8c83.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/chunks/a00c7c4881320090.css","style"]
+:HL["/_next/static/chunks/4525e31c425ccb41.css","style"]
+0:{"P":null,"b":"w_x0zs56xdhTQoFoaga-4","c":["","vue-next","message",""],"q":"","i":false,"f":[[["",{"children":["vue-next",{"children":[["alias","message","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2473c16c0c2f6b5f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/c41c0ed4a8f4b053.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/34edf2a1acad8c83.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/4412c383cc10a990.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/1b2b33a1e6fb0322.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/x-icon","href":"/facicon.ico"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function() {\n                try {\n                  const stored = localStorage.getItem(\"theme\");\n                  const prefersDark = window.matchMedia(\"(prefers-color-scheme: dark)\").matches;\n                  const shouldBeDark = stored === \"dark\" || (!stored && prefersDark);\n                  const themeValue = shouldBeDark ? \"dark\" : \"light\";\n                  const bgColor = shouldBeDark ? \"#000000\" : \"#FFFFFF\";\n                  document.documentElement.setAttribute(\"data-prefers-color\", themeValue);\n                  document.documentElement.style.backgroundColor = bgColor;\n                  if (document.body) {\n                    document.body.style.backgroundColor = bgColor;\n                  }\n                } catch (e) {\n                  document.documentElement.setAttribute(\"data-prefers-color\", \"light\");\n                  document.documentElement.style.backgroundColor = \"#FFFFFF\";\n                }\n              })();\n            "}}]]}],["$","body",null,{"className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased","children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/a00c7c4881320090.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$L6","$L7","$L8","$L9","$La"],"$Lb"]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$Lc",false]],"m":"$undefined","G":["$d",[]],"S":true}
+e:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"OutletBoundary"]
+f:"$Sreact.suspense"
+11:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"ViewportBoundary"]
+13:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"MetadataBoundary"]
+6:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/4525e31c425ccb41.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/4358194f07475c5a.js","async":true,"nonce":"$undefined"}]
+8:["$","script","script-1",{"src":"/_next/static/chunks/fd93425b9412d07f.js","async":true,"nonce":"$undefined"}]
+9:["$","script","script-2",{"src":"/_next/static/chunks/c1f546f244e17583.js","async":true,"nonce":"$undefined"}]
+a:["$","script","script-3",{"src":"/_next/static/chunks/fb66370eb5f2594d.js","async":true,"nonce":"$undefined"}]
+b:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
+c:["$","$1","h",{"children":[null,["$","$L11",null,{"children":"$@12"}],["$","div",null,{"hidden":true,"children":["$","$L13",null,{"children":["$","$f",null,{"name":"Next.Metadata","children":"$@14"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+15:I[80758,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/fd93425b9412d07f.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"Documents"]
+16:I[90186,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/fd93425b9412d07f.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"MarkdownRenderer"]
+17:T1ae6,# 全局提示 Message
+
+全局展示操作反馈信息，常用于通知用户操作结果。
+
+## 何时使用
+
+- 需要向用户显示操作反馈时
+- 需要全局性的简短通知时
+- 不希望打断用户操作流程的通知场景
+
+## 示例
+
+### 基础用法
+
+最简单的用法，通过不同方法显示不同类型的消息。
+:::demo
+```vue
+<template>
+  <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+    <ad-button @click="() => $message.info('This is an info message')">
+      Info
+    </ad-button>
+    <ad-button @click="() => $message.success('Operation successful!')">
+      Success
+    </ad-button>
+    <ad-button @click="() => $message.warning('Please be careful!')">
+      Warning
+    </ad-button>
+    <ad-button @click="() => $message.error('Something went wrong!')">
+      Error
+    </ad-button>
+  </div>
+</template>
+
+<script setup>
+// 在 Vue 3 中，message 通常通过插件方式全局注入
+// 使用时可以直接通过 this.$message 或 $message 调用
+</script>
+```
+:::
+
+### 使用 message.show() 方法
+
+可以通过 message.show() 方法动态指定提示类型。
+:::demo
+```vue
+<template>
+  <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+    <ad-button @click="() => $message.show('info', 'Info message via show()')">
+      Show Info
+    </ad-button>
+    <ad-button @click="() => $message.show('success', 'Success message via show()')">
+      Show Success
+    </ad-button>
+    <ad-button @click="() => $message.show('warning', 'Warning message via show()')">
+      Show Warning
+    </ad-button>
+    <ad-button @click="() => $message.show('error', 'Error message via show()')">
+      Show Error
+    </ad-button>
+  </div>
+</template>
+```
+:::
+
+### 多个提示排列
+
+多个提示会按顺序向下排列，先进先出。
+:::demo
+```vue
+<template>
+  <ad-button @click="showMultiple">
+    Show Multiple Messages
+  </ad-button>
+</template>
+
+<script setup>
+const showMultiple = () => {
+  $message.info('First message');
+  setTimeout(() => $message.success('Second message'), 500);
+  setTimeout(() => $message.warning('Third message'), 1000);
+  setTimeout(() => $message.error('Fourth message'), 1500);
+};
+</script>
+```
+:::
+
+### 自定义显示时长
+
+可以自定义消息显示时长，设置为 0 则不自动关闭。
+:::demo
+```vue
+<template>
+  <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+    <ad-button @click="() => $message.info('2 seconds', 2000)">
+      2s Duration
+    </ad-button>
+    <ad-button @click="() => $message.success('10 seconds', 10000)">
+      10s Duration
+    </ad-button>
+    <ad-button @click="() => $message.warning('Will not auto close', 0)">
+      No Auto Close
+    </ad-button>
+  </div>
+</template>
+```
+:::
+
+### 富文本内容
+
+支持 VNode 类型的内容，可以显示富文本。
+:::demo
+```vue
+<template>
+  <ad-button @click="showRichContent">
+    Show Rich Content
+  </ad-button>
+</template>
+
+<script setup>
+import { h } from 'vue';
+
+const showRichContent = () => {
+  $message.success(
+    h('span', null, [
+      'Your file ',
+      h('strong', null, 'report.pdf'),
+      ' has been uploaded successfully!'
+    ])
+  );
+};
+</script>
+```
+:::
+
+### 移除单个消息
+
+可以通过 message.remove(id) 方法移除指定的消息。
+:::demo
+```vue
+<template>
+  <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+    <ad-button @click="showMessage">
+      Show Message
+    </ad-button>
+    <ad-button @click="removeMessage" :disabled="!messageId">
+      Remove Message
+    </ad-button>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const messageId = ref(null);
+
+const showMessage = () => {
+  messageId.value = $message.info('This message can be removed manually', 0);
+};
+
+const removeMessage = () => {
+  if (messageId.value) {
+    $message.remove(messageId.value);
+    messageId.value = null;
+  }
+};
+</script>
+```
+:::
+
+### 清除所有消息
+
+可以通过 message.clear() 方法一次性清除所有消息。
+:::demo
+```vue
+<template>
+  <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+    <ad-button @click="showMultiple">
+      Show Multiple Messages
+    </ad-button>
+    <ad-button @click="() => $message.clear()">
+      Clear All
+    </ad-button>
+  </div>
+</template>
+
+<script setup>
+const showMultiple = () => {
+  $message.info('Message 1', 0);
+  $message.success('Message 2', 0);
+  $message.warning('Message 3', 0);
+  $message.error('Message 4', 0);
+};
+</script>
+```
+:::
+
+### 完整示例
+
+展示 Message 组件的各种使用场景。
+:::demo
+```vue
+<template>
+  <div style="display: flex; flex-direction: column; gap: 12px;">
+    <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+      <ad-button @click="handleSuccess" variant="primary">
+        成功操作
+      </ad-button>
+      <ad-button @click="handleError" variant="default">
+        错误操作
+      </ad-button>
+      <ad-button @click="handleWarning">
+        警告提示
+      </ad-button>
+      <ad-button @click="handleInfo">
+        信息提示
+      </ad-button>
+    </div>
+    <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+      <ad-button @click="handleCustom">
+        自定义时长
+      </ad-button>
+      <ad-button @click="() => $message.clear()">
+        清除所有
+      </ad-button>
+    </div>
+  </div>
+</template>
+
+<script setup>
+const handleSuccess = () => {
+  $message.success('操作成功！');
+};
+
+const handleError = () => {
+  $message.error('操作失败，请重试');
+};
+
+const handleWarning = () => {
+  $message.warning('请注意：此操作不可撤销');
+};
+
+const handleInfo = () => {
+  $message.info('提示：请检查您的输入');
+};
+
+const handleCustom = () => {
+  const id = $message.show('info', '自定义消息，3秒后关闭', 3000);
+  setTimeout(() => {
+    $message.remove(id);
+  }, 2000);
+};
+</script>
+```
+:::
+
+## API
+
+### $message
+
+| 方法 | 说明 | 类型 |
+| --- | --- | --- |
+| $message.show | 显示消息 | `(type: 'info' \| 'success' \| 'warning' \| 'error', message: string \| VNode, duration?: number) => string` |
+| $message.info | 显示信息消息 | `(message: string \| VNode, duration?: number) => string` |
+| $message.success | 显示成功消息 | `(message: string \| VNode, duration?: number) => string` |
+| $message.warning | 显示警告消息 | `(message: string \| VNode, duration?: number) => string` |
+| $message.error | 显示错误消息 | `(message: string \| VNode, duration?: number) => string` |
+| $message.remove | 移除指定消息 | `(id: string) => void` |
+| $message.clear | 清除所有消息 | `() => void` |
+
+### 参数说明
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| type | 消息类型 | `'info' \| 'success' \| 'warning' \| 'error'` | - |
+| message | 消息内容 | `string \| VNode` | - |
+| duration | 显示时长（毫秒），设置为 0 则不自动关闭 | `number` | `5000` |
+| id | 消息唯一标识符，用于移除消息 | `string` | - |5:["$","$L15",null,{"navigation":[{"title":"","items":[{"label":"开始使用","href":"/vue-next/getting-started"}]},{"title":"通用","items":[{"label":"按钮 Button","href":"/vue-next/button"},{"label":"图标 Icons","href":"/vue-next/icons"},{"label":"链接 Link","href":"/vue-next/link"}]},{"title":"布局","items":[{"label":"分割线 Divider","href":"/vue-next/divider"},{"label":"栅格 Grid","href":"/vue-next/grid"},{"label":"间距 Space","href":"/vue-next/space"}]},{"title":"数据展示","items":[{"label":"头像 Avatar","href":"/vue-next/avatar"},{"label":"徽章 Badge","href":"/vue-next/badge"},{"label":"卡片 Card","href":"/vue-next/card"},{"label":"折叠面板 Collapse","href":"/vue-next/collapse"},{"label":"空状态 Empty","href":"/vue-next/empty"},{"label":"图片 Image","href":"/vue-next/image"},{"label":"气泡 Popover","href":"/vue-next/popover"},{"label":"标签页 Tabs","href":"/vue-next/tabs"},{"label":"标签 Tag","href":"/vue-next/tag"},{"label":"时间线 Timeline","href":"/vue-next/timeline"},{"label":"工具提示 Tooltip","href":"/vue-next/tooltip"}]},{"title":"机器码","items":[{"label":"条形码 Barcode","href":"/vue-next/barcode"},{"label":"二维码 2D Barcode","href":"/vue-next/2d-barcode"}]},{"title":"表单","items":[{"label":"表单 Form","href":"/vue-next/form"},{"label":"级联选择器 Cascader","href":"/vue-next/cascader"},{"label":"复选框 Checkbox","href":"/vue-next/checkbox"},{"label":"日期选择器 DatePicker","href":"/vue-next/date-picker"},{"label":"输入框 Input","href":"/vue-next/input"},{"label":"一次性密码输入框 Input OTP","href":"/vue-next/input-otp"},{"label":"单选框 Radio","href":"/vue-next/radio"},{"label":"评分 Rate","href":"/vue-next/rate"},{"label":"选择器 Select","href":"/vue-next/select"},{"label":"开关 Switch","href":"/vue-next/switch"}]},{"title":"反馈","items":[{"label":"警告 Alert","href":"/vue-next/alert"},{"label":"抽屉 Drawer","href":"/vue-next/drawer"},{"label":"消息提示 Message","href":"/vue-next/message"},{"label":"模态框 Modal","href":"/vue-next/modal"},{"label":"气泡确认框 Popconfirm","href":"/vue-next/popconfirm"},{"label":"响应式弹窗 Responsive Modal","href":"/vue-next/responsive-modal"},{"label":"加载中 Spin","href":"/vue-next/spin"},{"label":"骨架屏 Skeleton","href":"/vue-next/skeleton"}]},{"title":"导航","items":[{"label":"步骤 Steps","href":"/vue-next/steps"}]},{"title":"媒体","items":[{"label":"视频 Video","href":"/vue-next/video"},{"label":"音频 Audio","href":"/vue-next/audio"}]}],"children":["$","$L16",null,{"content":"$17"}]}]
+12:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+18:I[27201,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"IconMark"]
+14:[["$","title","0",{"children":"Apron Design · 秩序之下 · 想象之上"}],["$","meta","1",{"name":"description","content":"Apron Design 是一套完全开源的 C 端组件库方案，支持 React、Vue3 和微信小程序多端开发。提供丰富的 UI 组件、优雅的设计系统和完善的开发文档，助力开发者快速构建高质量的用户界面。秩序之下，想象之上，解构复杂，聚合光芒。"}],["$","meta","2",{"name":"keywords","content":"组件库,React组件库,Vue组件库,Vue3组件库,微信小程序,小程序,UI组件,开源组件库,前端组件,设计系统,Apron Design,C端组件,跨端开发,用户界面"}],["$","link","3",{"rel":"shortcut icon","href":"/logo.png"}],["$","link","4",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","5",{"rel":"icon","href":"/facicon.ico","sizes":"32x32","type":"image/x-icon"}],["$","link","6",{"rel":"icon","href":"/facicon.ico","sizes":"16x16","type":"image/x-icon"}],["$","link","7",{"rel":"apple-touch-icon","href":"/logo.png"}],["$","$L18","8",{}]]
+10:null

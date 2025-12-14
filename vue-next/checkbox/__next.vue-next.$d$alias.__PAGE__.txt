@@ -1,0 +1,253 @@
+1:"$Sreact.fragment"
+2:I[80758,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/fd93425b9412d07f.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"Documents"]
+3:I[90186,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/fd93425b9412d07f.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"MarkdownRenderer"]
+c:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"OutletBoundary"]
+d:"$Sreact.suspense"
+:HL["/_next/static/chunks/a00c7c4881320090.css","style"]
+:HL["/_next/static/chunks/4525e31c425ccb41.css","style"]
+4:T15fa,# 复选框 Checkbox
+
+复选框用于在一组可选项中进行多项选择。
+
+## 何时使用
+
+- 需要在多个选项中选择一个或多个选项时
+- 支持单独使用或组合使用
+- 支持全选/反选等复杂交互
+
+## 代码演示
+
+### 基本用法
+
+最简单的用法，展示可用、选中、禁用等状态。
+:::demo
+```vue
+<template>
+  <div style="display: flex; flex-direction: column; gap: 16px;">
+    <ad-checkbox>未选中状态</ad-checkbox>
+    <ad-checkbox v-model:checked="checked1">已选中状态</ad-checkbox>
+    <ad-checkbox disabled>禁用状态</ad-checkbox>
+    <ad-checkbox v-model:checked="checked2" disabled>选中且禁用状态</ad-checkbox>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const checked1 = ref(true);
+const checked2 = ref(true);
+</script>
+```
+:::
+
+### 半选状态
+
+通过 `indeterminate` 属性设置半选状态，常用于实现全选效果。
+:::demo
+```vue
+<template>
+  <ad-checkbox v-model:indeterminate="indeterminate">
+    半选状态
+  </ad-checkbox>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const indeterminate = ref(true);
+</script>
+```
+:::
+
+### 受控组件
+
+通过 `v-model:checked` 实现受控组件。
+:::demo
+```vue
+<template>
+  <ad-checkbox v-model:checked="checked">
+    点击切换状态: {{ checked ? '已选中' : '未选中' }}
+  </ad-checkbox>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const checked = ref(false);
+</script>
+```
+:::
+
+### 文字点击
+
+通过 `label-clickable` 属性控制点击文字是否可以激活复选框。
+:::demo
+```vue
+<template>
+  <div style="display: flex; flex-direction: column; gap: 16px;">
+    <ad-checkbox v-model:checked="checked1">
+      默认状态（只能点击方框）
+    </ad-checkbox>
+    <ad-checkbox v-model:checked="checked2" label-clickable>
+      可点击文字（点击文字也可以激活）
+    </ad-checkbox>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const checked1 = ref(false);
+const checked2 = ref(false);
+</script>
+```
+:::
+
+### 复选框组
+
+使用 `ad-checkbox-group` 组合多个复选框。
+:::demo
+```vue
+<template>
+  <div style="display: flex; flex-direction: column; gap: 16px;">
+    <ad-checkbox-group v-model:value="value" :options="options" />
+    <p style="margin: 0;">
+      已选中: {{ value.join(', ') || '无' }}
+    </p>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const value = ref(['apple']);
+
+const options = [
+  { label: '苹果', value: 'apple' },
+  { label: '香蕉', value: 'banana' },
+  { label: '橙子', value: 'orange' },
+  { label: '葡萄', value: 'grape' },
+];
+</script>
+```
+:::
+
+### 垂直排列
+
+通过 `direction` 属性设置垂直排列。
+:::demo
+```vue
+<template>
+  <ad-checkbox-group
+    v-model:value="value"
+    direction="vertical"
+    :options="options"
+  />
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const value = ref(['option1']);
+
+const options = [
+  { label: '选项一', value: 'option1' },
+  { label: '选项二', value: 'option2' },
+  { label: '选项三', value: 'option3' },
+];
+</script>
+```
+:::
+
+### 全选效果
+
+实现全选/反选的典型交互模式。
+:::demo
+```vue
+<template>
+  <div style="display: flex; flex-direction: column; gap: 16px;">
+    <ad-checkbox
+      v-model:indeterminate="indeterminate"
+      v-model:checked="checkAll"
+      @change="onCheckAllChange"
+    >
+      全选
+    </ad-checkbox>
+    <div style="border-left: 2px solid #e4e4e7; padding-left: 16px;">
+      <ad-checkbox-group
+        direction="vertical"
+        v-model:value="checkedList"
+        :options="checkboxOptions"
+      />
+    </div>
+  </div>
+</template>
+
+<script setup>
+import { ref, computed } from 'vue';
+
+const allOptions = ['apple', 'banana', 'orange', 'grape'];
+const checkedList = ref(['apple', 'banana']);
+
+const checkAll = computed({
+  get: () => allOptions.length === checkedList.value.length,
+  set: (val) => {
+    checkedList.value = val ? [...allOptions] : [];
+  }
+});
+
+const indeterminate = computed(() => {
+  return checkedList.value.length > 0 && checkedList.value.length < allOptions.length;
+});
+
+const onCheckAllChange = (checked) => {
+  checkedList.value = checked ? [...allOptions] : [];
+};
+
+const checkboxOptions = allOptions.map((item) => ({
+  label: item.charAt(0).toUpperCase() + item.slice(1),
+  value: item,
+}));
+</script>
+```
+:::
+
+## API
+
+### ad-checkbox
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| checked | 是否选中（受控） | `boolean` | - |
+| default-checked | 默认是否选中（非受控） | `boolean` | `false` |
+| disabled | 是否禁用 | `boolean` | `false` |
+| indeterminate | 是否为半选状态 | `boolean` | `false` |
+| value | 复选框的值 | `string \| number` | - |
+| label-clickable | 点击文字部分是否可以激活复选框 | `boolean` | `false` |
+
+### ad-checkbox-group
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| value | 当前选中的值数组（受控） | `(string \| number)[]` | - |
+| default-value | 默认选中的值数组（非受控） | `(string \| number)[]` | `[]` |
+| options | 选项配置 | `(CheckboxOptionType \| string \| number)[]` | - |
+| disabled | 是否禁用整组 | `boolean` | `false` |
+| direction | 排列方向 | `'horizontal' \| 'vertical'` | `'horizontal'` |
+| label-clickable | 点击文字部分是否可以激活复选框 | `boolean` | `true` |
+
+### CheckboxOptionType
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| label | 选项标签 | `string` | - |
+| value | 选项值 | `string \| number` | - |
+| disabled | 是否禁用 | `boolean` | `false` |0:{"buildId":"w_x0zs56xdhTQoFoaga-4","rsc":["$","$1","c",{"children":[["$","$L2",null,{"navigation":[{"title":"","items":[{"label":"开始使用","href":"/vue-next/getting-started"}]},{"title":"通用","items":[{"label":"按钮 Button","href":"/vue-next/button"},{"label":"图标 Icons","href":"/vue-next/icons"},{"label":"链接 Link","href":"/vue-next/link"}]},{"title":"布局","items":[{"label":"分割线 Divider","href":"/vue-next/divider"},{"label":"栅格 Grid","href":"/vue-next/grid"},{"label":"间距 Space","href":"/vue-next/space"}]},{"title":"数据展示","items":[{"label":"头像 Avatar","href":"/vue-next/avatar"},{"label":"徽章 Badge","href":"/vue-next/badge"},{"label":"卡片 Card","href":"/vue-next/card"},{"label":"折叠面板 Collapse","href":"/vue-next/collapse"},{"label":"空状态 Empty","href":"/vue-next/empty"},{"label":"图片 Image","href":"/vue-next/image"},{"label":"气泡 Popover","href":"/vue-next/popover"},{"label":"标签页 Tabs","href":"/vue-next/tabs"},{"label":"标签 Tag","href":"/vue-next/tag"},{"label":"时间线 Timeline","href":"/vue-next/timeline"},{"label":"工具提示 Tooltip","href":"/vue-next/tooltip"}]},{"title":"机器码","items":[{"label":"条形码 Barcode","href":"/vue-next/barcode"},{"label":"二维码 2D Barcode","href":"/vue-next/2d-barcode"}]},{"title":"表单","items":[{"label":"表单 Form","href":"/vue-next/form"},{"label":"级联选择器 Cascader","href":"/vue-next/cascader"},{"label":"复选框 Checkbox","href":"/vue-next/checkbox"},{"label":"日期选择器 DatePicker","href":"/vue-next/date-picker"},{"label":"输入框 Input","href":"/vue-next/input"},{"label":"一次性密码输入框 Input OTP","href":"/vue-next/input-otp"},{"label":"单选框 Radio","href":"/vue-next/radio"},{"label":"评分 Rate","href":"/vue-next/rate"},{"label":"选择器 Select","href":"/vue-next/select"},{"label":"开关 Switch","href":"/vue-next/switch"}]},{"title":"反馈","items":[{"label":"警告 Alert","href":"/vue-next/alert"},{"label":"抽屉 Drawer","href":"/vue-next/drawer"},{"label":"消息提示 Message","href":"/vue-next/message"},{"label":"模态框 Modal","href":"/vue-next/modal"},{"label":"气泡确认框 Popconfirm","href":"/vue-next/popconfirm"},{"label":"响应式弹窗 Responsive Modal","href":"/vue-next/responsive-modal"},{"label":"加载中 Spin","href":"/vue-next/spin"},{"label":"骨架屏 Skeleton","href":"/vue-next/skeleton"}]},{"title":"导航","items":[{"label":"步骤 Steps","href":"/vue-next/steps"}]},{"title":"媒体","items":[{"label":"视频 Video","href":"/vue-next/video"},{"label":"音频 Audio","href":"/vue-next/audio"}]}],"children":["$","$L3",null,{"content":"$4"}]}],["$L5","$L6","$L7","$L8","$L9","$La"],"$Lb"]}],"loading":null,"isPartial":false}
+5:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/a00c7c4881320090.css","precedence":"next"}]
+6:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/4525e31c425ccb41.css","precedence":"next"}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/4358194f07475c5a.js","async":true}]
+8:["$","script","script-1",{"src":"/_next/static/chunks/fd93425b9412d07f.js","async":true}]
+9:["$","script","script-2",{"src":"/_next/static/chunks/c1f546f244e17583.js","async":true}]
+a:["$","script","script-3",{"src":"/_next/static/chunks/fb66370eb5f2594d.js","async":true}]
+b:["$","$Lc",null,{"children":["$","$d",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]
+e:null

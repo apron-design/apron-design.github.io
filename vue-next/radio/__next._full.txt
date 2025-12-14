@@ -1,0 +1,441 @@
+1:"$Sreact.fragment"
+2:I[69729,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js"],"ClientProviders"]
+3:I[39756,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"default"]
+4:I[37457,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"default"]
+c:I[68027,[],"default"]
+:HL["/_next/static/chunks/2473c16c0c2f6b5f.css","style"]
+:HL["/_next/static/chunks/c41c0ed4a8f4b053.css","style"]
+:HL["/_next/static/chunks/34edf2a1acad8c83.css","style"]
+:HL["/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/chunks/a00c7c4881320090.css","style"]
+:HL["/_next/static/chunks/4525e31c425ccb41.css","style"]
+0:{"P":null,"b":"w_x0zs56xdhTQoFoaga-4","c":["","vue-next","radio",""],"q":"","i":false,"f":[[["",{"children":["vue-next",{"children":[["alias","radio","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2473c16c0c2f6b5f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/c41c0ed4a8f4b053.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/34edf2a1acad8c83.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/4412c383cc10a990.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/1b2b33a1e6fb0322.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/x-icon","href":"/facicon.ico"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function() {\n                try {\n                  const stored = localStorage.getItem(\"theme\");\n                  const prefersDark = window.matchMedia(\"(prefers-color-scheme: dark)\").matches;\n                  const shouldBeDark = stored === \"dark\" || (!stored && prefersDark);\n                  const themeValue = shouldBeDark ? \"dark\" : \"light\";\n                  const bgColor = shouldBeDark ? \"#000000\" : \"#FFFFFF\";\n                  document.documentElement.setAttribute(\"data-prefers-color\", themeValue);\n                  document.documentElement.style.backgroundColor = bgColor;\n                  if (document.body) {\n                    document.body.style.backgroundColor = bgColor;\n                  }\n                } catch (e) {\n                  document.documentElement.setAttribute(\"data-prefers-color\", \"light\");\n                  document.documentElement.style.backgroundColor = \"#FFFFFF\";\n                }\n              })();\n            "}}]]}],["$","body",null,{"className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased","children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/a00c7c4881320090.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/4525e31c425ccb41.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$L6","$L7","$L8","$L9"],"$La"]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$Lb",false]],"m":"$undefined","G":["$c",[]],"S":true}
+d:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"OutletBoundary"]
+e:"$Sreact.suspense"
+10:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"ViewportBoundary"]
+12:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"MetadataBoundary"]
+6:["$","script","script-0",{"src":"/_next/static/chunks/4358194f07475c5a.js","async":true,"nonce":"$undefined"}]
+7:["$","script","script-1",{"src":"/_next/static/chunks/fd93425b9412d07f.js","async":true,"nonce":"$undefined"}]
+8:["$","script","script-2",{"src":"/_next/static/chunks/c1f546f244e17583.js","async":true,"nonce":"$undefined"}]
+9:["$","script","script-3",{"src":"/_next/static/chunks/fb66370eb5f2594d.js","async":true,"nonce":"$undefined"}]
+a:["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]
+b:["$","$1","h",{"children":[null,["$","$L10",null,{"children":"$@11"}],["$","div",null,{"hidden":true,"children":["$","$L12",null,{"children":["$","$e",null,{"name":"Next.Metadata","children":"$@13"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+14:I[80758,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/fd93425b9412d07f.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"Documents"]
+15:I[90186,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/fd93425b9412d07f.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"MarkdownRenderer"]
+16:T2970,# 单选框 Radio
+
+单选框用于在一组选项中选择唯一的一个选项。
+
+## 何时使用
+
+- 在一组互斥的选项中进行单项选择时
+- 需要展示所有可选项供用户比较时
+- 表单中需要用户做出明确选择时
+
+## 示例
+
+### 基础用法
+
+最简单的单选框使用方式。
+:::demo
+```vue
+<template>
+  <ad-radio>Radio</ad-radio>
+</template>
+```
+:::
+
+### 不同状态
+
+单选框支持多种状态：可用、禁用、选中、选中且禁用。
+:::demo
+```vue
+<template>
+  <div style="display: flex; gap: 48px;">
+    <div style="width: 300px;">
+      <ad-radio>I have only one line content</ad-radio>
+    </div>
+    <div style="width: 300px;">
+      <ad-radio disabled>I have only one line content</ad-radio>
+    </div>
+  </div>
+</template>
+```
+:::
+
+### 选中状态
+
+展示选中状态的单选框。
+:::demo
+```vue
+<template>
+  <div style="display: flex; gap: 48px;">
+    <div style="width: 300px;">
+      <ad-radio checked @change="() => {}">
+        I have 2 lines content to show so this is a 2 lines content
+      </ad-radio>
+    </div>
+    <div style="width: 300px;">
+      <ad-radio checked disabled @change="() => {}">
+        I have 2 lines content to show so this is a 2 lines content
+      </ad-radio>
+    </div>
+  </div>
+</template>
+```
+:::
+
+### 所有状态概览
+
+展示单选框的所有可能状态。
+:::demo
+```vue
+<template>
+  <div style="display: flex; flex-direction: column; gap: 32px;">
+    <div>
+      <h4 style="margin: 0 0 12px 0; color: #393939;">Available</h4>
+      <div style="display: flex; gap: 48px;">
+        <div style="width: 300px;">
+          <ad-radio>I have only one line content</ad-radio>
+        </div>
+        <div style="width: 300px;">
+          <h4 style="margin: 0 0 12px 0; color: #393939;">Disabled</h4>
+          <ad-radio disabled>I have only one line content</ad-radio>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h4 style="margin: 0 0 12px 0; color: #393939;">Checked</h4>
+      <div style="display: flex; gap: 48px;">
+        <div style="width: 300px;">
+          <ad-radio checked @change="() => {}">
+            I have 2 lines content to show so this is a 2 lines content
+          </ad-radio>
+        </div>
+        <div style="width: 300px;">
+          <ad-radio checked disabled @change="() => {}">
+            I have 2 lines content to show so this is a 2 lines content
+          </ad-radio>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+```
+:::
+
+### 交互式示例
+
+单选框支持受控模式，可以响应用户的点击操作。
+:::demo
+```vue
+<template>
+  <ad-radio :checked="checked" @change="setChecked">
+    Click to toggle: {{ checked ? 'Checked' : 'Unchecked' }}
+  </ad-radio>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const checked = ref(false);
+const setChecked = (val) => {
+  checked.value = val;
+};
+</script>
+```
+:::
+
+### 标签可点击
+
+可以通过 `label-clickable` 属性控制标签是否可点击。
+:::demo
+```vue
+<template>
+  <div style="display: flex; flex-direction: column; gap: 24px;">
+    <div>
+      <h4 style="margin: 0 0 12px 0; color: #393939;">
+        label-clickable=false (默认，只能点击圆圈)
+      </h4>
+      <ad-radio :checked="checked1" @change="setChecked1">
+        只有点击左边的圆圈才能选中
+      </ad-radio>
+    </div>
+    <div>
+      <h4 style="margin: 0 0 12px 0; color: #393939;">
+        label-clickable=true (点击文字也可以激活)
+      </h4>
+      <ad-radio :checked="checked2" @change="setChecked2" label-clickable>
+        点击这段文字也可以选中
+      </ad-radio>
+    </div>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const checked1 = ref(false);
+const checked2 = ref(false);
+
+const setChecked1 = (val) => {
+  checked1.value = val;
+};
+
+const setChecked2 = (val) => {
+  checked2.value = val;
+};
+</script>
+```
+:::
+
+### RadioGroup 单选框组
+
+使用 RadioGroup 可以方便地管理一组单选框。
+:::demo
+```vue
+<template>
+  <div style="display: flex; flex-direction: column; gap: 24px;">
+    <div>
+      <h4 style="margin: 0 0 12px 0; color: #393939;">Horizontal (default)</h4>
+      <ad-radio-group
+        :value="value"
+        @change="setValue"
+        :options="[
+          { label: 'Apple', value: 'apple' },
+          { label: 'Banana', value: 'banana' },
+          { label: 'Orange', value: 'orange' },
+          { label: 'Disabled', value: 'disabled', disabled: true },
+        ]"
+      />
+    </div>
+    <div>
+      <p style="margin: 0; color: #666;">
+        Selected: {{ value || 'None' }}
+      </p>
+    </div>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const value = ref('apple');
+const setValue = (val) => {
+  value.value = val;
+};
+</script>
+```
+:::
+
+### 垂直排列
+
+通过 `direction` 属性可以设置单选框组的排列方向。
+:::demo
+```vue
+<template>
+  <ad-radio-group
+    :value="value"
+    @change="setValue"
+    direction="vertical"
+    :options="[
+      { label: 'Option 1', value: 'option1' },
+      { label: 'Option 2', value: 'option2' },
+      { label: 'Option 3', value: 'option3' },
+    ]"
+  />
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const value = ref('option1');
+const setValue = (val) => {
+  value.value = val;
+};
+</script>
+```
+:::
+
+### 使用子组件
+
+可以通过 RadioGroup.Item 子组件来自定义每个选项。
+:::demo
+```vue
+<template>
+  <ad-radio-group :value="value" @change="setValue">
+    <ad-radio-group-item value="a">Custom Item A</ad-radio-group-item>
+    <ad-radio-group-item value="b">Custom Item B</ad-radio-group-item>
+    <ad-radio-group-item value="c" disabled>
+      Custom Item C (Disabled)
+    </ad-radio-group-item>
+  </ad-radio-group>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const value = ref('a');
+const setValue = (val) => {
+  value.value = val;
+};
+</script>
+```
+:::
+
+### 禁用整组
+
+可以通过 `disabled` 属性禁用整个单选框组。
+:::demo
+```vue
+<template>
+  <ad-radio-group
+    disabled
+    default-value="apple"
+    :options="[
+      { label: 'Apple', value: 'apple' },
+      { label: 'Banana', value: 'banana' },
+      { label: 'Orange', value: 'orange' },
+    ]"
+  />
+</template>
+```
+:::
+
+### 非受控模式
+
+可以使用 `default-value` 属性设置默认选中项。
+:::demo
+```vue
+<template>
+  <div style="display: flex; flex-direction: column; gap: 24px;">
+    <div>
+      <h4 style="margin: 0 0 12px 0; color: #393939;">非受控模式（使用 default-value）</h4>
+      <ad-radio-group
+        name="fruit"
+        default-value="banana"
+        :options="[
+          { label: 'Apple', value: 'apple' },
+          { label: 'Banana', value: 'banana' },
+          { label: 'Orange', value: 'orange' },
+        ]"
+        @change="(val) => console.log('Selected:', val)"
+      />
+    </div>
+  </div>
+</template>
+```
+:::
+
+### 暗色模式
+
+单选框在暗色模式下会自动适配主题颜色。
+:::demo
+```vue
+<template>
+  <div
+    data-theme="dark"
+    style="
+      padding: 32px;
+      background-color: #18181b;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    "
+  >
+    <div>
+      <h4 style="margin: 0 0 12px 0; color: #a1a1aa;">Available</h4>
+      <div style="display: flex; gap: 32px;">
+        <ad-radio>Unchecked</ad-radio>
+        <ad-radio checked @change="() => {}">Checked</ad-radio>
+      </div>
+    </div>
+
+    <div>
+      <h4 style="margin: 0 0 12px 0; color: #a1a1aa;">Disabled</h4>
+      <div style="display: flex; gap: 32px;">
+        <ad-radio disabled>Unchecked</ad-radio>
+        <ad-radio checked disabled @change="() => {}">Checked</ad-radio>
+      </div>
+    </div>
+
+    <div>
+      <h4 style="margin: 0 0 12px 0; color: #a1a1aa;">Radio Group</h4>
+      <ad-radio-group
+        default-value="option1"
+        direction="horizontal"
+        :options="[
+          { label: 'Option 1', value: 'option1' },
+          { label: 'Option 2', value: 'option2' },
+          { label: 'Option 3', value: 'option3' },
+        ]"
+      />
+    </div>
+  </div>
+</template>
+```
+:::
+
+## API
+
+### ad-radio
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| checked | 是否选中（受控模式） | boolean | - |
+| default-checked | 默认是否选中（非受控模式） | boolean | - |
+| disabled | 是否禁用 | boolean | `false` |
+| value | 单选框的值 | string \| number | - |
+| @change | 选中状态改变时的回调 | `(checked: boolean) => void` | - |
+| label-clickable | 点击文字部分是否可以激活单选框 | boolean | `false` |
+| class-name | 自定义类名 | string | - |
+
+### ad-radio-group
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| value | 当前选中的值（受控模式） | string \| number | - |
+| default-value | 默认选中的值（非受控模式） | string \| number | - |
+| options | 选项配置 | RadioOptionType[] | - |
+| disabled | 是否禁用整组 | boolean | `false` |
+| direction | 排列方向 | `'horizontal'` \| `'vertical'` | `'horizontal'` |
+| @change | 选中值改变时的回调 | `(value: string \| number) => void` | - |
+| class-name | 自定义类名 | string | - |
+| name | RadioGroup 的 name 属性 | string | - |
+| label-clickable | 点击文字部分是否可以激活单选框 | boolean | `true` |
+
+### RadioOptionType
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| label | 选项标签 | string | - |
+| value | 选项值 | string \| number | - |
+| disabled | 是否禁用该选项 | boolean | - |
+
+### ad-radio-group-item
+
+继承 ad-radio 的所有属性，但以下属性除外：
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| value | 单选框的值 | string \| number | - |
+| checked | 是否选中（由 RadioGroup 控制） | boolean | - |
+| @change | 选中状态改变时的回调（由 RadioGroup 控制） | function | - |
+| name | name 属性（由 RadioGroup 控制） | string | - |
+
+## 注意事项
+
+1. 单选框在同一组内是互斥的，只能有一个被选中
+2. RadioGroup 会自动为每个 Radio 分配相同的 name 属性，确保它们属于同一组
+3. 在受控模式下，需要同时提供 `value` 和 `@change` 属性
+4. 在非受控模式下，可以使用 `default-value` 设置默认选中项
+5. 通过 `label-clickable` 属性可以控制标签是否可点击，默认情况下 Radio 的标签不可点击，RadioGroup 中的标签可点击
+6. RadioGroup 支持两种排列方向：水平（horizontal）和垂直（vertical）
+7. 可以通过 `options` 属性快速配置选项，也可以通过子组件的方式自定义每个选项5:["$","$L14",null,{"navigation":[{"title":"","items":[{"label":"开始使用","href":"/vue-next/getting-started"}]},{"title":"通用","items":[{"label":"按钮 Button","href":"/vue-next/button"},{"label":"图标 Icons","href":"/vue-next/icons"},{"label":"链接 Link","href":"/vue-next/link"}]},{"title":"布局","items":[{"label":"分割线 Divider","href":"/vue-next/divider"},{"label":"栅格 Grid","href":"/vue-next/grid"},{"label":"间距 Space","href":"/vue-next/space"}]},{"title":"数据展示","items":[{"label":"头像 Avatar","href":"/vue-next/avatar"},{"label":"徽章 Badge","href":"/vue-next/badge"},{"label":"卡片 Card","href":"/vue-next/card"},{"label":"折叠面板 Collapse","href":"/vue-next/collapse"},{"label":"空状态 Empty","href":"/vue-next/empty"},{"label":"图片 Image","href":"/vue-next/image"},{"label":"气泡 Popover","href":"/vue-next/popover"},{"label":"标签页 Tabs","href":"/vue-next/tabs"},{"label":"标签 Tag","href":"/vue-next/tag"},{"label":"时间线 Timeline","href":"/vue-next/timeline"},{"label":"工具提示 Tooltip","href":"/vue-next/tooltip"}]},{"title":"机器码","items":[{"label":"条形码 Barcode","href":"/vue-next/barcode"},{"label":"二维码 2D Barcode","href":"/vue-next/2d-barcode"}]},{"title":"表单","items":[{"label":"表单 Form","href":"/vue-next/form"},{"label":"级联选择器 Cascader","href":"/vue-next/cascader"},{"label":"复选框 Checkbox","href":"/vue-next/checkbox"},{"label":"日期选择器 DatePicker","href":"/vue-next/date-picker"},{"label":"输入框 Input","href":"/vue-next/input"},{"label":"一次性密码输入框 Input OTP","href":"/vue-next/input-otp"},{"label":"单选框 Radio","href":"/vue-next/radio"},{"label":"评分 Rate","href":"/vue-next/rate"},{"label":"选择器 Select","href":"/vue-next/select"},{"label":"开关 Switch","href":"/vue-next/switch"}]},{"title":"反馈","items":[{"label":"警告 Alert","href":"/vue-next/alert"},{"label":"抽屉 Drawer","href":"/vue-next/drawer"},{"label":"消息提示 Message","href":"/vue-next/message"},{"label":"模态框 Modal","href":"/vue-next/modal"},{"label":"气泡确认框 Popconfirm","href":"/vue-next/popconfirm"},{"label":"响应式弹窗 Responsive Modal","href":"/vue-next/responsive-modal"},{"label":"加载中 Spin","href":"/vue-next/spin"},{"label":"骨架屏 Skeleton","href":"/vue-next/skeleton"}]},{"title":"导航","items":[{"label":"步骤 Steps","href":"/vue-next/steps"}]},{"title":"媒体","items":[{"label":"视频 Video","href":"/vue-next/video"},{"label":"音频 Audio","href":"/vue-next/audio"}]}],"children":["$","$L15",null,{"content":"$16"}]}]
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+17:I[27201,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"IconMark"]
+13:[["$","title","0",{"children":"Apron Design · 秩序之下 · 想象之上"}],["$","meta","1",{"name":"description","content":"Apron Design 是一套完全开源的 C 端组件库方案，支持 React、Vue3 和微信小程序多端开发。提供丰富的 UI 组件、优雅的设计系统和完善的开发文档，助力开发者快速构建高质量的用户界面。秩序之下，想象之上，解构复杂，聚合光芒。"}],["$","meta","2",{"name":"keywords","content":"组件库,React组件库,Vue组件库,Vue3组件库,微信小程序,小程序,UI组件,开源组件库,前端组件,设计系统,Apron Design,C端组件,跨端开发,用户界面"}],["$","link","3",{"rel":"shortcut icon","href":"/logo.png"}],["$","link","4",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","5",{"rel":"icon","href":"/facicon.ico","sizes":"32x32","type":"image/x-icon"}],["$","link","6",{"rel":"icon","href":"/facicon.ico","sizes":"16x16","type":"image/x-icon"}],["$","link","7",{"rel":"apple-touch-icon","href":"/logo.png"}],["$","$L17","8",{}]]
+f:null

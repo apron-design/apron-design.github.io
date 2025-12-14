@@ -1,0 +1,335 @@
+1:"$Sreact.fragment"
+2:I[80758,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/fd93425b9412d07f.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"Documents"]
+3:I[90186,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/fd93425b9412d07f.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"MarkdownRenderer"]
+c:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"OutletBoundary"]
+d:"$Sreact.suspense"
+:HL["/_next/static/chunks/a00c7c4881320090.css","style"]
+:HL["/_next/static/chunks/4525e31c425ccb41.css","style"]
+4:T1cee,# 抽屉 Drawer
+
+屏幕边缘滑出的浮层面板，用于承载临时内容或操作。
+
+## 何时使用
+
+- 需要从屏幕边缘滑出一个面板来承载内容
+- 用于移动端或空间受限的场景
+- 替代 Modal 对话框，提供更自然的过渡效果
+
+## 示例
+
+### 基础用法
+
+最简单的用法，从右侧滑出抽屉。
+:::demo
+```vue
+<template>
+  <div>
+    <ad-button @click="open = true">打开抽屉</ad-button>
+    <ad-drawer
+      :open="open"
+      title="基础抽屉"
+      @close="open = false"
+      @ok="handleOk"
+    >
+      <p>这是抽屉的内容。</p>
+      <p>默认从右侧展开。</p>
+    </ad-drawer>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const open = ref(false);
+
+const handleOk = () => {
+  console.log('确认');
+  open.value = false;
+};
+</script>
+```
+:::
+
+### 不同方向
+
+支持从上、右、下、左四个方向滑出。
+:::demo
+```vue
+<template>
+  <div>
+    <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+      <ad-button @click="openTop = true">上</ad-button>
+      <ad-button @click="openRight = true">右</ad-button>
+      <ad-button @click="openBottom = true">下</ad-button>
+      <ad-button @click="openLeft = true">左</ad-button>
+    </div>
+
+    <ad-drawer
+      :open="openRight"
+      title="右侧抽屉"
+      placement="right"
+      @close="openRight = false"
+      @ok="openRight = false"
+    >
+      <p>从右侧展开</p>
+    </ad-drawer>
+
+    <ad-drawer
+      :open="openLeft"
+      title="左侧抽屉"
+      placement="left"
+      @close="openLeft = false"
+      @ok="openLeft = false"
+    >
+      <p>从左侧展开</p>
+    </ad-drawer>
+
+    <ad-drawer
+      :open="openTop"
+      title="顶部抽屉"
+      placement="top"
+      :height="250"
+      @close="openTop = false"
+      @ok="openTop = false"
+    >
+      <p>从顶部展开</p>
+    </ad-drawer>
+
+    <ad-drawer
+      :open="openBottom"
+      title="底部抽屉"
+      placement="bottom"
+      :height="250"
+      @close="openBottom = false"
+      @ok="openBottom = false"
+    >
+      <p>从底部展开</p>
+    </ad-drawer>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const openRight = ref(false);
+const openLeft = ref(false);
+const openTop = ref(false);
+const openBottom = ref(false);
+</script>
+```
+:::
+
+### 自定义尺寸
+
+可以自定义抽屉的宽度（左右方向）或高度（上下方向）。
+:::demo
+```vue
+<template>
+  <div>
+    <ad-button @click="open = true">宽抽屉（600px）</ad-button>
+    <ad-drawer
+      :open="open"
+      title="自定义宽度"
+      :width="600"
+      @close="open = false"
+      @ok="open = false"
+    >
+      <p>这是一个宽度为 600px 的抽屉。</p>
+    </ad-drawer>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const open = ref(false);
+</script>
+```
+:::
+
+### 移动端模式
+
+为移动端优化的抽屉样式，提供更好的用户体验。
+:::demo
+```vue
+<template>
+  <div>
+    <div style="display: flex; gap: 8px;">
+      <ad-button @click="openRight = true">移动端右侧抽屉</ad-button>
+      <ad-button @click="openBottom = true">移动端底部抽屉</ad-button>
+    </div>
+
+    <ad-drawer
+      :open="openRight"
+      title="移动端抽屉"
+      placement="right"
+      :is-mobile="true"
+      @close="openRight = false"
+      @ok="openRight = false"
+    >
+      <p>移动端模式会给非靠边的角落加上 20px 的圆角。</p>
+    </ad-drawer>
+
+    <ad-drawer
+      :open="openBottom"
+      title="移动端底部抽屉"
+      placement="bottom"
+      :height="300"
+      :is-mobile="true"
+      @close="openBottom = false"
+      @ok="openBottom = false"
+    >
+      <p>这是移动端底部抽屉，常用于操作菜单。</p>
+    </ad-drawer>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const openRight = ref(false);
+const openBottom = ref(false);
+</script>
+```
+:::
+
+### 无底部抽屉
+
+通过 `show-footer` 属性隐藏底部操作栏。
+:::demo
+```vue
+<template>
+  <div>
+    <ad-button @click="open = true">无底部抽屉</ad-button>
+    <ad-drawer
+      :open="open"
+      title="无底部抽屉"
+      :show-footer="false"
+      @close="open = false"
+    >
+      <p>这是一个没有底部的抽屉。</p>
+      <p>你可以通过关闭按钮或点击蒙层来关闭它。</p>
+    </ad-drawer>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const open = ref(false);
+</script>
+```
+:::
+
+### 表单抽屉
+
+在抽屉中放置表单，常用于新建或编辑操作。
+:::demo
+```vue
+<template>
+  <div>
+    <ad-button @click="open = true">新建用户</ad-button>
+    <ad-drawer
+      :open="open"
+      title="新建用户"
+      :width="450"
+      @close="open = false"
+      @ok="handleOk"
+      ok-text="创建"
+    >
+      <div style="display: flex; flex-direction: column; gap: 16px;">
+        <div>
+          <label style="display: block; margin-bottom: 8px; font-weight: 500;">
+            用户名
+          </label>
+          <input
+            type="text"
+            style="
+              width: 100%;
+              padding: 8px 12px;
+              border: 1px solid #e0e0e0;
+              border-radius: 8px;
+              box-sizing: border-box;
+            "
+            placeholder="请输入用户名"
+          />
+        </div>
+        <div>
+          <label style="display: block; margin-bottom: 8px; font-weight: 500;">
+            邮箱
+          </label>
+          <input
+            type="email"
+            style="
+              width: 100%;
+              padding: 8px 12px;
+              border: 1px solid #e0e0e0;
+              border-radius: 8px;
+              box-sizing: border-box;
+            "
+            placeholder="请输入邮箱"
+          />
+        </div>
+        <div>
+          <label style="display: block; margin-bottom: 8px; font-weight: 500;">
+            角色
+          </label>
+          <select
+            style="
+              width: 100%;
+              padding: 8px 12px;
+              border: 1px solid #e0e0e0;
+              border-radius: 8px;
+              box-sizing: border-box;
+            "
+          >
+            <option>管理员</option>
+            <option>编辑</option>
+            <option>访客</option>
+          </select>
+        </div>
+      </div>
+    </ad-drawer>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+
+const open = ref(false);
+
+const handleOk = () => {
+  console.log('提交表单');
+  open.value = false;
+};
+</script>
+```
+:::
+
+## API
+
+### ad-drawer
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| open | 是否显示抽屉 | `boolean` | `false` |
+| title | 标题 | `string` | - |
+| placement | 抽屉方向 | `'top' \| 'right' \| 'bottom' \| 'left'` | `'right'` |
+| closable | 是否显示关闭按钮 | `boolean` | `true` |
+| close-by-overlay | 点击蒙层是否可以关闭 | `boolean` | `true` |
+| width | 抽屉宽度（左右方向时有效） | `number \| string` | `378` |
+| height | 抽屉高度（上下方向时有效） | `number \| string` | `378` |
+| footer | 自定义 footer，设置为 null 则不显示 | `string` | - |
+| show-footer | 是否显示 footer | `boolean` | `true` |
+| ok-text | 确认按钮文字 | `string` | `'确定'` |
+| cancel-text | 取消按钮文字 | `string` | `'取消'` |
+| show-cancel | 是否显示取消按钮 | `boolean` | `true` |
+| is-mobile | 是否为移动端模式 | `boolean` | `false` |0:{"buildId":"w_x0zs56xdhTQoFoaga-4","rsc":["$","$1","c",{"children":[["$","$L2",null,{"navigation":[{"title":"","items":[{"label":"开始使用","href":"/vue-next/getting-started"}]},{"title":"通用","items":[{"label":"按钮 Button","href":"/vue-next/button"},{"label":"图标 Icons","href":"/vue-next/icons"},{"label":"链接 Link","href":"/vue-next/link"}]},{"title":"布局","items":[{"label":"分割线 Divider","href":"/vue-next/divider"},{"label":"栅格 Grid","href":"/vue-next/grid"},{"label":"间距 Space","href":"/vue-next/space"}]},{"title":"数据展示","items":[{"label":"头像 Avatar","href":"/vue-next/avatar"},{"label":"徽章 Badge","href":"/vue-next/badge"},{"label":"卡片 Card","href":"/vue-next/card"},{"label":"折叠面板 Collapse","href":"/vue-next/collapse"},{"label":"空状态 Empty","href":"/vue-next/empty"},{"label":"图片 Image","href":"/vue-next/image"},{"label":"气泡 Popover","href":"/vue-next/popover"},{"label":"标签页 Tabs","href":"/vue-next/tabs"},{"label":"标签 Tag","href":"/vue-next/tag"},{"label":"时间线 Timeline","href":"/vue-next/timeline"},{"label":"工具提示 Tooltip","href":"/vue-next/tooltip"}]},{"title":"机器码","items":[{"label":"条形码 Barcode","href":"/vue-next/barcode"},{"label":"二维码 2D Barcode","href":"/vue-next/2d-barcode"}]},{"title":"表单","items":[{"label":"表单 Form","href":"/vue-next/form"},{"label":"级联选择器 Cascader","href":"/vue-next/cascader"},{"label":"复选框 Checkbox","href":"/vue-next/checkbox"},{"label":"日期选择器 DatePicker","href":"/vue-next/date-picker"},{"label":"输入框 Input","href":"/vue-next/input"},{"label":"一次性密码输入框 Input OTP","href":"/vue-next/input-otp"},{"label":"单选框 Radio","href":"/vue-next/radio"},{"label":"评分 Rate","href":"/vue-next/rate"},{"label":"选择器 Select","href":"/vue-next/select"},{"label":"开关 Switch","href":"/vue-next/switch"}]},{"title":"反馈","items":[{"label":"警告 Alert","href":"/vue-next/alert"},{"label":"抽屉 Drawer","href":"/vue-next/drawer"},{"label":"消息提示 Message","href":"/vue-next/message"},{"label":"模态框 Modal","href":"/vue-next/modal"},{"label":"气泡确认框 Popconfirm","href":"/vue-next/popconfirm"},{"label":"响应式弹窗 Responsive Modal","href":"/vue-next/responsive-modal"},{"label":"加载中 Spin","href":"/vue-next/spin"},{"label":"骨架屏 Skeleton","href":"/vue-next/skeleton"}]},{"title":"导航","items":[{"label":"步骤 Steps","href":"/vue-next/steps"}]},{"title":"媒体","items":[{"label":"视频 Video","href":"/vue-next/video"},{"label":"音频 Audio","href":"/vue-next/audio"}]}],"children":["$","$L3",null,{"content":"$4"}]}],["$L5","$L6","$L7","$L8","$L9","$La"],"$Lb"]}],"loading":null,"isPartial":false}
+5:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/a00c7c4881320090.css","precedence":"next"}]
+6:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/4525e31c425ccb41.css","precedence":"next"}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/4358194f07475c5a.js","async":true}]
+8:["$","script","script-1",{"src":"/_next/static/chunks/fd93425b9412d07f.js","async":true}]
+9:["$","script","script-2",{"src":"/_next/static/chunks/c1f546f244e17583.js","async":true}]
+a:["$","script","script-3",{"src":"/_next/static/chunks/fb66370eb5f2594d.js","async":true}]
+b:["$","$Lc",null,{"children":["$","$d",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]
+e:null

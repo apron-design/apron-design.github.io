@@ -1,0 +1,173 @@
+1:"$Sreact.fragment"
+2:I[80758,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/fd93425b9412d07f.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"Documents"]
+3:I[90186,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/fd93425b9412d07f.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"MarkdownRenderer"]
+c:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"OutletBoundary"]
+d:"$Sreact.suspense"
+:HL["/_next/static/chunks/a00c7c4881320090.css","style"]
+:HL["/_next/static/chunks/4525e31c425ccb41.css","style"]
+4:T1022,# 图片 Image
+
+增强版的 img 标签，提供多种图片填充方式和加载状态处理。
+
+## 何时使用
+
+- 需要设置图片的 object-fit 属性
+- 需要优雅地处理图片加载失败的情况
+- 需要在图片加载过程中显示占位内容
+
+## 示例
+
+### 基础用法
+
+最简单的用法，直接传入图片地址。
+:::demo
+```vue
+<template>
+  <ad-image
+    src="https://picsum.photos/400/300"
+    alt="示例图片"
+    style="width: 400px; height: 300px;"
+  />
+</template>
+```
+:::
+
+### 不同状态
+
+展示图片组件的不同状态：无图片、正常加载、加载失败。
+:::demo
+```vue
+<template>
+  <div style="display: flex; gap: 24px; flex-wrap: wrap;">
+    <div>
+      <p style="margin: 0 0 8px 0; color: #71717a; font-size: 14px;">无图片</p>
+      <ad-image style="width: 150px; height: 100px;" />
+    </div>
+    <div>
+      <p style="margin: 0 0 8px 0; color: #71717a; font-size: 14px;">正常加载</p>
+      <ad-image
+        src="https://picsum.photos/150/100?random=1"
+        alt="正常"
+        style="width: 150px; height: 100px;"
+      />
+    </div>
+    <div>
+      <p style="margin: 0 0 8px 0; color: #71717a; font-size: 14px;">加载失败</p>
+      <ad-image
+        src="https://invalid-url.com/fail.jpg"
+        alt="失败"
+        style="width: 150px; height: 100px;"
+      />
+    </div>
+  </div>
+</template>
+```
+:::
+
+### 图片填充方式
+
+通过 `object-fit` 属性控制图片在容器中的填充方式。
+:::demo
+```vue
+<template>
+  <div style="display: flex; flex-wrap: wrap; gap: 24px;">
+    <div>
+      <p style="margin: 0 0 8px 0; color: #71717a; font-size: 14px;">cover（默认）</p>
+      <ad-image
+        src="https://picsum.photos/400/600"
+        alt="Cover"
+        object-fit="cover"
+        style="width: 150px; height: 100px;"
+      />
+    </div>
+    <div>
+      <p style="margin: 0 0 8px 0; color: #71717a; font-size: 14px;">contain</p>
+      <ad-image
+        src="https://picsum.photos/400/600"
+        alt="Contain"
+        object-fit="contain"
+        style="width: 150px; height: 100px;"
+      />
+    </div>
+    <div>
+      <p style="margin: 0 0 8px 0; color: #71717a; font-size: 14px;">fill</p>
+      <ad-image
+        src="https://picsum.photos/400/600"
+        alt="Fill"
+        object-fit="fill"
+        style="width: 150px; height: 100px;"
+      />
+    </div>
+    <div>
+      <p style="margin: 0 0 8px 0; color: #71717a; font-size: 14px;">scale-down</p>
+      <ad-image
+        src="https://picsum.photos/400/600"
+        alt="Scale Down"
+        object-fit="scale-down"
+        style="width: 150px; height: 100px;"
+      />
+    </div>
+  </div>
+</template>
+```
+:::
+
+### 图片画廊
+
+展示多张图片组成的画廊。
+:::demo
+```vue
+<template>
+  <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+    <ad-image
+      src="https://picsum.photos/200/150?random=1"
+      alt="图片1"
+      style="width: 200px; height: 150px;"
+    />
+    <ad-image
+      src="https://picsum.photos/200/150?random=2"
+      alt="图片2"
+      style="width: 200px; height: 150px;"
+    />
+    <ad-image
+      src="https://picsum.photos/200/150?random=3"
+      alt="图片3"
+      style="width: 200px; height: 150px;"
+    />
+    <ad-image
+      style="width: 200px; height: 150px;"
+    />
+  </div>
+</template>
+```
+:::
+
+## API
+
+### ad-image
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| src | 图片地址 | `string` | - |
+| alt | 图片替代文本 | `string` | - |
+| objectFit | 图片填充方式 | `'contain' \| 'cover' \| 'fill' \| 'none' \| 'scale-down'` | `'cover'` |
+| className | 自定义类名 | `string` | - |
+| style | 自定义样式 | `object` | - |
+| onLoad | 图片加载完成回调 | `Function` | - |
+| onError | 图片加载失败回调 | `Function` | - |
+
+### objectFit 说明
+
+- `cover`: 保持图片纵横比，缩放图片使图片完全覆盖容器
+- `contain`: 保持图片纵横比，缩放图片使图片完整显示在容器内
+- `fill`: 拉伸图片以完全填充容器，可能改变图片纵横比
+- `none`: 保持图片原始尺寸
+- `scale-down`: 在 `none` 和 `contain` 中选择较小的一个0:{"buildId":"w_x0zs56xdhTQoFoaga-4","rsc":["$","$1","c",{"children":[["$","$L2",null,{"navigation":[{"title":"","items":[{"label":"开始使用","href":"/vue-next/getting-started"}]},{"title":"通用","items":[{"label":"按钮 Button","href":"/vue-next/button"},{"label":"图标 Icons","href":"/vue-next/icons"},{"label":"链接 Link","href":"/vue-next/link"}]},{"title":"布局","items":[{"label":"分割线 Divider","href":"/vue-next/divider"},{"label":"栅格 Grid","href":"/vue-next/grid"},{"label":"间距 Space","href":"/vue-next/space"}]},{"title":"数据展示","items":[{"label":"头像 Avatar","href":"/vue-next/avatar"},{"label":"徽章 Badge","href":"/vue-next/badge"},{"label":"卡片 Card","href":"/vue-next/card"},{"label":"折叠面板 Collapse","href":"/vue-next/collapse"},{"label":"空状态 Empty","href":"/vue-next/empty"},{"label":"图片 Image","href":"/vue-next/image"},{"label":"气泡 Popover","href":"/vue-next/popover"},{"label":"标签页 Tabs","href":"/vue-next/tabs"},{"label":"标签 Tag","href":"/vue-next/tag"},{"label":"时间线 Timeline","href":"/vue-next/timeline"},{"label":"工具提示 Tooltip","href":"/vue-next/tooltip"}]},{"title":"机器码","items":[{"label":"条形码 Barcode","href":"/vue-next/barcode"},{"label":"二维码 2D Barcode","href":"/vue-next/2d-barcode"}]},{"title":"表单","items":[{"label":"表单 Form","href":"/vue-next/form"},{"label":"级联选择器 Cascader","href":"/vue-next/cascader"},{"label":"复选框 Checkbox","href":"/vue-next/checkbox"},{"label":"日期选择器 DatePicker","href":"/vue-next/date-picker"},{"label":"输入框 Input","href":"/vue-next/input"},{"label":"一次性密码输入框 Input OTP","href":"/vue-next/input-otp"},{"label":"单选框 Radio","href":"/vue-next/radio"},{"label":"评分 Rate","href":"/vue-next/rate"},{"label":"选择器 Select","href":"/vue-next/select"},{"label":"开关 Switch","href":"/vue-next/switch"}]},{"title":"反馈","items":[{"label":"警告 Alert","href":"/vue-next/alert"},{"label":"抽屉 Drawer","href":"/vue-next/drawer"},{"label":"消息提示 Message","href":"/vue-next/message"},{"label":"模态框 Modal","href":"/vue-next/modal"},{"label":"气泡确认框 Popconfirm","href":"/vue-next/popconfirm"},{"label":"响应式弹窗 Responsive Modal","href":"/vue-next/responsive-modal"},{"label":"加载中 Spin","href":"/vue-next/spin"},{"label":"骨架屏 Skeleton","href":"/vue-next/skeleton"}]},{"title":"导航","items":[{"label":"步骤 Steps","href":"/vue-next/steps"}]},{"title":"媒体","items":[{"label":"视频 Video","href":"/vue-next/video"},{"label":"音频 Audio","href":"/vue-next/audio"}]}],"children":["$","$L3",null,{"content":"$4"}]}],["$L5","$L6","$L7","$L8","$L9","$La"],"$Lb"]}],"loading":null,"isPartial":false}
+5:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/a00c7c4881320090.css","precedence":"next"}]
+6:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/4525e31c425ccb41.css","precedence":"next"}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/4358194f07475c5a.js","async":true}]
+8:["$","script","script-1",{"src":"/_next/static/chunks/fd93425b9412d07f.js","async":true}]
+9:["$","script","script-2",{"src":"/_next/static/chunks/c1f546f244e17583.js","async":true}]
+a:["$","script","script-3",{"src":"/_next/static/chunks/fb66370eb5f2594d.js","async":true}]
+b:["$","$Lc",null,{"children":["$","$d",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]
+e:null

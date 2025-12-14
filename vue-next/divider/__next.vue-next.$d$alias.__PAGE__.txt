@@ -1,0 +1,139 @@
+1:"$Sreact.fragment"
+2:I[80758,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/fd93425b9412d07f.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"Documents"]
+3:I[90186,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/fd93425b9412d07f.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"MarkdownRenderer"]
+c:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"OutletBoundary"]
+d:"$Sreact.suspense"
+:HL["/_next/static/chunks/a00c7c4881320090.css","style"]
+:HL["/_next/static/chunks/4525e31c425ccb41.css","style"]
+4:T9e4,# 分割线 Divider
+
+区隔内容的分割线，可用于对不同内容进行分组或分隔。
+
+## 何时使用
+
+- 对不同内容区域进行分隔
+- 对长列表或表单进行分组
+- 创建视觉上的层次感
+
+## 示例
+
+### 基础用法
+
+最简单的用法，渲染一条水平分割线。
+:::demo
+```vue
+<template>
+  <div>
+    <p>这是第一段内容</p>
+    <ad-divider />
+    <p>这是第二段内容</p>
+  </div>
+</template>
+```
+:::
+
+### 虚线分割线
+
+通过设置 `dashed` 属性渲染虚线分割线。
+:::demo
+```vue
+<template>
+  <div>
+    <p>实线分割线</p>
+    <ad-divider />
+    <p>虚线分割线</p>
+    <ad-divider dashed />
+    <p>内容继续</p>
+  </div>
+</template>
+```
+:::
+
+### 带文字的分割线
+
+给分割线添加文字，方便描述或分隔不同内容。
+:::demo
+```vue
+<template>
+  <div>
+    <p>第一部分内容</p>
+    <ad-divider>或者</ad-divider>
+    <p>第二部分内容</p>
+  </div>
+</template>
+```
+:::
+
+### 文字对齐方式
+
+通过 `align` 属性控制文字在分割线中的对齐方式。
+:::demo
+```vue
+<template>
+  <div>
+    <ad-divider align="left">左对齐</ad-divider>
+    <ad-divider align="center">居中对齐</ad-divider>
+    <ad-divider align="right">右对齐</ad-divider>
+  </div>
+</template>
+```
+:::
+
+### 虚线带文字
+
+结合 `dashed` 和文字内容，创建虚线带文字的分割线。
+:::demo
+```vue
+<template>
+  <div>
+    <ad-divider dashed>虚线分割</ad-divider>
+    <ad-divider align="center" dashed>居中虚线分割</ad-divider>
+    <ad-divider align="right" dashed>右对齐虚线分割</ad-divider>
+  </div>
+</template>
+```
+:::
+
+### 完整示例
+
+展示分割线的各种使用方式。
+:::demo
+```vue
+<template>
+  <div>
+    <p>这是第一段内容，展示无文字分割线。</p>
+    <ad-divider />
+    
+    <p>这是第二段内容，展示虚线分割线。</p>
+    <ad-divider dashed />
+    
+    <p>这是第三段内容，展示带文字的分割线。</p>
+    <ad-divider align="center">或者</ad-divider>
+    
+    <p>这是第四段内容，展示右对齐的虚线分割。</p>
+    <ad-divider align="right" dashed>结束</ad-divider>
+    
+    <p>最后一段内容。</p>
+  </div>
+</template>
+```
+:::
+
+## API
+
+### ad-divider
+
+| 参数 | 说明 | 类型 | 默认值 |
+| --- | --- | --- | --- |
+| dashed | 是否为虚线 | `boolean` | `false` |
+| align | 文字对齐方式 | `'left' \| 'center' \| 'right'` | `'left'` |
+| children | 分割线中的文字内容 | `string` | - |
+| className | 自定义类名 | `string` | - |0:{"buildId":"w_x0zs56xdhTQoFoaga-4","rsc":["$","$1","c",{"children":[["$","$L2",null,{"navigation":[{"title":"","items":[{"label":"开始使用","href":"/vue-next/getting-started"}]},{"title":"通用","items":[{"label":"按钮 Button","href":"/vue-next/button"},{"label":"图标 Icons","href":"/vue-next/icons"},{"label":"链接 Link","href":"/vue-next/link"}]},{"title":"布局","items":[{"label":"分割线 Divider","href":"/vue-next/divider"},{"label":"栅格 Grid","href":"/vue-next/grid"},{"label":"间距 Space","href":"/vue-next/space"}]},{"title":"数据展示","items":[{"label":"头像 Avatar","href":"/vue-next/avatar"},{"label":"徽章 Badge","href":"/vue-next/badge"},{"label":"卡片 Card","href":"/vue-next/card"},{"label":"折叠面板 Collapse","href":"/vue-next/collapse"},{"label":"空状态 Empty","href":"/vue-next/empty"},{"label":"图片 Image","href":"/vue-next/image"},{"label":"气泡 Popover","href":"/vue-next/popover"},{"label":"标签页 Tabs","href":"/vue-next/tabs"},{"label":"标签 Tag","href":"/vue-next/tag"},{"label":"时间线 Timeline","href":"/vue-next/timeline"},{"label":"工具提示 Tooltip","href":"/vue-next/tooltip"}]},{"title":"机器码","items":[{"label":"条形码 Barcode","href":"/vue-next/barcode"},{"label":"二维码 2D Barcode","href":"/vue-next/2d-barcode"}]},{"title":"表单","items":[{"label":"表单 Form","href":"/vue-next/form"},{"label":"级联选择器 Cascader","href":"/vue-next/cascader"},{"label":"复选框 Checkbox","href":"/vue-next/checkbox"},{"label":"日期选择器 DatePicker","href":"/vue-next/date-picker"},{"label":"输入框 Input","href":"/vue-next/input"},{"label":"一次性密码输入框 Input OTP","href":"/vue-next/input-otp"},{"label":"单选框 Radio","href":"/vue-next/radio"},{"label":"评分 Rate","href":"/vue-next/rate"},{"label":"选择器 Select","href":"/vue-next/select"},{"label":"开关 Switch","href":"/vue-next/switch"}]},{"title":"反馈","items":[{"label":"警告 Alert","href":"/vue-next/alert"},{"label":"抽屉 Drawer","href":"/vue-next/drawer"},{"label":"消息提示 Message","href":"/vue-next/message"},{"label":"模态框 Modal","href":"/vue-next/modal"},{"label":"气泡确认框 Popconfirm","href":"/vue-next/popconfirm"},{"label":"响应式弹窗 Responsive Modal","href":"/vue-next/responsive-modal"},{"label":"加载中 Spin","href":"/vue-next/spin"},{"label":"骨架屏 Skeleton","href":"/vue-next/skeleton"}]},{"title":"导航","items":[{"label":"步骤 Steps","href":"/vue-next/steps"}]},{"title":"媒体","items":[{"label":"视频 Video","href":"/vue-next/video"},{"label":"音频 Audio","href":"/vue-next/audio"}]}],"children":["$","$L3",null,{"content":"$4"}]}],["$L5","$L6","$L7","$L8","$L9","$La"],"$Lb"]}],"loading":null,"isPartial":false}
+5:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/a00c7c4881320090.css","precedence":"next"}]
+6:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/4525e31c425ccb41.css","precedence":"next"}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/4358194f07475c5a.js","async":true}]
+8:["$","script","script-1",{"src":"/_next/static/chunks/fd93425b9412d07f.js","async":true}]
+9:["$","script","script-2",{"src":"/_next/static/chunks/c1f546f244e17583.js","async":true}]
+a:["$","script","script-3",{"src":"/_next/static/chunks/fb66370eb5f2594d.js","async":true}]
+b:["$","$Lc",null,{"children":["$","$d",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]
+e:null

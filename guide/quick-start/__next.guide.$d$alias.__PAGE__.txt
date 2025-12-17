@@ -1,11 +1,11 @@
 1:"$Sreact.fragment"
-2:I[80758,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/113d30c95d896761.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"Documents"]
-3:I[90186,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/1b2b33a1e6fb0322.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/113d30c95d896761.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"MarkdownRenderer"]
+2:I[80758,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/67ff0136850b5863.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/de2545ee7d14ac58.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"Documents"]
+3:I[90186,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/67ff0136850b5863.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/de2545ee7d14ac58.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/fb66370eb5f2594d.js"],"MarkdownRenderer"]
 5:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"OutletBoundary"]
 6:"$Sreact.suspense"
-:HL["/_next/static/chunks/a00c7c4881320090.css","style"]
-:HL["/_next/static/chunks/4525e31c425ccb41.css","style"]
-4:Tb7d,# 快速开始
+:HL["/_next/static/chunks/4edb9bef5de54eb8.css","style"]
+:HL["/_next/static/chunks/32c2ea7048954b22.css","style"]
+4:Tbb4,# 快速开始
 跟随一下步骤，快速上手组件库的使用。
 
 您需要首先确认自己使用什么框架来开发网站或页面。
@@ -27,7 +27,7 @@ Apron Design 支持最近两个版本的浏览器。
 由于 React16 和 Vue3 不再支持 IE11，因此 Apron Design 也不支持 IE 浏览器。
 
 
-| 版本 | <img src="/assets/icons/chrome.svg" width="16" height="16" style="vertical-align: middle; display: inline-block;"/> Chrome | <img src="/assets/icons/edge.svg" width="16" height="16" style="vertical-align: middle; display: inline-block;"/> Edge | <img src="/assets/icons/firefox.svg" width="16" height="16" style="vertical-align: middle; display: inline-block;"/> Firefox | <img src="/assets/icons/Safari.svg" width="16" height="16" style="vertical-align: middle; display: inline-block;"/> Safari | <img src="/assets/icons/electron.svg" width="16" height="16" style="vertical-align: middle; display: inline-block;"/> Electron |
+| 版本 | <img src="/assets/icons/chrome.svg" width="40" height="40" style="vertical-align: middle; display: inline-block;"/> <div>Chrome</div> | <img src="/assets/icons/edge.svg" width="40" height="40" style="vertical-align: middle; display: inline-block;"/> <div>Edge</div> | <img src="/assets/icons/firefox.svg" width="40" height="40" style="vertical-align: middle; display: inline-block;"/> <div>Firefox</div> | <img src="/assets/icons/Safari.svg" width="40" height="40" style="vertical-align: middle; display: inline-block;"/> <div>Safari</div> | <img src="/assets/icons/electron.svg" width="40" height="40" style="vertical-align: middle; display: inline-block;"/> <div>Electron</div> |
 | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
 | 26.0.x | Chrome ≥ 85 | Edge ≥ 85| Firefox ≥ 79 | Safari ≥ 14.1 | 最后两个版本 |
 
@@ -62,5 +62,5 @@ npm config set registry https://registry.npmmirror.com
 ## 不推荐
 虽然你可以使用 CDN 来使用 Apron Design（例如 unpkg 或者 jsDelivr），但我们依旧不建议你在浏览器直接引入。
 
-因此，我们就不在这里展示相关的代码了。0:{"buildId":"Z_a8C6wBdgO8uTc-Jlyr6","rsc":["$","$1","c",{"children":[["$","$L2",null,{"navigation":[{"title":"使用指南","items":[{"label":"快速上手","href":"/guide/quick-start"},{"label":"安装指南","href":"/guide/installation"},{"label":"深色模式","href":"/guide/dark-mode"},{"label":"更新日志","href":"/guide/changelog"},{"label":"版本说明","href":"/guide/versions"}]},{"title":"解答疑惑","items":[{"label":"常见问题","href":"/guide/faq"},{"label":"反馈与建议","href":"/guide/feedback"}]}],"children":["$","$L3",null,{"content":"$4"}]}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/a00c7c4881320090.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/4525e31c425ccb41.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/4358194f07475c5a.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/113d30c95d896761.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/c1f546f244e17583.js","async":true}],["$","script","script-3",{"src":"/_next/static/chunks/fb66370eb5f2594d.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
+因此，我们就不在这里展示相关的代码了。0:{"buildId":"BT3aCqqX_QHULyfqiPIpQ","rsc":["$","$1","c",{"children":[["$","$L2",null,{"navigation":[{"title":"使用指南","items":[{"label":"快速上手","href":"/guide/quick-start"},{"label":"安装指南","href":"/guide/installation"},{"label":"深色模式","href":"/guide/dark-mode"},{"label":"更新日志","href":"/guide/changelog"},{"label":"版本说明","href":"/guide/versions"}]},{"title":"解答疑惑","items":[{"label":"常见问题","href":"/guide/faq"},{"label":"反馈与建议","href":"/guide/feedback"}]}],"children":["$","$L3",null,{"content":"$4"}]}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/4edb9bef5de54eb8.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/32c2ea7048954b22.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/4358194f07475c5a.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/de2545ee7d14ac58.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/c1f546f244e17583.js","async":true}],["$","script","script-3",{"src":"/_next/static/chunks/fb66370eb5f2594d.js","async":true}]],["$","$L5",null,{"children":["$","$6",null,{"name":"Next.MetadataOutlet","children":"$@7"}]}]]}],"loading":null,"isPartial":false}
 7:null

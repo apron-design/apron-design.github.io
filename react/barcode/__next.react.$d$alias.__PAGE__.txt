@@ -1,29 +1,11 @@
 1:"$Sreact.fragment"
-2:I[80758,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/67ff0136850b5863.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/de2545ee7d14ac58.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/8c76a54ef5f4014e.js"],"Documents"]
-3:I[90186,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/67ff0136850b5863.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/de2545ee7d14ac58.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/8c76a54ef5f4014e.js"],"MarkdownRenderer"]
-b:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"OutletBoundary"]
-c:"$Sreact.suspense"
-:HL["/_next/static/chunks/4edb9bef5de54eb8.css","style"]
-:HL["/_next/static/chunks/6b24720595fda6ff.css","style"]
-4:T95a,# 条形码 Barcode
-
-条形码在各种二维码普遍使用的今天，又可以称作一维码。
-
-目前常见的条形码有以下几种：
-UPC（Universal Product Code）、EAN（European Article Number）、Code 128、Code 39；
-他们的区别是：
-
-| 特性 | UPC-A | UPC-E | EAN-13 | EAN-8 | Code 128 | Code 39 |
-| :------| :-------| :-------| :--------| :-------| :----------| :---------|
-| **类型** | 零售商品码 | 零售商品码 | 零售商品码 | 零售商品码 | 工业物流码 | 工业物流码 |
-| **编码内容** | 仅数字 | 仅数字 | 仅数字 | 仅数字 | 全ASCII字符 | 43个字符（数字+大写字母+部分符号） |
-| **长度** | 固定12位 | 固定6位（压缩版） | 固定13位 | 固定8位 | 可变 | 可变 |
-| **校验** | 强制校验 | 强制校验 | 强制校验 | 强制校验 | 强制校验 | 可选校验 |
-| **主要用途** | 北美零售结算 | 北美小商品 | **全球零售结算** | 全球小商品 | **物流、仓储、医疗** | **工业制造、汽车** |
-| **优点** | 北美标准 | 尺寸小 | 全球通用 | 尺寸极小 | **高密度、高可靠性** | **兼容性好、简单** |
-| **缺点** | 仅限北美使用 | 应用窄 | 仅数字 | 容量小 | 技术复杂 | **密度低、字符有限** |
-
-
+2:I[80758,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/67ff0136850b5863.js","/_next/static/chunks/54af3308ada989f3.js","/_next/static/chunks/165d7caac33e09fe.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/be247acf9b695f7c.js"],"Documents"]
+3:I[90186,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/67ff0136850b5863.js","/_next/static/chunks/54af3308ada989f3.js","/_next/static/chunks/165d7caac33e09fe.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/be247acf9b695f7c.js"],"MarkdownRenderer"]
+c:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"OutletBoundary"]
+d:"$Sreact.suspense"
+:HL["/_next/static/chunks/943bfd2b6e9f6f3d.css","style"]
+:HL["/_next/static/chunks/b1a30da55616e8b1.css","style"]
+4:Tee4,# 条形码 Barcode
 
 Apron Design 的机器码部分是独立的项目，您需要额外安装一个扩展包 Code Apron。
 
@@ -36,26 +18,127 @@ Code Apron 是与 Apron Design 最佳搭配使用的机器码渲染独立项目�
 npm install @code-apron/react --save-dev
 ```
 
-## 在页面上渲染条形码
+## 基本用法
+
 :::demo
 ```jsx
 import { Barcode } from "@code-apron/react";
 
 export default function BarcodeDemo() {
-  return <Barcode type="upc-a">139912478900</Barcode>
+  return <Barcode width={400} height={100}>12345678901</Barcode>
 }
 ```
 :::
 
-# 扩展知识
-我们强烈建议您观看这期视频，将有助于您理解条形码、二维码的各种类型和使用场景。
+### 使用 UPC-A
+:::demo
+```jsx
+import { Barcode } from "@code-apron/react";
 
-<iframe width="100%" style="aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/XW8sgT_D0To?si=yOGasUF97e1Sy-X6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-0:{"buildId":"AVTC-LlZvp2l6EMU_NiYN","rsc":["$","$1","c",{"children":[["$","$L2",null,{"navigation":[{"title":"","items":[{"label":"开始使用","href":"/react/getting-started"}]},{"title":"通用","items":[{"label":"按钮 Button","href":"/react/button"},{"label":"图标 Icons","href":"/react/icons"},{"label":"链接 Link","href":"/react/link"}]},{"title":"布局","items":[{"label":"分割线 Divider","href":"/react/divider"},{"label":"栅格 Grid","href":"/react/grid"},{"label":"间距 Space","href":"/react/space"}]},{"title":"数据展示","items":[{"label":"头像 Avatar","href":"/react/avatar"},{"label":"徽章 Badge","href":"/react/badge"},{"label":"卡片 Card","href":"/react/card"},{"label":"折叠面板 Collapse","href":"/react/collapse"},{"label":"空状态 Empty","href":"/react/empty"},{"label":"图片 Image","href":"/react/image"},{"label":"气泡 Popover","href":"/react/popover"},{"label":"标签页 Tabs","href":"/react/tabs"},{"label":"标签 Tag","href":"/react/tag"},{"label":"时间线 Timeline","href":"/react/timeline"},{"label":"工具提示 Tooltip","href":"/react/tooltip"}]},{"title":"机器码","items":[{"label":"条形码 Barcode","href":"/react/barcode"},{"label":"二维码 2D Barcode","href":"/react/2d-barcode"}]},{"title":"表单","items":[{"label":"表单 Form","href":"/react/form"},{"label":"级联选择器 Cascader","href":"/react/cascader"},{"label":"复选框 Checkbox","href":"/react/checkbox"},{"label":"日期选择器 DatePicker","href":"/react/date-picker"},{"label":"输入框 Input","href":"/react/input"},{"label":"一次性密码输入框 Input OTP","href":"/react/input-otp"},{"label":"单选框 Radio","href":"/react/radio"},{"label":"评分 Rate","href":"/react/rate"},{"label":"选择器 Select","href":"/react/select"},{"label":"开关 Switch","href":"/react/switch"}]},{"title":"反馈","items":[{"label":"警告 Alert","href":"/react/alert"},{"label":"抽屉 Drawer","href":"/react/drawer"},{"label":"消息提示 Message","href":"/react/message"},{"label":"模态框 Modal","href":"/react/modal"},{"label":"气泡确认框 Popconfirm","href":"/react/popconfirm"},{"label":"响应式弹窗 Responsive Modal","href":"/react/responsive-modal"},{"label":"加载中 Spin","href":"/react/spin"},{"label":"骨架屏 Skeleton","href":"/react/skeleton"}]},{"title":"导航","items":[{"label":"步骤 Steps","href":"/react/steps"}]},{"title":"媒体","items":[{"label":"视频 Video","href":"/react/video"},{"label":"音频 Audio","href":"/react/audio"}]}],"children":["$","$L3",null,{"content":"$4"}]}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/4edb9bef5de54eb8.css","precedence":"next"}],"$L5","$L6","$L7","$L8","$L9"],"$La"]}],"loading":null,"isPartial":false}
-5:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/6b24720595fda6ff.css","precedence":"next"}]
-6:["$","script","script-0",{"src":"/_next/static/chunks/4358194f07475c5a.js","async":true}]
-7:["$","script","script-1",{"src":"/_next/static/chunks/de2545ee7d14ac58.js","async":true}]
-8:["$","script","script-2",{"src":"/_next/static/chunks/c1f546f244e17583.js","async":true}]
-9:["$","script","script-3",{"src":"/_next/static/chunks/8c76a54ef5f4014e.js","async":true}]
-a:["$","$Lb",null,{"children":["$","$c",null,{"name":"Next.MetadataOutlet","children":"$@d"}]}]
-d:null
+export default function BarcodeDemo() {
+  return <Barcode type="upc-a" width={400} height={100}>12345678901</Barcode>
+}
+```
+:::
+
+### 使用 UPC-E
+:::demo
+```jsx
+import { Barcode } from "@code-apron/react";
+
+export default function BarcodeDemo() {
+  return <Barcode type="upc-e" width={400} height={100}>01234565</Barcode>
+}
+```
+:::
+
+### 使用 EAN-13
+:::demo
+```jsx
+import { Barcode } from "@code-apron/react";
+
+export default function BarcodeDemo() {
+  return <Barcode type="ean-13" width={400} height={100}>123456789012</Barcode>
+}
+```
+:::
+
+### 使用 EAN-8
+:::demo
+```jsx
+import { Barcode } from "@code-apron/react";
+
+export default function BarcodeDemo() {
+  return <Barcode type="ean-8" width={400} height={100}>1234567</Barcode>
+}
+```
+:::
+
+### 使用 Code128
+:::demo
+```jsx
+import { Barcode } from "@code-apron/react";
+
+export default function BarcodeDemo() {
+  return <Barcode type="code128" width={400} height={100}>200111171103</Barcode>
+}
+```
+:::
+
+### 使用 Code39
+:::demo
+```jsx
+import { Barcode } from "@code-apron/react";
+
+export default function BarcodeDemo() {
+  return <Barcode type="code39" width={400} height={100}>ABC23M</Barcode>
+}
+```
+:::
+
+## API
+
+### Barcode slot
+
+| 插槽名 | 说明 |
+| :--- | :--- |
+| default | 要渲染的条形码值 |
+
+### Barcode Props
+
+| 属性 | 说明 | 类型 | 可选值 | 默认值 |
+| :--- | :--- | :--- | :--- | :--- |
+| type | 条形码类型 | `string` | `upc-a` \| `upc-e` \| `ean-13` \| `ean-8` \| `code128` \| `code39` | `code128` |
+| color | 条形码颜色 | `string` | - | `#000000` |
+| background | 背景颜色 | `string` | - | `#ffffff` |
+| width | 条形码宽度 | `number` | - | `200` |
+| height | 条形码高度 | `number` | - | `100` |
+| fill | 填满整个父容器 | `boolean` | - | `false` |
+
+# 扩展知识
+
+条形码在各种二维码普遍使用的今天，又可以称作一维码。
+
+目前常见的条形码有以下几种：UPC（Universal Product Code）、EAN（European Article Number）、Code 128、Code 39。
+
+他们的区别是：
+
+| 编码类型 | **类型** | **编码内容** | **长度** | **校验** | **主要用途** | **优点** | **缺点** |
+| :------| :-------| :-------| :--------| :-------| :----------| :---------|:---------|
+| **UPC-A** | 零售商品码 | 仅数字 | 固定12位 | 强制校验 | 北美零售结算 | 北美标准 | 仅限北美使用 |
+| **UPC-E** | 零售商品码 | 仅数字 | 固定6位（压缩版） | 强制校验 | 北美小商品 | 尺寸小 | 应用窄 |
+| **EAN-13** | 零售商品码 | 仅数字 | 固定13位 | 强制校验 | **全球零售结算** | 全球通用 | 仅数字 |
+| **EAN-8** | 零售商品码 | 仅数字 | 固定8位 | 强制校验 | 全球小商品 | 尺寸极小 | 容量小 |
+| **Code 128** | 工业物流码 | 全ASCII字符 | 可变 | 强制校验 | **物流、仓储、医疗** | **高密度、高可靠性** | 技术复杂 |
+| **Code 39** | 工业物流码 | 43个字符<br />数字+大写字母+部分符号 | 可变 | 可选校验 | **工业制造、汽车** | **兼容性好、简单** | **密度低、字符有限** |
+
+
+0:{"buildId":"ASx2qnrjV0EuE8J_WQkos","rsc":["$","$1","c",{"children":[["$","$L2",null,{"navigation":[{"title":"","items":[{"label":"开始使用","href":"/react/getting-started"}]},{"title":"通用","items":[{"label":"按钮 Button","href":"/react/button"},{"label":"图标 Icons","href":"/react/icons"},{"label":"链接 Link","href":"/react/link"}]},{"title":"布局","items":[{"label":"分割线 Divider","href":"/react/divider"},{"label":"栅格 Grid","href":"/react/grid"},{"label":"间距 Space","href":"/react/space"}]},{"title":"数据展示","items":[{"label":"头像 Avatar","href":"/react/avatar"},{"label":"徽章 Badge","href":"/react/badge"},{"label":"卡片 Card","href":"/react/card"},{"label":"折叠面板 Collapse","href":"/react/collapse"},{"label":"空状态 Empty","href":"/react/empty"},{"label":"图片 Image","href":"/react/image"},{"label":"气泡 Popover","href":"/react/popover"},{"label":"标签页 Tabs","href":"/react/tabs"},{"label":"标签 Tag","href":"/react/tag"},{"label":"时间线 Timeline","href":"/react/timeline"},{"label":"工具提示 Tooltip","href":"/react/tooltip"}]},{"title":"机器码","items":[{"label":"条形码 Barcode","href":"/react/barcode"},{"label":"二维码 2D Barcode","href":"/react/2d-barcode"}]},{"title":"表单","items":[{"label":"表单 Form","href":"/react/form"},{"label":"级联选择器 Cascader","href":"/react/cascader"},{"label":"复选框 Checkbox","href":"/react/checkbox"},{"label":"日期选择器 DatePicker","href":"/react/date-picker"},{"label":"输入框 Input","href":"/react/input"},{"label":"一次性密码输入框 Input OTP","href":"/react/input-otp"},{"label":"单选框 Radio","href":"/react/radio"},{"label":"评分 Rate","href":"/react/rate"},{"label":"选择器 Select","href":"/react/select"},{"label":"开关 Switch","href":"/react/switch"}]},{"title":"反馈","items":[{"label":"警告 Alert","href":"/react/alert"},{"label":"抽屉 Drawer","href":"/react/drawer"},{"label":"消息提示 Message","href":"/react/message"},{"label":"模态框 Modal","href":"/react/modal"},{"label":"气泡确认框 Popconfirm","href":"/react/popconfirm"},{"label":"响应式弹窗 Responsive Modal","href":"/react/responsive-modal"},{"label":"加载中 Spin","href":"/react/spin"},{"label":"骨架屏 Skeleton","href":"/react/skeleton"}]},{"title":"导航","items":[{"label":"步骤 Steps","href":"/react/steps"}]},{"title":"媒体","items":[{"label":"视频 Video","href":"/react/video"},{"label":"音频 Audio","href":"/react/audio"}]}],"children":["$","$L3",null,{"content":"$4"}]}],["$L5","$L6","$L7","$L8","$L9","$La"],"$Lb"]}],"loading":null,"isPartial":false}
+5:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/943bfd2b6e9f6f3d.css","precedence":"next"}]
+6:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/b1a30da55616e8b1.css","precedence":"next"}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/54af3308ada989f3.js","async":true}]
+8:["$","script","script-1",{"src":"/_next/static/chunks/165d7caac33e09fe.js","async":true}]
+9:["$","script","script-2",{"src":"/_next/static/chunks/c1f546f244e17583.js","async":true}]
+a:["$","script","script-3",{"src":"/_next/static/chunks/be247acf9b695f7c.js","async":true}]
+b:["$","$Lc",null,{"children":["$","$d",null,{"name":"Next.MetadataOutlet","children":"$@e"}]}]
+e:null

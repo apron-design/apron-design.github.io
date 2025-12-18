@@ -4,44 +4,27 @@
 4:I[37457,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"default"]
 d:I[68027,[],"default"]
 :HL["/_next/static/chunks/2473c16c0c2f6b5f.css","style"]
-:HL["/_next/static/chunks/c41c0ed4a8f4b053.css","style"]
+:HL["/_next/static/chunks/c6ddf1d6e5f8805e.css","style"]
 :HL["/_next/static/chunks/70f7a741323709eb.css","style"]
 :HL["/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/chunks/4edb9bef5de54eb8.css","style"]
-:HL["/_next/static/chunks/6b24720595fda6ff.css","style"]
-0:{"P":null,"b":"AVTC-LlZvp2l6EMU_NiYN","c":["","vue-next","barcode",""],"q":"","i":false,"f":[[["",{"children":["vue-next",{"children":[["alias","barcode","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2473c16c0c2f6b5f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/c41c0ed4a8f4b053.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/70f7a741323709eb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/4412c383cc10a990.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/67ff0136850b5863.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/x-icon","href":"/facicon.ico"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function() {\n                try {\n                  const stored = localStorage.getItem(\"theme\");\n                  const prefersDark = window.matchMedia(\"(prefers-color-scheme: dark)\").matches;\n                  const shouldBeDark = stored === \"dark\" || (!stored && prefersDark);\n                  const themeValue = shouldBeDark ? \"dark\" : \"light\";\n                  const bgColor = shouldBeDark ? \"#000000\" : \"#FFFFFF\";\n                  document.documentElement.setAttribute(\"data-prefers-color\", themeValue);\n                  document.documentElement.style.backgroundColor = bgColor;\n                  if (document.body) {\n                    document.body.style.backgroundColor = bgColor;\n                  }\n                } catch (e) {\n                  document.documentElement.setAttribute(\"data-prefers-color\", \"light\");\n                  document.documentElement.style.backgroundColor = \"#FFFFFF\";\n                }\n              })();\n            "}}]]}],["$","body",null,{"className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased","children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/4edb9bef5de54eb8.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$L6","$L7","$L8","$L9","$La"],"$Lb"]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$Lc",false]],"m":"$undefined","G":["$d",[]],"S":true}
+:HL["/_next/static/chunks/943bfd2b6e9f6f3d.css","style"]
+:HL["/_next/static/chunks/b1a30da55616e8b1.css","style"]
+0:{"P":null,"b":"ASx2qnrjV0EuE8J_WQkos","c":["","vue-next","barcode",""],"q":"","i":false,"f":[[["",{"children":["vue-next",{"children":[["alias","barcode","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2473c16c0c2f6b5f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/c6ddf1d6e5f8805e.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/70f7a741323709eb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/4412c383cc10a990.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/67ff0136850b5863.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/x-icon","href":"/facicon.ico"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function() {\n                try {\n                  const stored = localStorage.getItem(\"theme\");\n                  const prefersDark = window.matchMedia(\"(prefers-color-scheme: dark)\").matches;\n                  const shouldBeDark = stored === \"dark\" || (!stored && prefersDark);\n                  const themeValue = shouldBeDark ? \"dark\" : \"light\";\n                  const bgColor = shouldBeDark ? \"#000000\" : \"#FFFFFF\";\n                  document.documentElement.setAttribute(\"data-prefers-color\", themeValue);\n                  document.documentElement.style.backgroundColor = bgColor;\n                  if (document.body) {\n                    document.body.style.backgroundColor = bgColor;\n                  }\n                } catch (e) {\n                  document.documentElement.setAttribute(\"data-prefers-color\", \"light\");\n                  document.documentElement.style.backgroundColor = \"#FFFFFF\";\n                }\n              })();\n            "}}]]}],["$","body",null,{"className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased","children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/943bfd2b6e9f6f3d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$L6","$L7","$L8","$L9","$La"],"$Lb"]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$Lc",false]],"m":"$undefined","G":["$d",[]],"S":true}
 e:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"OutletBoundary"]
 f:"$Sreact.suspense"
 11:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"ViewportBoundary"]
 13:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"MetadataBoundary"]
-6:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/6b24720595fda6ff.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
-7:["$","script","script-0",{"src":"/_next/static/chunks/4358194f07475c5a.js","async":true,"nonce":"$undefined"}]
-8:["$","script","script-1",{"src":"/_next/static/chunks/de2545ee7d14ac58.js","async":true,"nonce":"$undefined"}]
+6:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/b1a30da55616e8b1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+7:["$","script","script-0",{"src":"/_next/static/chunks/54af3308ada989f3.js","async":true,"nonce":"$undefined"}]
+8:["$","script","script-1",{"src":"/_next/static/chunks/165d7caac33e09fe.js","async":true,"nonce":"$undefined"}]
 9:["$","script","script-2",{"src":"/_next/static/chunks/c1f546f244e17583.js","async":true,"nonce":"$undefined"}]
-a:["$","script","script-3",{"src":"/_next/static/chunks/8c76a54ef5f4014e.js","async":true,"nonce":"$undefined"}]
+a:["$","script","script-3",{"src":"/_next/static/chunks/be247acf9b695f7c.js","async":true,"nonce":"$undefined"}]
 b:["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]
 c:["$","$1","h",{"children":[null,["$","$L11",null,{"children":"$@12"}],["$","div",null,{"hidden":true,"children":["$","$L13",null,{"children":["$","$f",null,{"name":"Next.Metadata","children":"$@14"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
-15:I[80758,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/67ff0136850b5863.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/de2545ee7d14ac58.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/8c76a54ef5f4014e.js"],"Documents"]
-16:I[90186,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/67ff0136850b5863.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/de2545ee7d14ac58.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/8c76a54ef5f4014e.js"],"MarkdownRenderer"]
-17:T9a3,# 条形码 Barcode
-
-条形码在各种二维码普遍使用的今天，又可以称作一维码。
-
-目前常见的条形码有以下几种：
-UPC（Universal Product Code）、EAN（European Article Number）、Code 128、Code 39；
-他们的区别是：
-
-| 特性 | UPC-A | UPC-E | EAN-13 | EAN-8 | Code 128 | Code 39 |
-| :------| :-------| :-------| :--------| :-------| :----------| :---------|
-| **类型** | 零售商品码 | 零售商品码 | 零售商品码 | 零售商品码 | 工业物流码 | 工业物流码 |
-| **编码内容** | 仅数字 | 仅数字 | 仅数字 | 仅数字 | 全ASCII字符 | 43个字符（数字+大写字母+部分符号） |
-| **长度** | 固定12位 | 固定6位（压缩版） | 固定13位 | 固定8位 | 可变 | 可变 |
-| **校验** | 强制校验 | 强制校验 | 强制校验 | 强制校验 | 强制校验 | 可选校验 |
-| **主要用途** | 北美零售结算 | 北美小商品 | **全球零售结算** | 全球小商品 | **物流、仓储、医疗** | **工业制造、汽车** |
-| **优点** | 北美标准 | 尺寸小 | 全球通用 | 尺寸极小 | **高密度、高可靠性** | **兼容性好、简单** |
-| **缺点** | 仅限北美使用 | 应用窄 | 仅数字 | 容量小 | 技术复杂 | **密度低、字符有限** |
-
+15:I[80758,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/67ff0136850b5863.js","/_next/static/chunks/54af3308ada989f3.js","/_next/static/chunks/165d7caac33e09fe.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/be247acf9b695f7c.js"],"Documents"]
+16:I[90186,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/67ff0136850b5863.js","/_next/static/chunks/54af3308ada989f3.js","/_next/static/chunks/165d7caac33e09fe.js","/_next/static/chunks/c1f546f244e17583.js","/_next/static/chunks/be247acf9b695f7c.js"],"MarkdownRenderer"]
+17:Td2f,# 条形码 Barcode
 
 Apron Design 的机器码部分是独立的项目，您需要额外安装一个扩展包 Code Apron。
 
@@ -54,30 +37,107 @@ Code Apron 是与 Apron Design 最佳搭配使用的机器码渲染独立项目�
 npm install @code-apron/vue-next --save-dev
 ```
 
-## 在页面上渲染条形码
+## 基本用法
+
 :::demo
 ```vue
 <template>
-  <ad-barcode type="upc-a" value="139912478900" />
+  <ad-barcode :width="400" :height="100">12345678901</ad-barcode>
+</template>
+```
+:::
+
+### 使用 UPC-A
+:::demo
+```vue
+<template>
+  <ad-barcode type="upc-a" :width="400" :height="100">12345678901</ad-barcode>
+</template>
+```
+:::
+
+### 使用 UPC-E
+:::demo
+```vue
+<template>
+  <ad-barcode type="upc-e" :width="400" :height="100">01234565</ad-barcode>
+</template>
+```
+:::
+
+### 使用 EAN-13
+:::demo
+```vue
+<template>
+  <ad-barcode type="ean-13" :width="400" :height="100">123456789012</ad-barcode>
+</template>
+```
+:::
+
+### 使用 EAN-8
+:::demo
+```vue
+<template>
+  <ad-barcode type="ean-8" :width="400" :height="100">1234567</ad-barcode>
+</template>
+```
+:::
+
+### 使用 Code128
+:::demo
+```vue
+<template>
+  <ad-barcode type="code128" :width="400" :height="100">200111171103</ad-barcode>
+</template>
+```
+:::
+
+### 使用 Code39
+:::demo
+```vue
+<template>
+  <ad-barcode type="code39" :width="400" :height="100">ABC23M</ad-barcode>
 </template>
 ```
 :::
 
 ## API
 
-### ad-barcode
+### ad-barcode slot
 
-| 参数 | 说明 | 类型 | 默认值 |
-| --- | --- | --- | --- |
-| type | 条形码类型 | `'upc-a' \| 'upc-e' \| 'ean-13' \| 'ean-8' \| 'code-128' \| 'code-39'` | `'code-128'` |
-| value | 条形码值 | string | - |
-| width | 条形码宽度 | number | 200 |
-| height | 条形码高度 | number | 100 |
-| color | 条形码颜色 | string | '#000000' |
-| backgroundColor | 背景颜色 | string | '#ffffff' |
-| displayValue | 是否显示值文本 | boolean | true |
-| fontSize | 字体大小 | number | 12 |
-| textAlign | 文本对齐方式 | `'left' \| 'center' \| 'right'` | `'center'` |5:["$","$L15",null,{"navigation":[{"title":"","items":[{"label":"开始使用","href":"/vue-next/getting-started"}]},{"title":"通用","items":[{"label":"按钮 Button","href":"/vue-next/button"},{"label":"图标 Icons","href":"/vue-next/icons"},{"label":"链接 Link","href":"/vue-next/link"}]},{"title":"布局","items":[{"label":"分割线 Divider","href":"/vue-next/divider"},{"label":"栅格 Grid","href":"/vue-next/grid"},{"label":"间距 Space","href":"/vue-next/space"}]},{"title":"数据展示","items":[{"label":"头像 Avatar","href":"/vue-next/avatar"},{"label":"徽章 Badge","href":"/vue-next/badge"},{"label":"卡片 Card","href":"/vue-next/card"},{"label":"折叠面板 Collapse","href":"/vue-next/collapse"},{"label":"空状态 Empty","href":"/vue-next/empty"},{"label":"图片 Image","href":"/vue-next/image"},{"label":"气泡 Popover","href":"/vue-next/popover"},{"label":"标签页 Tabs","href":"/vue-next/tabs"},{"label":"标签 Tag","href":"/vue-next/tag"},{"label":"时间线 Timeline","href":"/vue-next/timeline"},{"label":"工具提示 Tooltip","href":"/vue-next/tooltip"}]},{"title":"机器码","items":[{"label":"条形码 Barcode","href":"/vue-next/barcode"},{"label":"二维码 2D Barcode","href":"/vue-next/2d-barcode"}]},{"title":"表单","items":[{"label":"表单 Form","href":"/vue-next/form"},{"label":"级联选择器 Cascader","href":"/vue-next/cascader"},{"label":"复选框 Checkbox","href":"/vue-next/checkbox"},{"label":"日期选择器 DatePicker","href":"/vue-next/date-picker"},{"label":"输入框 Input","href":"/vue-next/input"},{"label":"一次性密码输入框 Input OTP","href":"/vue-next/input-otp"},{"label":"单选框 Radio","href":"/vue-next/radio"},{"label":"评分 Rate","href":"/vue-next/rate"},{"label":"选择器 Select","href":"/vue-next/select"},{"label":"开关 Switch","href":"/vue-next/switch"}]},{"title":"反馈","items":[{"label":"警告 Alert","href":"/vue-next/alert"},{"label":"抽屉 Drawer","href":"/vue-next/drawer"},{"label":"消息提示 Message","href":"/vue-next/message"},{"label":"模态框 Modal","href":"/vue-next/modal"},{"label":"气泡确认框 Popconfirm","href":"/vue-next/popconfirm"},{"label":"响应式弹窗 Responsive Modal","href":"/vue-next/responsive-modal"},{"label":"加载中 Spin","href":"/vue-next/spin"},{"label":"骨架屏 Skeleton","href":"/vue-next/skeleton"}]},{"title":"导航","items":[{"label":"步骤 Steps","href":"/vue-next/steps"}]},{"title":"媒体","items":[{"label":"视频 Video","href":"/vue-next/video"},{"label":"音频 Audio","href":"/vue-next/audio"}]}],"children":["$","$L16",null,{"content":"$17"}]}]
+| 插槽名 | 说明 |
+| :--- | :--- |
+| default | 要渲染的条形码值 |
+
+### ad-barcode Props
+
+| 属性 | 说明 | 类型 | 可选值 | 默认值 |
+| :--- | :--- | :--- | :--- | :--- |
+| type | 条形码类型 | `string` | `upc-a` \| `upc-e` \| `ean-13` \| `ean-8` \| `code128` \| `code39` | `code128` |
+| color | 条形码颜色 | `string` | - | `#000000` |
+| background | 背景颜色 | `string` | - | `#ffffff` |
+| width | 条形码宽度 | `number` | - | `200` |
+| height | 条形码高度 | `number` | - | `100` |
+| fill | 填满整个父容器 | `boolean` | - | `false` |
+
+# 扩展知识
+
+条形码在各种二维码普遍使用的今天，又可以称作一维码。
+
+目前常见的条形码有以下几种：UPC（Universal Product Code）、EAN（European Article Number）、Code 128、Code 39。
+
+他们的区别是：
+
+| 编码类型 | **类型** | **编码内容** | **长度** | **校验** | **主要用途** | **优点** | **缺点** |
+| :------| :-------| :-------| :--------| :-------| :----------| :---------|:---------|
+| **UPC-A** | 零售商品码 | 仅数字 | 固定12位 | 强制校验 | 北美零售结算 | 北美标准 | 仅限北美使用 |
+| **UPC-E** | 零售商品码 | 仅数字 | 固定6位（压缩版） | 强制校验 | 北美小商品 | 尺寸小 | 应用窄 |
+| **EAN-13** | 零售商品码 | 仅数字 | 固定13位 | 强制校验 | **全球零售结算** | 全球通用 | 仅数字 |
+| **EAN-8** | 零售商品码 | 仅数字 | 固定8位 | 强制校验 | 全球小商品 | 尺寸极小 | 容量小 |
+| **Code 128** | 工业物流码 | 全ASCII字符 | 可变 | 强制校验 | **物流、仓储、医疗** | **高密度、高可靠性** | 技术复杂 |
+| **Code 39** | 工业物流码 | 43个字符<br />数字+大写字母+部分符号 | 可变 | 可选校验 | **工业制造、汽车** | **兼容性好、简单** | **密度低、字符有限** |
+
+5:["$","$L15",null,{"navigation":[{"title":"","items":[{"label":"开始使用","href":"/vue-next/getting-started"}]},{"title":"通用","items":[{"label":"按钮 Button","href":"/vue-next/button"},{"label":"图标 Icons","href":"/vue-next/icons"},{"label":"链接 Link","href":"/vue-next/link"}]},{"title":"布局","items":[{"label":"分割线 Divider","href":"/vue-next/divider"},{"label":"栅格 Grid","href":"/vue-next/grid"},{"label":"间距 Space","href":"/vue-next/space"}]},{"title":"数据展示","items":[{"label":"头像 Avatar","href":"/vue-next/avatar"},{"label":"徽章 Badge","href":"/vue-next/badge"},{"label":"卡片 Card","href":"/vue-next/card"},{"label":"折叠面板 Collapse","href":"/vue-next/collapse"},{"label":"空状态 Empty","href":"/vue-next/empty"},{"label":"图片 Image","href":"/vue-next/image"},{"label":"气泡 Popover","href":"/vue-next/popover"},{"label":"标签页 Tabs","href":"/vue-next/tabs"},{"label":"标签 Tag","href":"/vue-next/tag"},{"label":"时间线 Timeline","href":"/vue-next/timeline"},{"label":"工具提示 Tooltip","href":"/vue-next/tooltip"}]},{"title":"机器码","items":[{"label":"条形码 Barcode","href":"/vue-next/barcode"},{"label":"二维码 2D Barcode","href":"/vue-next/2d-barcode"}]},{"title":"表单","items":[{"label":"表单 Form","href":"/vue-next/form"},{"label":"级联选择器 Cascader","href":"/vue-next/cascader"},{"label":"复选框 Checkbox","href":"/vue-next/checkbox"},{"label":"日期选择器 DatePicker","href":"/vue-next/date-picker"},{"label":"输入框 Input","href":"/vue-next/input"},{"label":"一次性密码输入框 Input OTP","href":"/vue-next/input-otp"},{"label":"单选框 Radio","href":"/vue-next/radio"},{"label":"评分 Rate","href":"/vue-next/rate"},{"label":"选择器 Select","href":"/vue-next/select"},{"label":"开关 Switch","href":"/vue-next/switch"}]},{"title":"反馈","items":[{"label":"警告 Alert","href":"/vue-next/alert"},{"label":"抽屉 Drawer","href":"/vue-next/drawer"},{"label":"消息提示 Message","href":"/vue-next/message"},{"label":"模态框 Modal","href":"/vue-next/modal"},{"label":"气泡确认框 Popconfirm","href":"/vue-next/popconfirm"},{"label":"响应式弹窗 Responsive Modal","href":"/vue-next/responsive-modal"},{"label":"加载中 Spin","href":"/vue-next/spin"},{"label":"骨架屏 Skeleton","href":"/vue-next/skeleton"}]},{"title":"导航","items":[{"label":"步骤 Steps","href":"/vue-next/steps"}]},{"title":"媒体","items":[{"label":"视频 Video","href":"/vue-next/video"},{"label":"音频 Audio","href":"/vue-next/audio"}]}],"children":["$","$L16",null,{"content":"$17"}]}]
 12:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 18:I[27201,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/2e84f35c6c8186a5.js"],"IconMark"]
 14:[["$","title","0",{"children":"Apron Design · 秩序之下 · 想象之上"}],["$","meta","1",{"name":"description","content":"Apron Design 是一套完全开源的 C 端组件库方案，支持 React、Vue3 和微信小程序多端开发。提供丰富的 UI 组件、优雅的设计系统和完善的开发文档，助力开发者快速构建高质量的用户界面。秩序之下，想象之上，解构复杂，聚合光芒。"}],["$","meta","2",{"name":"keywords","content":"组件库,React组件库,Vue组件库,Vue3组件库,微信小程序,小程序,UI组件,开源组件库,前端组件,设计系统,Apron Design,C端组件,跨端开发,用户界面"}],["$","link","3",{"rel":"shortcut icon","href":"/logo.png"}],["$","link","4",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","5",{"rel":"icon","href":"/facicon.ico","sizes":"32x32","type":"image/x-icon"}],["$","link","6",{"rel":"icon","href":"/facicon.ico","sizes":"16x16","type":"image/x-icon"}],["$","link","7",{"rel":"apple-touch-icon","href":"/logo.png"}],["$","$L18","8",{}]]

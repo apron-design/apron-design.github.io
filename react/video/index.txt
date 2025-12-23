@@ -5,26 +5,139 @@
 c:I[68027,[],"default"]
 :HL["/_next/static/chunks/2473c16c0c2f6b5f.css","style"]
 :HL["/_next/static/chunks/c6ddf1d6e5f8805e.css","style"]
-:HL["/_next/static/chunks/70f7a741323709eb.css","style"]
+:HL["/_next/static/chunks/c8163b7ce8eddcf4.css","style"]
 :HL["/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/chunks/943bfd2b6e9f6f3d.css","style"]
 :HL["/_next/static/chunks/b1a30da55616e8b1.css","style"]
-0:{"P":null,"b":"X-qmKnpinU1uF-KIkBYF6","c":["","react","video",""],"q":"","i":false,"f":[[["",{"children":["react",{"children":[["alias","video","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2473c16c0c2f6b5f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/c6ddf1d6e5f8805e.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/70f7a741323709eb.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/4412c383cc10a990.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/01952116ee6a319d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/x-icon","href":"/facicon.ico"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function() {\n                try {\n                  const stored = localStorage.getItem(\"theme\");\n                  const prefersDark = window.matchMedia(\"(prefers-color-scheme: dark)\").matches;\n                  const shouldBeDark = stored === \"dark\" || (!stored && prefersDark);\n                  const themeValue = shouldBeDark ? \"dark\" : \"light\";\n                  const bgColor = shouldBeDark ? \"#000000\" : \"#FFFFFF\";\n                  document.documentElement.setAttribute(\"data-prefers-color\", themeValue);\n                  document.documentElement.style.backgroundColor = bgColor;\n                  if (document.body) {\n                    document.body.style.backgroundColor = bgColor;\n                  }\n                } catch (e) {\n                  document.documentElement.setAttribute(\"data-prefers-color\", \"light\");\n                  document.documentElement.style.backgroundColor = \"#FFFFFF\";\n                }\n              })();\n            "}}]]}],["$","body",null,{"className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased","children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/943bfd2b6e9f6f3d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/b1a30da55616e8b1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$L6","$L7","$L8","$L9"],"$La"]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$Lb",false]],"m":"$undefined","G":["$c",[]],"S":true}
+0:{"P":null,"b":"tt2G3glM_p0RIy3f0zQwa","c":["","react","video",""],"q":"","i":false,"f":[[["",{"children":["react",{"children":[["alias","video","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2473c16c0c2f6b5f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/c6ddf1d6e5f8805e.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/c8163b7ce8eddcf4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/4412c383cc10a990.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/01952116ee6a319d.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"zh-CN","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/x-icon","href":"/facicon.ico"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function() {\n                try {\n                  const stored = localStorage.getItem(\"theme\");\n                  const prefersDark = window.matchMedia(\"(prefers-color-scheme: dark)\").matches;\n                  const shouldBeDark = stored === \"dark\" || (!stored && prefersDark);\n                  const themeValue = shouldBeDark ? \"dark\" : \"light\";\n                  const bgColor = shouldBeDark ? \"#000000\" : \"#FFFFFF\";\n                  document.documentElement.setAttribute(\"data-prefers-color\", themeValue);\n                  document.documentElement.style.backgroundColor = bgColor;\n                  if (document.body) {\n                    document.body.style.backgroundColor = bgColor;\n                  }\n                } catch (e) {\n                  document.documentElement.setAttribute(\"data-prefers-color\", \"light\");\n                  document.documentElement.style.backgroundColor = \"#FFFFFF\";\n                }\n              })();\n            "}}]]}],["$","body",null,{"className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased","children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/943bfd2b6e9f6f3d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/b1a30da55616e8b1.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],"$L6","$L7","$L8","$L9"],"$La"]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],"$Lb",false]],"m":"$undefined","G":["$c",[]],"S":true}
 d:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/8cab667129902886.js"],"OutletBoundary"]
 e:"$Sreact.suspense"
 10:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/8cab667129902886.js"],"ViewportBoundary"]
 12:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/8cab667129902886.js"],"MetadataBoundary"]
-6:["$","script","script-0",{"src":"/_next/static/chunks/54af3308ada989f3.js","async":true,"nonce":"$undefined"}]
+6:["$","script","script-0",{"src":"/_next/static/chunks/4358194f07475c5a.js","async":true,"nonce":"$undefined"}]
 7:["$","script","script-1",{"src":"/_next/static/chunks/747b0c8faf89d70c.js","async":true,"nonce":"$undefined"}]
 8:["$","script","script-2",{"src":"/_next/static/chunks/cf55366243f70584.js","async":true,"nonce":"$undefined"}]
-9:["$","script","script-3",{"src":"/_next/static/chunks/73910f954e675b19.js","async":true,"nonce":"$undefined"}]
+9:["$","script","script-3",{"src":"/_next/static/chunks/3ef6695acb9f8275.js","async":true,"nonce":"$undefined"}]
 a:["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]
 b:["$","$1","h",{"children":[null,["$","$L10",null,{"children":"$L11"}],["$","div",null,{"hidden":true,"children":["$","$L12",null,{"children":["$","$e",null,{"name":"Next.Metadata","children":"$L13"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
-14:I[80758,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/01952116ee6a319d.js","/_next/static/chunks/54af3308ada989f3.js","/_next/static/chunks/747b0c8faf89d70c.js","/_next/static/chunks/cf55366243f70584.js","/_next/static/chunks/73910f954e675b19.js"],"Documents"]
-15:I[90186,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/01952116ee6a319d.js","/_next/static/chunks/54af3308ada989f3.js","/_next/static/chunks/747b0c8faf89d70c.js","/_next/static/chunks/cf55366243f70584.js","/_next/static/chunks/73910f954e675b19.js"],"MarkdownRenderer"]
-5:["$","$L14",null,{"navigation":[{"title":"","items":[{"label":"开始使用","href":"/react/getting-started"}]},{"title":"通用","items":[{"label":"按钮 Button","href":"/react/button"},{"label":"图标 Icons","href":"/react/icons"},{"label":"链接 Link","href":"/react/link"}]},{"title":"布局","items":[{"label":"分割线 Divider","href":"/react/divider"},{"label":"栅格 Grid","href":"/react/grid"},{"label":"间距 Space","href":"/react/space"}]},{"title":"数据展示","items":[{"label":"头像 Avatar","href":"/react/avatar"},{"label":"徽章 Badge","href":"/react/badge"},{"label":"卡片 Card","href":"/react/card"},{"label":"折叠面板 Collapse","href":"/react/collapse"},{"label":"空状态 Empty","href":"/react/empty"},{"label":"图片 Image","href":"/react/image"},{"label":"气泡 Popover","href":"/react/popover"},{"label":"标签页 Tabs","href":"/react/tabs"},{"label":"标签 Tag","href":"/react/tag"},{"label":"时间线 Timeline","href":"/react/timeline"},{"label":"工具提示 Tooltip","href":"/react/tooltip"}]},{"title":"机器码","items":[{"label":"条形码 Barcode","href":"/react/barcode"},{"label":"二维码 2D Barcode","href":"/react/2d-barcode"}]},{"title":"表单","items":[{"label":"表单 Form","href":"/react/form"},{"label":"级联选择器 Cascader","href":"/react/cascader"},{"label":"复选框 Checkbox","href":"/react/checkbox"},{"label":"日期选择器 DatePicker","href":"/react/date-picker"},{"label":"输入框 Input","href":"/react/input"},{"label":"一次性密码输入框 Input OTP","href":"/react/input-otp"},{"label":"单选框 Radio","href":"/react/radio"},{"label":"评分 Rate","href":"/react/rate"},{"label":"选择器 Select","href":"/react/select"},{"label":"开关 Switch","href":"/react/switch"},{"label":"文本域 Textarea","href":"/react/textarea"}]},{"title":"反馈","items":[{"label":"警告 Alert","href":"/react/alert"},{"label":"抽屉 Drawer","href":"/react/drawer"},{"label":"消息提示 Message","href":"/react/message"},{"label":"模态框 Modal","href":"/react/modal"},{"label":"气泡确认框 Popconfirm","href":"/react/popconfirm"},{"label":"响应式弹窗 Responsive Modal","href":"/react/responsive-modal"},{"label":"加载中 Spin","href":"/react/spin"},{"label":"骨架屏 Skeleton","href":"/react/skeleton"}]},{"title":"导航","items":[{"label":"步骤 Steps","href":"/react/steps"}]},{"title":"媒体","items":[{"label":"视频 Video","href":"/react/video"},{"label":"音频 Audio","href":"/react/audio"}]}],"children":["$","$L15",null,{"content":"# 视频 Video\n\nTBD"}]}]
+14:I[80758,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/01952116ee6a319d.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/747b0c8faf89d70c.js","/_next/static/chunks/cf55366243f70584.js","/_next/static/chunks/3ef6695acb9f8275.js"],"Documents"]
+15:I[90186,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/01952116ee6a319d.js","/_next/static/chunks/4358194f07475c5a.js","/_next/static/chunks/747b0c8faf89d70c.js","/_next/static/chunks/cf55366243f70584.js","/_next/static/chunks/3ef6695acb9f8275.js"],"MarkdownRenderer"]
+16:Tcb9,# 视频 Video
+
+Video 组件提供了强大的视频播放功能，支持单个视频播放和播放列表功能。
+
+## 安装
+
+```bash
+npm install @media-apron/react --save
+```
+
+## 单个视频
+
+最简单的用法是播放单个视频，可以设置封面图和字幕。
+
+:::demo
+```jsx
+import { Video } from "@media-apron/react";
+
+export default function VideoDemo() {
+  return (
+    <Video
+      src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+      poster="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg"
+      cc="./subtitles.vtt"
+    />
+  );
+}
+```
+:::
+
+## 播放列表（简单模式）
+
+可以通过传入字符串数组来创建简单的播放列表。
+
+:::demo
+```jsx
+import { Video } from "@media-apron/react";
+
+export default function VideoPlaylistSimpleDemo() {
+  const playlist = [
+    'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+    'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+    'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+  ];
+
+  return (
+    <Video source={playlist} />
+  );
+}
+```
+:::
+
+## 播放列表（完整模式）
+
+使用对象数组可以创建功能完整的播放列表，支持标题、摘要、封面图和字幕。
+
+:::demo
+```jsx
+import { Video } from "@media-apron/react";
+
+export default function VideoPlaylistFullDemo() {
+  const playlist = [
+    {
+      title: '正在播放的视频标题（带字幕）',
+      summary: '视频摘要，没有可以不显示。点击设置按钮可以开关字幕。',
+      poster: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg',
+      url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+      cc: './subtitles.vtt',
+    },
+    {
+      title: '下一个要播放的视频标题',
+      summary: '视频摘要，没有可以不显示',
+      poster: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg',
+      url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
+    },
+    {
+      title: '没有封面的视频（显示占位图标）',
+      summary: '当没有提供 poster 时，会显示深灰色背景和视频图标占位符',
+      url: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
+    },
+  ];
+
+  return (
+    <Video
+      source={playlist}
+      primaryColor="#1890ff"
+    />
+  );
+}
+```
+:::
+
+## API
+
+### Video Props
+
+| 参数 | 说明 | 类型 | 默认值 |
+| :--- | :--- | :--- | :--- |
+| src | 视频源地址（单个视频模式） | `string` | - |
+| source | 播放列表（数组模式） | `string[] \| VideoItem[]` | - |
+| poster | 封面图地址 | `string` | - |
+| cc | 字幕文件地址 | `string` | - |
+| primaryColor | 主题色 | `string` | - |
+
+### VideoItem
+
+| 参数 | 说明 | 类型 | 默认值 |
+| :--- | :--- | :--- | :--- |
+| title | 视频标题 | `string` | - |
+| summary | 视频摘要 | `string` | - |
+| poster | 封面图地址 | `string` | - |
+| url | 视频地址 | `string` | - |
+| cc | 字幕文件地址 | `string` | - |
+5:["$","$L14",null,{"navigation":[{"title":"","items":[{"label":"开始使用","href":"/react/getting-started"}]},{"title":"通用","items":[{"label":"按钮 Button","href":"/react/button"},{"label":"图标 Icons","href":"/react/icons"},{"label":"链接 Link","href":"/react/link"}]},{"title":"布局","items":[{"label":"分割线 Divider","href":"/react/divider"},{"label":"栅格 Grid","href":"/react/grid"},{"label":"间距 Space","href":"/react/space"}]},{"title":"数据展示","items":[{"label":"头像 Avatar","href":"/react/avatar"},{"label":"徽章 Badge","href":"/react/badge"},{"label":"卡片 Card","href":"/react/card"},{"label":"折叠面板 Collapse","href":"/react/collapse"},{"label":"空状态 Empty","href":"/react/empty"},{"label":"图片 Image","href":"/react/image"},{"label":"气泡 Popover","href":"/react/popover"},{"label":"标签页 Tabs","href":"/react/tabs"},{"label":"标签 Tag","href":"/react/tag"},{"label":"时间线 Timeline","href":"/react/timeline"},{"label":"工具提示 Tooltip","href":"/react/tooltip"}]},{"title":"机器码","items":[{"label":"条形码 Barcode","href":"/react/barcode"},{"label":"二维码 2D Barcode","href":"/react/2d-barcode"}]},{"title":"表单","items":[{"label":"表单 Form","href":"/react/form"},{"label":"级联选择器 Cascader","href":"/react/cascader"},{"label":"复选框 Checkbox","href":"/react/checkbox"},{"label":"日期选择器 DatePicker","href":"/react/date-picker"},{"label":"输入框 Input","href":"/react/input"},{"label":"一次性密码输入框 Input OTP","href":"/react/input-otp"},{"label":"单选框 Radio","href":"/react/radio"},{"label":"评分 Rate","href":"/react/rate"},{"label":"选择器 Select","href":"/react/select"},{"label":"开关 Switch","href":"/react/switch"},{"label":"文本域 Textarea","href":"/react/textarea"}]},{"title":"反馈","items":[{"label":"警告 Alert","href":"/react/alert"},{"label":"抽屉 Drawer","href":"/react/drawer"},{"label":"消息提示 Message","href":"/react/message"},{"label":"模态框 Modal","href":"/react/modal"},{"label":"气泡确认框 Popconfirm","href":"/react/popconfirm"},{"label":"响应式弹窗 Responsive Modal","href":"/react/responsive-modal"},{"label":"加载中 Spin","href":"/react/spin"},{"label":"骨架屏 Skeleton","href":"/react/skeleton"}]},{"title":"导航","items":[{"label":"步骤 Steps","href":"/react/steps"}]},{"title":"媒体","items":[{"label":"视频 Video","href":"/react/video"},{"label":"音频 Audio","href":"/react/audio"}]}],"children":["$","$L15",null,{"content":"$16"}]}]
 11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-16:I[27201,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/8cab667129902886.js"],"IconMark"]
+17:I[27201,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/8cab667129902886.js"],"IconMark"]
 f:null
-13:[["$","title","0",{"children":"Apron Design · 秩序之下 · 想象之上"}],["$","meta","1",{"name":"description","content":"Apron Design 是一套完全开源的 C 端组件库方案，支持 React、Vue3 和微信小程序多端开发。提供丰富的 UI 组件、优雅的设计系统和完善的开发文档，助力开发者快速构建高质量的用户界面。秩序之下，想象之上，解构复杂，聚合光芒。"}],["$","meta","2",{"name":"keywords","content":"组件库,React组件库,Vue组件库,Vue3组件库,微信小程序,小程序,UI组件,开源组件库,前端组件,设计系统,Apron Design,C端组件,跨端开发,用户界面"}],["$","link","3",{"rel":"shortcut icon","href":"/logo.png"}],["$","link","4",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","5",{"rel":"icon","href":"/facicon.ico","sizes":"32x32","type":"image/x-icon"}],["$","link","6",{"rel":"icon","href":"/facicon.ico","sizes":"16x16","type":"image/x-icon"}],["$","link","7",{"rel":"apple-touch-icon","href":"/logo.png"}],["$","$L16","8",{}]]
+13:[["$","title","0",{"children":"Apron Design · 秩序之下 · 想象之上"}],["$","meta","1",{"name":"description","content":"Apron Design 是一套完全开源的 C 端组件库方案，支持 React、Vue3 和微信小程序多端开发。提供丰富的 UI 组件、优雅的设计系统和完善的开发文档，助力开发者快速构建高质量的用户界面。秩序之下，想象之上，解构复杂，聚合光芒。"}],["$","meta","2",{"name":"keywords","content":"组件库,React组件库,Vue组件库,Vue3组件库,微信小程序,小程序,UI组件,开源组件库,前端组件,设计系统,Apron Design,C端组件,跨端开发,用户界面"}],["$","link","3",{"rel":"shortcut icon","href":"/logo.png"}],["$","link","4",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","5",{"rel":"icon","href":"/facicon.ico","sizes":"32x32","type":"image/x-icon"}],["$","link","6",{"rel":"icon","href":"/facicon.ico","sizes":"16x16","type":"image/x-icon"}],["$","link","7",{"rel":"apple-touch-icon","href":"/logo.png"}],["$","$L17","8",{}]]

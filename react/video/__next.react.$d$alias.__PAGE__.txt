@@ -5,7 +5,7 @@ c:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/8cab
 d:"$Sreact.suspense"
 :HL["/_next/static/chunks/943bfd2b6e9f6f3d.css","style"]
 :HL["/_next/static/chunks/b1a30da55616e8b1.css","style"]
-4:T11c2,# 视频 Video
+4:T1165,# 视频 Video
 
 Video 组件提供了强大的视频播放功能，支持单个视频播放和播放列表功能。
 
@@ -26,9 +26,9 @@ import { Video } from "@media-apron/react";
 export default function VideoDemo() {
   return (
     <Video
-      src="http://apron-design.test.upcdn.net/demo/video/720P30fps%E3%80%90%E5%A5%BD%E7%94%9C%E5%BC%80%E7%AE%B1%E3%80%91%E4%B8%9C%E6%8B%BC%E8%A5%BF%E5%87%91%E4%B8%80%E5%8F%B0NAS.mp4"
-      poster="http://apron-design.test.upcdn.net/demo/video/03.jpg"
-      cc="http://apron-design.test.upcdn.net/demo/video/720P30fps%E3%80%90%E5%A5%BD%E7%94%9C%E5%BC%80%E7%AE%B1%E3%80%91%E4%B8%9C%E6%8B%BC%E8%A5%BF%E5%87%91%E4%B8%80%E5%8F%B0NAS.srt"
+      src="https://mitkimi-prod.oss-cn-beijing.aliyuncs.com/2025/12/29/%E4%B8%93%E8%AE%BF%EF%BC%9A%E4%B8%80%E4%B8%AA%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E8%80%85%E5%AF%B9%E6%9A%B4%E8%B5%B0%E9%9E%8B%E7%9A%84%E7%83%AD%E7%88%B1%E2%80%94%E2%80%94%E5%85%A8%E6%B0%91%E6%9A%B4%E8%B5%B0%E7%BD%91%E7%AB%99%E5%88%B6%E4%BD%9C%E4%BA%BA%E7%94%B0%E6%98%8A%E5%A4%A9%E7%9A%84%E4%B8%93%E8%AE%BF.mp4"
+      poster="https://mitkimi-prod.oss-cn-beijing.aliyuncs.com/2025-12-29T16%3A44%3A45-otexlabd.jpg"
+      cc="https://mitkimi-prod.oss-cn-beijing.aliyuncs.com/2025/12/29/2025-12-29T16%3A46%3A55-iaqgyogo.srt"
     />
   );
 }
@@ -45,9 +45,9 @@ import { Video } from "@media-apron/react";
 
 export default function VideoPlaylistSimpleDemo() {
   const playlist = [
-    'http://apron-design.test.upcdn.net/demo/video/%E4%B8%93%E8%AE%BF%EF%BC%9A%E4%B8%80%E4%B8%AA%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E8%80%85%E5%AF%B9%E6%9A%B4%E8%B5%B0%E9%9E%8B%E7%9A%84%E7%83%AD%E7%88%B1%E2%80%94%E2%80%94%E5%85%A8%E6%B0%91%E6%9A%B4%E8%B5%B0%E7%BD%91%E7%AB%99%E5%88%B6%E4%BD%9C%E4%BA%BA%E7%94%B0%E6%98%8A%E5%A4%A9%E7%9A%84%E4%B8%93%E8%AE%BF.mp4',
-    'http://apron-design.test.upcdn.net/demo/video/01.mp4',
-    'http://apron-design.test.upcdn.net/demo/video/1%EF%B8%8F%E2%83%A3%E4%B8%AA%E9%98%B3%E5%85%89%E5%B0%91%E5%B9%B4.mp4',
+    'https://mitkimi-prod.oss-cn-beijing.aliyuncs.com/2025/12/29/%E4%B8%93%E8%AE%BF%EF%BC%9A%E4%B8%80%E4%B8%AA%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E8%80%85%E5%AF%B9%E6%9A%B4%E8%B5%B0%E9%9E%8B%E7%9A%84%E7%83%AD%E7%88%B1%E2%80%94%E2%80%94%E5%85%A8%E6%B0%91%E6%9A%B4%E8%B5%B0%E7%BD%91%E7%AB%99%E5%88%B6%E4%BD%9C%E4%BA%BA%E7%94%B0%E6%98%8A%E5%A4%A9%E7%9A%84%E4%B8%93%E8%AE%BF.mp4',
+    'https://mitkimi-prod.oss-cn-beijing.aliyuncs.com/2025/12/29/Sunday%20chill%20in%20full%20rubber.mp4',
+    'https://mitkimi-prod.oss-cn-beijing.aliyuncs.com/2025/12/29/720P30fps%E3%80%90%E5%A5%BD%E7%94%9C%E5%BC%80%E7%AE%B1%E3%80%91%E4%B8%9C%E6%8B%BC%E8%A5%BF%E5%87%91%E4%B8%80%E5%8F%B0NAS.mp4',
   ];
 
   return (
@@ -70,29 +70,24 @@ export default function VideoPlaylistFullDemo() {
     {
       title: '东拼西凑一台 NAS',
       summary: '系列节目【好甜开箱】第3集',
-      poster: 'http://apron-design.test.upcdn.net/demo/video/03.jpg',
-      url: 'http://apron-design.test.upcdn.net/demo/video/720P30fps%E3%80%90%E5%A5%BD%E7%94%9C%E5%BC%80%E7%AE%B1%E3%80%91%E4%B8%9C%E6%8B%BC%E8%A5%BF%E5%87%91%E4%B8%80%E5%8F%B0NAS.mp4',
-      cc: 'http://apron-design.test.upcdn.net/demo/video/720P30fps%E3%80%90%E5%A5%BD%E7%94%9C%E5%BC%80%E7%AE%B1%E3%80%91%E4%B8%9C%E6%8B%BC%E8%A5%BF%E5%87%91%E4%B8%80%E5%8F%B0NAS.srt',
-    },
-    {
-      title: '青岛仓库探秘',
-      summary: '系列节目【全民暴走】第一季第13集（番外）',
-      url: 'http://apron-design.test.upcdn.net/demo/video/%E3%80%90%E5%85%A8%E6%B0%91%E6%9A%B4%E8%B5%B0%E3%80%91%E3%80%90%E7%95%AA%E5%A4%96%E7%AF%87%E3%80%91%E9%9D%92%E5%B2%9B%E4%BB%93%E5%BA%93%E6%8E%A2%E7%A7%98%20%20Heelys%20Stories.mp4',
+      poster: 'https://mitkimi-prod.oss-cn-beijing.aliyuncs.com/2025-12-29T16%3A44%3A45-otexlabd.jpg',
+      url: 'https://mitkimi-prod.oss-cn-beijing.aliyuncs.com/2025/12/29/720P30fps%E3%80%90%E5%A5%BD%E7%94%9C%E5%BC%80%E7%AE%B1%E3%80%91%E4%B8%9C%E6%8B%BC%E8%A5%BF%E5%87%91%E4%B8%80%E5%8F%B0NAS.mp4',
+      cc: 'https://mitkimi-prod.oss-cn-beijing.aliyuncs.com/2025/12/29/2025-12-29T16%3A46%3A55-iaqgyogo.srt',
     },
     {
       title: '专访：一个软件开发者对暴走鞋的热爱',
       summary: '全民暴走节目创始人专访',
-      url: 'http://apron-design.test.upcdn.net/demo/video/%E4%B8%93%E8%AE%BF%EF%BC%9A%E4%B8%80%E4%B8%AA%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E8%80%85%E5%AF%B9%E6%9A%B4%E8%B5%B0%E9%9E%8B%E7%9A%84%E7%83%AD%E7%88%B1%E2%80%94%E2%80%94%E5%85%A8%E6%B0%91%E6%9A%B4%E8%B5%B0%E7%BD%91%E7%AB%99%E5%88%B6%E4%BD%9C%E4%BA%BA%E7%94%B0%E6%98%8A%E5%A4%A9%E7%9A%84%E4%B8%93%E8%AE%BF.mp4',
+      url: 'https://mitkimi-prod.oss-cn-beijing.aliyuncs.com/2025/12/29/%E4%B8%93%E8%AE%BF%EF%BC%9A%E4%B8%80%E4%B8%AA%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E8%80%85%E5%AF%B9%E6%9A%B4%E8%B5%B0%E9%9E%8B%E7%9A%84%E7%83%AD%E7%88%B1%E2%80%94%E2%80%94%E5%85%A8%E6%B0%91%E6%9A%B4%E8%B5%B0%E7%BD%91%E7%AB%99%E5%88%B6%E4%BD%9C%E4%BA%BA%E7%94%B0%E6%98%8A%E5%A4%A9%E7%9A%84%E4%B8%93%E8%AE%BF.mp4',
     },
     {
       title: '1 个阳光少年',
       summary: '竖屏视频',
-      url: 'http://apron-design.test.upcdn.net/demo/video/1%EF%B8%8F%E2%83%A3%E4%B8%AA%E9%98%B3%E5%85%89%E5%B0%91%E5%B9%B4.mp4',
+      url: 'https://mitkimi-prod.oss-cn-beijing.aliyuncs.com/2025/12/29/2025-12-29T16%3A49%3A17-pysagitn.mp4',
     },
     {
       title: 'Sundy chill in full rubber',
       summary: '擦边视频',
-      url: 'http://apron-design.test.upcdn.net/demo/video/Sunday%20chill%20in%20full%20rubber.mp4',
+      url: 'https://mitkimi-prod.oss-cn-beijing.aliyuncs.com/2025/12/29/Sunday%20chill%20in%20full%20rubber.mp4',
     },
   ];
 
@@ -127,7 +122,7 @@ export default function VideoPlaylistFullDemo() {
 | poster | 封面图地址 | `string` | - |
 | url | 视频地址 | `string` | - |
 | cc | 字幕文件地址 | `string` | - |
-0:{"buildId":"kU2Px1Uq-qptmSbe7losB","rsc":["$","$1","c",{"children":[["$","$L2",null,{"navigation":[{"title":"","items":[{"label":"开始使用","href":"/react/getting-started"}]},{"title":"通用","items":[{"label":"按钮 Button","href":"/react/button"},{"label":"图标 Icons","href":"/react/icons"},{"label":"链接 Link","href":"/react/link"}]},{"title":"布局","items":[{"label":"分割线 Divider","href":"/react/divider"},{"label":"栅格 Grid","href":"/react/grid"},{"label":"间距 Space","href":"/react/space"}]},{"title":"数据展示","items":[{"label":"头像 Avatar","href":"/react/avatar"},{"label":"徽章 Badge","href":"/react/badge"},{"label":"卡片 Card","href":"/react/card"},{"label":"折叠面板 Collapse","href":"/react/collapse"},{"label":"空状态 Empty","href":"/react/empty"},{"label":"图片 Image","href":"/react/image"},{"label":"气泡 Popover","href":"/react/popover"},{"label":"标签页 Tabs","href":"/react/tabs"},{"label":"标签 Tag","href":"/react/tag"},{"label":"时间线 Timeline","href":"/react/timeline"},{"label":"工具提示 Tooltip","href":"/react/tooltip"}]},{"title":"机器码","items":[{"label":"条形码 Barcode","href":"/react/barcode"},{"label":"二维码 2D Barcode","href":"/react/2d-barcode"}]},{"title":"表单","items":[{"label":"表单 Form","href":"/react/form"},{"label":"级联选择器 Cascader","href":"/react/cascader"},{"label":"复选框 Checkbox","href":"/react/checkbox"},{"label":"日期选择器 DatePicker","href":"/react/date-picker"},{"label":"输入框 Input","href":"/react/input"},{"label":"一次性密码输入框 Input OTP","href":"/react/input-otp"},{"label":"单选框 Radio","href":"/react/radio"},{"label":"评分 Rate","href":"/react/rate"},{"label":"选择器 Select","href":"/react/select"},{"label":"开关 Switch","href":"/react/switch"},{"label":"文本域 Textarea","href":"/react/textarea"}]},{"title":"反馈","items":[{"label":"警告 Alert","href":"/react/alert"},{"label":"抽屉 Drawer","href":"/react/drawer"},{"label":"消息提示 Message","href":"/react/message"},{"label":"模态框 Modal","href":"/react/modal"},{"label":"气泡确认框 Popconfirm","href":"/react/popconfirm"},{"label":"响应式弹窗 Responsive Modal","href":"/react/responsive-modal"},{"label":"加载中 Spin","href":"/react/spin"},{"label":"骨架屏 Skeleton","href":"/react/skeleton"}]},{"title":"导航","items":[{"label":"步骤 Steps","href":"/react/steps"}]},{"title":"媒体","items":[{"label":"视频 Video","href":"/react/video"},{"label":"音频 Audio","href":"/react/audio"}]}],"children":["$","$L3",null,{"content":"$4"}]}],["$L5","$L6","$L7","$L8","$L9","$La"],"$Lb"]}],"loading":null,"isPartial":false}
+0:{"buildId":"I0cB6vuM-aIPRVp7AJr7L","rsc":["$","$1","c",{"children":[["$","$L2",null,{"navigation":[{"title":"","items":[{"label":"开始使用","href":"/react/getting-started"}]},{"title":"通用","items":[{"label":"按钮 Button","href":"/react/button"},{"label":"图标 Icons","href":"/react/icons"},{"label":"链接 Link","href":"/react/link"}]},{"title":"布局","items":[{"label":"分割线 Divider","href":"/react/divider"},{"label":"栅格 Grid","href":"/react/grid"},{"label":"间距 Space","href":"/react/space"}]},{"title":"数据展示","items":[{"label":"头像 Avatar","href":"/react/avatar"},{"label":"徽章 Badge","href":"/react/badge"},{"label":"卡片 Card","href":"/react/card"},{"label":"折叠面板 Collapse","href":"/react/collapse"},{"label":"空状态 Empty","href":"/react/empty"},{"label":"图片 Image","href":"/react/image"},{"label":"气泡 Popover","href":"/react/popover"},{"label":"标签页 Tabs","href":"/react/tabs"},{"label":"标签 Tag","href":"/react/tag"},{"label":"时间线 Timeline","href":"/react/timeline"},{"label":"工具提示 Tooltip","href":"/react/tooltip"}]},{"title":"机器码","items":[{"label":"条形码 Barcode","href":"/react/barcode"},{"label":"二维码 2D Barcode","href":"/react/2d-barcode"}]},{"title":"表单","items":[{"label":"表单 Form","href":"/react/form"},{"label":"级联选择器 Cascader","href":"/react/cascader"},{"label":"复选框 Checkbox","href":"/react/checkbox"},{"label":"日期选择器 DatePicker","href":"/react/date-picker"},{"label":"输入框 Input","href":"/react/input"},{"label":"一次性密码输入框 Input OTP","href":"/react/input-otp"},{"label":"单选框 Radio","href":"/react/radio"},{"label":"评分 Rate","href":"/react/rate"},{"label":"选择器 Select","href":"/react/select"},{"label":"开关 Switch","href":"/react/switch"},{"label":"文本域 Textarea","href":"/react/textarea"}]},{"title":"反馈","items":[{"label":"警告 Alert","href":"/react/alert"},{"label":"抽屉 Drawer","href":"/react/drawer"},{"label":"消息提示 Message","href":"/react/message"},{"label":"模态框 Modal","href":"/react/modal"},{"label":"气泡确认框 Popconfirm","href":"/react/popconfirm"},{"label":"响应式弹窗 Responsive Modal","href":"/react/responsive-modal"},{"label":"加载中 Spin","href":"/react/spin"},{"label":"骨架屏 Skeleton","href":"/react/skeleton"}]},{"title":"导航","items":[{"label":"步骤 Steps","href":"/react/steps"}]},{"title":"媒体","items":[{"label":"视频 Video","href":"/react/video"},{"label":"音频 Audio","href":"/react/audio"}]}],"children":["$","$L3",null,{"content":"$4"}]}],["$L5","$L6","$L7","$L8","$L9","$La"],"$Lb"]}],"loading":null,"isPartial":false}
 5:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/943bfd2b6e9f6f3d.css","precedence":"next"}]
 6:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/b1a30da55616e8b1.css","precedence":"next"}]
 7:["$","script","script-0",{"src":"/_next/static/chunks/54af3308ada989f3.js","async":true}]

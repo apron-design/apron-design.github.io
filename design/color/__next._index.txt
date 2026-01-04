@@ -1,8 +1,48 @@
 1:"$Sreact.fragment"
-2:I[69729,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/01952116ee6a319d.js"],"ClientProviders"]
-3:I[39756,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/8cab667129902886.js"],"default"]
-4:I[37457,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/8cab667129902886.js"],"default"]
+3:I[69729,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/b7ddb9bb1d752114.js"],"ClientProviders"]
+4:I[39756,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/8cab667129902886.js"],"default"]
+5:I[37457,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/8cab667129902886.js"],"default"]
 :HL["/_next/static/chunks/2473c16c0c2f6b5f.css","style"]
 :HL["/_next/static/chunks/feffe29d52168114.css","style"]
-:HL["/_next/static/chunks/7c956948876ccedf.css","style"]
-0:{"buildId":"I0cB6vuM-aIPRVp7AJr7L","rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2473c16c0c2f6b5f.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/feffe29d52168114.css","precedence":"next"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/7c956948876ccedf.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/4412c383cc10a990.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/01952116ee6a319d.js","async":true}]],["$","html",null,{"lang":"zh-CN","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/x-icon","href":"/facicon.ico"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              (function() {\n                try {\n                  const stored = localStorage.getItem(\"theme\");\n                  const prefersDark = window.matchMedia(\"(prefers-color-scheme: dark)\").matches;\n                  const shouldBeDark = stored === \"dark\" || (!stored && prefersDark);\n                  const themeValue = shouldBeDark ? \"dark\" : \"light\";\n                  const bgColor = shouldBeDark ? \"#000000\" : \"#FFFFFF\";\n                  document.documentElement.setAttribute(\"data-prefers-color\", themeValue);\n                  document.documentElement.style.backgroundColor = bgColor;\n                  if (document.body) {\n                    document.body.style.backgroundColor = bgColor;\n                  }\n                } catch (e) {\n                  document.documentElement.setAttribute(\"data-prefers-color\", \"light\");\n                  document.documentElement.style.backgroundColor = \"#FFFFFF\";\n                }\n              })();\n            "}}]]}],["$","body",null,{"className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased","children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]}]]}]]}],"loading":null,"isPartial":false}
+:HL["/_next/static/chunks/a4f8b7e444d89e18.css","style"]
+2:T6eb,
+              (function() {
+                try {
+                  const savedMode = localStorage.getItem("themeMode");
+                  let themeMode = "system";
+                  
+                  if (savedMode) {
+                    themeMode = savedMode;
+                  } else {
+                    // 检查旧的 theme 设置
+                    const oldTheme = localStorage.getItem("theme");
+                    if (oldTheme) {
+                      themeMode = oldTheme;
+                    } else {
+                      themeMode = "system";
+                    }
+                  }
+                  
+                  // 获取实际要应用的主题
+                  let themeValue = "light";
+                  if (themeMode === "system") {
+                    themeValue = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+                  } else {
+                    themeValue = themeMode;
+                  }
+                  
+                  document.documentElement.setAttribute("data-prefers-color", themeValue);
+                  document.documentElement.setAttribute("apron-theme", themeValue);
+                  const bgColor = themeValue === "dark" ? "#000000" : "#FFFFFF";
+                  document.documentElement.style.backgroundColor = bgColor;
+                  if (document.body) {
+                    document.body.style.backgroundColor = bgColor;
+                  }
+                } catch (e) {
+                  document.documentElement.setAttribute("data-prefers-color", "light");
+                  document.documentElement.setAttribute("apron-theme", "light");
+                  document.documentElement.style.backgroundColor = "#FFFFFF";
+                }
+              })();
+            0:{"buildId":"56C7CMp-cYwmKql4Q3qJt","rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2473c16c0c2f6b5f.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/feffe29d52168114.css","precedence":"next"}],["$","link","2",{"rel":"stylesheet","href":"/_next/static/chunks/a4f8b7e444d89e18.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/4412c383cc10a990.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/b7ddb9bb1d752114.js","async":true}]],["$","html",null,{"lang":"zh-CN","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","type":"image/x-icon","href":"/facicon.ico"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"$2"}}]]}],["$","body",null,{"className":"geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__variable antialiased","children":["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":"$L6"}]]}]}]],[]]}]}]}]]}]]}],"loading":null,"isPartial":false}
+6:["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]

@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[80758,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/b7ddb9bb1d752114.js","/_next/static/chunks/54af3308ada989f3.js","/_next/static/chunks/f060a69a36603cb7.js","/_next/static/chunks/cf55366243f70584.js","/_next/static/chunks/fd10241ac064b0a8.js"],"Documents"]
-3:I[90186,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/b7ddb9bb1d752114.js","/_next/static/chunks/54af3308ada989f3.js","/_next/static/chunks/f060a69a36603cb7.js","/_next/static/chunks/cf55366243f70584.js","/_next/static/chunks/fd10241ac064b0a8.js"],"MarkdownRenderer"]
+2:I[80758,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/b7ddb9bb1d752114.js","/_next/static/chunks/54af3308ada989f3.js","/_next/static/chunks/69437f2028fcc2ee.js","/_next/static/chunks/cf55366243f70584.js","/_next/static/chunks/fd10241ac064b0a8.js"],"Documents"]
+3:I[90186,["/_next/static/chunks/4412c383cc10a990.js","/_next/static/chunks/b7ddb9bb1d752114.js","/_next/static/chunks/54af3308ada989f3.js","/_next/static/chunks/69437f2028fcc2ee.js","/_next/static/chunks/cf55366243f70584.js","/_next/static/chunks/fd10241ac064b0a8.js"],"MarkdownRenderer"]
 6:I[97367,["/_next/static/chunks/208d109d56c94dec.js","/_next/static/chunks/8cab667129902886.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
 :HL["/_next/static/chunks/73ce84a187c71e1d.css","style"]
@@ -154,6 +154,6 @@ Apron Design 的名字就是他的设计原则：
 
 
 通过遵循这五大设计原则，Apron Design 致力于创造简洁、温和、包容的用户界面，让每一次交互都成为愉悦的体验。
-0:{"buildId":"56C7CMp-cYwmKql4Q3qJt","rsc":["$","$1","c",{"children":[["$","$L2",null,{"navigation":[{"title":"设计系统","items":[{"label":"设计原则","href":"/design/principles"},{"label":"标准色","href":"/design/color"}]}],"children":["$","$L3",null,{"content":"$4"}]}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/73ce84a187c71e1d.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/b1a30da55616e8b1.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/54af3308ada989f3.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/f060a69a36603cb7.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/cf55366243f70584.js","async":true}],["$","script","script-3",{"src":"/_next/static/chunks/fd10241ac064b0a8.js","async":true}]],"$L5"]}],"loading":null,"isPartial":false}
+0:{"buildId":"vgOdQTebdv1E2tWLTiRNR","rsc":["$","$1","c",{"children":[["$","$L2",null,{"navigation":[{"title":"设计系统","items":[{"label":"设计原则","href":"/design/principles"},{"label":"标准色","href":"/design/color"}]}],"children":["$","$L3",null,{"content":"$4"}]}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/73ce84a187c71e1d.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/b1a30da55616e8b1.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/54af3308ada989f3.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/69437f2028fcc2ee.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/cf55366243f70584.js","async":true}],["$","script","script-3",{"src":"/_next/static/chunks/fd10241ac064b0a8.js","async":true}]],"$L5"]}],"loading":null,"isPartial":false}
 5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
 8:null
